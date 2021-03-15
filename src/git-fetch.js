@@ -1,14 +1,18 @@
 const {GraphQLClient, gql} = require('graphql-request')
 
 const endpoint = 'https://api.github.com/graphql';
-const graphQLClient = new GraphQLClient(endpoint, {
-  headers: {
-    authorization: 'Bearer 401776fc1ca3a1937fc2ffb0dd8f252463970838',
-  },
-})
 
-async function fetchPRs(org, repo, prLimit, internalLimit) {
 
+function graphQLClient(token) {
+  return new GraphQLClient(endpoint, {
+    headers: {
+      authorization: `Bearer ${token}`,
+    },
+  })
+}
+
+async function fetchPRs(token, org, repo, prLimit, internalLimit) {
+  const client = graphQLClient(token)
   const query = gql`
   {
     repository(owner: "${org}", name: "${repo}") {
@@ -73,7 +77,7 @@ async function fetchPRs(org, repo, prLimit, internalLimit) {
     }
   }`
 
-  return graphQLClient.request(query)
+  return client.request(query)
 }
 
 module.exports = {fetchPRs}
