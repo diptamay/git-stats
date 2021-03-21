@@ -1,6 +1,6 @@
 #!/bin/bash
 
-array1=( colossus )
+array1=( colossus collins )
 for i in "${array1[@]}"
 do
   echo "Generating stats for $i with token $1"
