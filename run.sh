@@ -1,13 +1,15 @@
 #!/bin/bash
 
-array1=( colossus collins )
+array1=( colossus )
 for i in "${array1[@]}"
 do
-	npm run app stats github tumblr "$i" "$i" 401776fc1ca3a1937fc2ffb0dd8f252463970838
+  echo "Generating stats for $i with token $1"
+	npm run app stats github tumblr X "$i" $1
 done
 
 array2=( dalor conductor darkwing-sql darking-dotnet infrastructure )
 for j in "${array2[@]}"
 do
-  npm run app stats ado axon-eng rms-integrations "$j" cjzvflboxrliqjf56qh4oo6rad6mks63ydyzptx7adfhwq6tatkq
+  echo "Generating stats for $j with token $2"
+  npm run app stats ado axon-eng rms-integrations "$j" $2
 done
