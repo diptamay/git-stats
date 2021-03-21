@@ -4,8 +4,13 @@ const {uniq} = require('lodash')
 
 function getPREndpoint(org, project, repo, prLimit, page = 1) {
   let skips = prLimit * (page - 1)
-  return `https://dev.azure.com/${org}/${project}/_apis/git/repositories/${repo}/pullrequests?` +
-    `searchCriteria.status=completed&api-version=6.0&searchCriteria.includeLinks=false&$top=${prLimit}&$skip=${skips}`
+  return `https://dev.azure.com/${org}/${project}/_apis/git/repositories/${repo}/pullrequests` +
+    `?searchCriteria.status=completed&api-version=6.0&searchCriteria.includeLinks=false&$top=${prLimit}&$skip=${skips}`
+}
+
+function getReviewsEndpoint(org, project, repo, pullRequestId) {
+  return `https://dev.azure.com/${org}/${project}/_apis/git/repositories/${repo}/pullrequests` +
+    `/${pullRequestId}/threads?api-version=6.0`
 }
 
 async function httpsGet(url, token) {
