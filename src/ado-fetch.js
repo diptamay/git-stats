@@ -29,6 +29,8 @@ function httpsGet(url, token) {
   })
 }
 
-async function fetchPRs(token, org, repo, prLimit) {
+async function fetchPRs(token, org, project, repo, prLimit) {
   console.log("Fetching from ado")
 }
+
+module.exports = {fetchPRs}
