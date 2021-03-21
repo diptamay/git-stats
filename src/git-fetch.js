@@ -1,7 +1,6 @@
 const {GraphQLClient, gql} = require('graphql-request')
 
-const endpoint = 'https://api.github.com/graphql';
-
+const endpoint = 'https://api.github.com/graphql'
 
 function graphQLClient(token) {
   return new GraphQLClient(endpoint, {
@@ -35,15 +34,8 @@ async function fetchPRs(token, org, repo, prLimit, internalLimit) {
           deletions
           createdAt
           mergedAt
-          commits(first: ${internalLimit}) {
+          commits(first: 1) {
             totalCount
-          }
-          participants(first: ${internalLimit}) {
-            totalCount
-            nodes {
-              name
-              login
-            }
           }
           comments(first: ${internalLimit}) {
             totalCount
