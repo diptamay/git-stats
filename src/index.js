@@ -1,7 +1,7 @@
 const {program} = require('commander')
 const {fetchPRs: gitStats} = require('./git-fetch')
 const {fetchPRs: adoStats} = require('./ado-fetch')
-const {persistAsCSV, printToConsole} = require('./persist')
+const {persistAsCSV, persistAsJSON, printToConsole} = require('./persist')
 
 async function main() {
   program
@@ -14,7 +14,10 @@ async function main() {
     .action((source, org, project, repo, token) => {
       if (source === "github") {
         gitStats(token, org, repo, 10, 100).then(
-          (data) => persistAsCSV(org, repo, data))
+          (data) => {
+            persistAsCSV(org, repo, data)
+            persistAsJSON(org, repo, data)
+          })
       } else if (source === "ado") {
         adoStats(token, org, project, repo, 50).then(
           (data) => printToConsole(data))
