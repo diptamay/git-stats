@@ -13,7 +13,7 @@ async function main() {
     .description('Pull the git stats for an org (and project for ADO) and its repo with the specified access token from source')
     .action((source, org, project, repo, token) => {
       if (source === "github") {
-        gitStats(token, org, repo, 10, 100).then(
+        gitStats(token, org, repo, 25, 100).then(
           (data) => {
             persistAsCSV(org, repo, data)
             persistAsJSON(org, repo, data)

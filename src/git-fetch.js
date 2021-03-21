@@ -24,8 +24,7 @@ function getTimeDiffInMinutes(start, end) {
   return diff
 }
 
-async function normalize(org, repo, json) {
-  data = await json
+function normalize(org, repo, data) {
   const out = data.repository.pullRequests.nodes.map(d => ({
     org: org,
     repo: repo,
@@ -48,12 +47,11 @@ async function normalize(org, repo, json) {
   return out
 }
 
-async function fetchPRs(token, org, repo, prLimit, internalLimit) {
-  const client = graphQLClient(token)
-  const query = gql`
+function getQuery(org, repo, prLimit, internalLimit, pagination = '') {
+  return gql`
   {
     repository(owner: "${org}", name: "${repo}") {
-      pullRequests(last: ${prLimit}, states: MERGED) {
+      pullRequests(first: ${prLimit} ${pagination}, states: MERGED) {
         totalCount
         pageInfo {
           endCursor
@@ -88,8 +86,30 @@ async function fetchPRs(token, org, repo, prLimit, internalLimit) {
       }
     }
   }`
+}
 
-  return normalize(org, repo, client.request(query))
+async function fetchPRs(token, org, repo, prLimit, internalLimit) {
+  const client = graphQLClient(token)
+  let json = client.request(getQuery(org, repo, prLimit, internalLimit))
+  let data = await json
+  let out = normalize(org, repo, data)
+  let count = prLimit
+  console.log(`${org}/${repo} has ${data.repository.pullRequests.totalCount} PRs`)
+  console.log(`Fetched ${count} PRs`)
+  while (data.repository.pullRequests.pageInfo.hasNextPage) {
+    let pagination = "after:\"" + data.repository.pullRequests.pageInfo.endCursor + "\""
+    json = client.request(getQuery(org, repo, prLimit, internalLimit, pagination))
+    data = await json
+    out.push(normalize(org, repo, data))
+
+    if (data.repository.pullRequests.pageInfo.hasNextPage) {
+      count = count + prLimit
+    } else {
+      count = count + data.repository.pullRequests.nodes.length
+    }
+    console.log(`Fetched ${count} PRs`)
+  }
+  return out.flat()
 }
 
 module.exports = {fetchPRs}
