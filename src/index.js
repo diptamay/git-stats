@@ -16,7 +16,7 @@ async function main() {
         gitStats(token, org, repo, 20, 100).then(
           (data) => persistAsCSV(data))
       } else if (source === "ado") {
-        adoStats(token, org, project, repo, 20).then(
+        adoStats(token, org, project, repo, 50).then(
           (data) => persistAsCSV(data))
       } else {
         console.log("Expected Source Control values -> 'github' or 'ado' Not Provided!")

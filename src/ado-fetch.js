@@ -2,9 +2,13 @@ const https = require('https')
 const moment = require('moment')
 const {uniq} = require('lodash')
 
-//const endpoint = `https://dev.azure.com/${org}/${repo}/_apis/git/pullrequests?api-version=6.0`
+function getPREndpoint(org, project, repo, prLimit, page = 1) {
+  let skips = prLimit * (page - 1)
+  return `https://dev.azure.com/${org}/${project}/_apis/git/repositories/${repo}/pullrequests?` +
+    `searchCriteria.status=completed&api-version=6.0&searchCriteria.includeLinks=false&$top=${prLimit}&$skip=${skips}`
+}
 
-function httpsGet(url, token) {
+async function httpsGet(url, token) {
   return new Promise((resolve, reject) => {
     https
       .get(
@@ -30,7 +34,10 @@ function httpsGet(url, token) {
 }
 
 async function fetchPRs(token, org, project, repo, prLimit) {
-  console.log("Fetching from ado")
+  let endpoint = getPREndpoint(org, project, repo, prLimit)
+  console.log(`Fetching from ado endpoint ${endpoint}`)
+  data = await httpsGet(endpoint, token)
+  console.log(data)
 }
 
 module.exports = {fetchPRs}
