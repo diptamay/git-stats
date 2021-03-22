@@ -1,8 +1,9 @@
 const {program} = require('commander')
 const {fetchPRs: gitStats} = require('./git-fetch')
 const {fetchPRs: adoStats} = require('./ado-fetch')
-const {persistAsCSV, persistAsJSON, printToConsole, readJSONFiles} = require('./store-fs')
-const {calculateRepoStats} = require('./stats')
+const {printToConsole} = require('./utils')
+const {persistAsCSV, persistAsJSON, readJSONFiles} = require('./store-fs')
+const {calculateRepoStats, calculateOrgStats} = require('./stats')
 
 const DATA_DIR = "data"
 const STATS_DIR = "stats"
@@ -18,7 +19,10 @@ async function main() {
     .description('Generates git stats for all orgs')
     .action(() => {
       console.log("Generating git stats for all orgs")
-      readJSONFiles("stats", (jsonArr) => printToConsole(jsonArr))
+      readJSONFiles("stats", (jsonArr) => {
+        printToConsole(jsonArr)
+        //calculateOrgStats(jsonArr)
+      })
     })
 
   program

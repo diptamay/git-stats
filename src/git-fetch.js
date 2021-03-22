@@ -1,6 +1,7 @@
 const {GraphQLClient, gql} = require('graphql-request')
 const moment = require('moment')
 const {uniq} = require('lodash')
+const {roundOff} = require('./utils')
 
 const endpoint = 'https://api.github.com/graphql'
 
@@ -13,15 +14,11 @@ function graphQLClient(token) {
 }
 
 function getTimeDiffInHours(start, end) {
-  //console.log(`start -> ${start}, end -> ${end}`)
-  const diff = Math.round((moment(end).diff(moment(start)) / 1000 / 60 / 60 + Number.EPSILON) * 100) / 100
-  return diff
+  return roundOff(moment(end).diff(moment(start)) / 1000 / 60 / 60)
 }
 
 function getTimeDiffInMinutes(start, end) {
-  //console.log(`start -> ${start}, end -> ${end}`)
-  const diff = Math.round((moment(end).diff(moment(start)) / 1000 / 60 + Number.EPSILON) * 100) / 100
-  return diff
+  return roundOff(moment(end).diff(moment(start)) / 1000 / 60)
 }
 
 function normalize(org, repo, data) {

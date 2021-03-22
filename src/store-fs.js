@@ -24,7 +24,7 @@ function readJSONFiles(root, callback) {
   if (!fs.existsSync(root)) {
     throw new Error(`Directory ${root} doesn't exist`)
   }
-  fs.readdir(root, function (err, files) {
+  fs.readdir(root, (err, files) => {
     let jsonArr = []
     //handling error
     if (err) {
@@ -33,7 +33,7 @@ function readJSONFiles(root, callback) {
 
     let filesProcessed = 0
     //listing all files using forEach
-    files.forEach(function (file) {
+    files.forEach((file) => {
       console.log(`Processing ${file}`)
       let filePath = path.join(`${root}`, `${file}`)
       readJSON(filePath, (json) => {
@@ -67,8 +67,4 @@ function persistAsCSV(root, org, repo, out) {
   }
 }
 
-function printToConsole(json) {
-  console.log(JSON.stringify(json, undefined, 2))
-}
-
-module.exports = {persistAsCSV, persistAsJSON, printToConsole, readJSONFiles}
+module.exports = {persistAsCSV, persistAsJSON, readJSONFiles}
