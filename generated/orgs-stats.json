@@ -1,6 +1,35 @@
 [
   {
     "org": "tumblr",
+    "repo": "collins",
+    "mean_hours_open": 422.25,
+    "mean_hours_open_no_review": 309.88,
+    "mean_hours_open_in_review": 958.31,
+    "mean_hours_to_first_review": 72.18,
+    "mean_minutes_to_first_review": 4330.66,
+    "median_hours_open": 45.77,
+    "median_hours_open_no_review": 29.86,
+    "median_hours_open_in_review": 153.84,
+    "median_hours_to_first_review": 12.29,
+    "median_minutes_to_first_review": 737.27
+  },
+  {
+    "org": "tumblr",
+    "repo": "colossus",
+    "mean_hours_open": 100.39,
+    "mean_hours_open_no_review": 82.75,
+    "mean_hours_open_in_review": 154.72,
+    "mean_hours_to_first_review": 79.03,
+    "mean_minutes_to_first_review": 4741.79,
+    "median_hours_open": 23.95,
+    "median_hours_open_no_review": 21.56,
+    "median_hours_open_in_review": 54.28,
+    "median_hours_to_first_review": 2.41,
+    "median_minutes_to_first_review": 144.68
+  },
+  {
+    "org": "tumblr",
+    "repo": "_all",
     "mean_hours_open": 261.32,
     "mean_hours_open_no_review": 196.32,
     "mean_hours_open_in_review": 556.52,
@@ -14,6 +43,7 @@
   },
   {
     "org": "_all",
+    "repo": "_all",
     "mean_hours_open": 261.32,
     "mean_hours_open_no_review": 196.32,
     "mean_hours_open_in_review": 556.52,
