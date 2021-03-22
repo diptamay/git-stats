@@ -20,7 +20,7 @@ function mean(values) {
   return Math.round((out + Number.EPSILON) * 100) / 100
 }
 
-function calculateStats(org, repo, data) {
+function calculateRepoStats(org, repo, data) {
   //let relevantLength = data.filter(d => d.reviews > 0).length
   const out = {
     org: org,
@@ -48,4 +48,23 @@ function calculateStats(org, repo, data) {
   return out
 }
 
-module.exports = {calculateStats}
+function calculateOrgStats(org) {
+  //let relevantLength = data.filter(d => d.reviews > 0).length
+  const out = {
+    org: org,
+    repo: repo,
+    mean_hours_open: mean(data.map(d => d.hours_open)),
+    mean_hours_open_no_review: mean(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
+    mean_hours_open_in_review: mean(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
+    mean_hours_to_first_review: mean(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
+    mean_minutes_to_first_review: mean(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
+    median_hours_open: median(data.map(d => d.hours_open)),
+    median_hours_open_no_review: median(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
+    median_hours_open_in_review: median(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
+    median_hours_to_first_review: median(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
+    median_minutes_to_first_review: median(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
+  }
+  return out
+}
+
+module.exports = {calculateRepoStats}

@@ -42,7 +42,7 @@ async function fetchPRs(token, org, project, repo, prLimit) {
   let endpoint = getPREndpoint(org, project, repo, prLimit)
   console.log(`Fetching from ado endpoint ${endpoint}`)
   data = await httpsGet(endpoint, token)
-  console.log(data)
+  return data
 }
 
 module.exports = {fetchPRs}

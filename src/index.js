@@ -1,8 +1,8 @@
 const {program} = require('commander')
 const {fetchPRs: gitStats} = require('./git-fetch')
 const {fetchPRs: adoStats} = require('./ado-fetch')
-const {persistAsCSV, persistAsJSON, printToConsole} = require('./persist')
-const {calculateStats} = require('./stats')
+const {persistAsCSV, persistAsJSON, printToConsole} = require('./store-fs')
+const {calculateRepoStats} = require('./stats')
 
 const DATA_DIR = "data"
 const STATS_DIR = "stats"
@@ -11,6 +11,13 @@ async function main() {
   program
     .version('1.0.0')
     .description('Command line Git Stats Application')
+
+  program
+    .command("org-stats <org> <repo>")
+    .description('Generates the git stats for an org')
+    .action((org, repo) => {
+
+    })
 
   program
     .command("stats <source> <org> <project> <repo> <token>")
@@ -22,7 +29,7 @@ async function main() {
             persistAsCSV(DATA_DIR, org, repo, data)
             persistAsJSON(DATA_DIR, org, repo, data)
 
-            let stats = calculateStats(org, repo, data)
+            let stats = calculateRepoStats(org, repo, data)
             persistAsJSON(STATS_DIR, org, repo, stats)
           })
       } else if (source === "ado") {

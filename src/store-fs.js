@@ -7,6 +7,18 @@ function getFilePath(root, org, repo, extn) {
   return `${root}/${org}-${repo}.${extn}`
 }
 
+function readJSON(root, org, repo) {
+  try {
+    fs.readFile(getFilePath(root, org, repo, "json"), (err, data) => {
+      if (err) throw err;
+      let json = JSON.parse(data);
+      return json
+    })
+  } catch (e) {
+    console.log("Error reading file", e);
+  }
+}
+
 function persistAsJSON(root, org, repo, out) {
   const fileContents = JSON.stringify(out, undefined, 2)
   try {
