@@ -1,33 +1,27 @@
 const fs = require('fs')
 
-const DATA_DIR = "data"
-
-function getFilePath(org, repo, extn) {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR)
+function getFilePath(root, org, repo, extn) {
+  if (!fs.existsSync(root)) {
+    fs.mkdirSync(root)
   }
-  const dir = `${DATA_DIR}/${org}`
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir)
-  }
-  return `${dir}/${repo}.${extn}`
+  return `${root}/${org}-${repo}.${extn}`
 }
 
-function persistAsJSON(org, repo, out) {
+function persistAsJSON(root, org, repo, out) {
   const fileContents = JSON.stringify(out, undefined, 2)
   try {
-    fs.writeFileSync(getFilePath(org, repo, "json"), fileContents)
+    fs.writeFileSync(getFilePath(root, org, repo, "json"), fileContents)
   } catch (e) {
     console.log("Error writing file", e);
   }
 }
 
-function persistAsCSV(org, repo, out) {
+function persistAsCSV(root, org, repo, out) {
   const fileContents =
     Object.keys(out[0]) + '\n' + out.map(d => Object.values(d).join(',')).join('\n')
 
   try {
-    fs.writeFileSync(getFilePath(org, repo, "csv"), fileContents)
+    fs.writeFileSync(getFilePath(root, org, repo, "csv"), fileContents)
   } catch (e) {
     console.log("Error writing file", e);
   }

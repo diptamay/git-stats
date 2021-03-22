@@ -25,25 +25,26 @@ function getTimeDiffInMinutes(start, end) {
 }
 
 function normalize(org, repo, data) {
-  const out = data.repository.pullRequests.nodes.map(d => ({
-    org: org,
-    repo: repo,
-    url: d.url,
-    number: d.number,
-    author: d.author.login,
-    created_at: d.createdAt,
-    merged_at: d.mergedAt,
-    changed_files: d.changedFiles,
-    commits: d.commits.totalCount,
-    additions: d.additions,
-    deletions: d.deletions,
-    reviews: d.reviews.totalCount,
-    time_of_first_review: (d.reviews.totalCount > 0) ? d.reviews.nodes[0].publishedAt : '',
-    reviewers: (d.reviews.totalCount > 0) ? `"${uniq(d.reviews.nodes.map(r => r.author ? r.author.login : '')).join(',')}"` : '',
-    hours_open: getTimeDiffInHours(d.createdAt, d.mergedAt),
-    hours_to_first_review: (d.reviews.totalCount > 0) ? getTimeDiffInHours(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
-    minutes_to_first_review: (d.reviews.totalCount > 0) ? getTimeDiffInMinutes(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
-  }))
+  const out = data.repository.pullRequests.nodes
+    .map(d => ({
+      org: org,
+      repo: repo,
+      url: d.url,
+      number: d.number,
+      author: d.author.login,
+      created_at: d.createdAt,
+      merged_at: d.mergedAt,
+      changed_files: d.changedFiles,
+      commits: d.commits.totalCount,
+      additions: d.additions,
+      deletions: d.deletions,
+      reviews: d.reviews.totalCount,
+      time_of_first_review: (d.reviews.totalCount > 0) ? d.reviews.nodes[0].publishedAt : '',
+      reviewers: (d.reviews.totalCount > 0) ? `"${uniq(d.reviews.nodes.map(r => r.author ? r.author.login : '')).join(',')}"` : '',
+      hours_open: getTimeDiffInHours(d.createdAt, d.mergedAt),
+      hours_to_first_review: (d.reviews.totalCount > 0) ? getTimeDiffInHours(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
+      minutes_to_first_review: (d.reviews.totalCount > 0) ? getTimeDiffInMinutes(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
+    }))
   return out
 }
 
