@@ -1,0 +1,3 @@
+org,mean_hours_open,mean_hours_open_no_review,mean_hours_open_in_review,mean_hours_to_first_review,mean_minutes_to_first_review,median_hours_open,median_hours_open_no_review,median_hours_open_in_review,median_hours_to_first_review,median_minutes_to_first_review
+tumblr,261.32,196.32,556.52,75.61,4536.23,34.86,25.71,104.06,7.35,440.98
+_all,261.32,196.32,556.52,75.61,4536.23,34.86,25.71,104.06,7.35,440.98

@@ -2,7 +2,7 @@ const {program} = require('commander')
 const {fetchPRs: gitStats} = require('./git-fetch')
 const {fetchPRs: adoStats} = require('./ado-fetch')
 const {printToConsole} = require('./utils')
-const {persistAsCSV, persistAsJSON, readJSONFiles} = require('./store-fs')
+const {persistAsCSV, persistAsJSON, readJSONFiles, persistOrgStats} = require('./store-fs')
 const {calculateRepoStats, calculateOrgStats} = require('./stats')
 
 const DATA_DIR = "data"
@@ -12,18 +12,6 @@ async function main() {
   program
     .version('1.0.0')
     .description('Command line Git Stats Application')
-
-  program
-    .command("org-stats")
-    .alias("os")
-    .description('Generates git stats for all orgs')
-    .action(() => {
-      console.log("Generating git stats for all orgs")
-      readJSONFiles("stats", (jsonArr) => {
-        printToConsole(jsonArr)
-        //calculateOrgStats(jsonArr)
-      })
-    })
 
   program
     .command("stats <source> <org> <project> <repo> <token>")
@@ -45,6 +33,18 @@ async function main() {
         console.log("Expected Source Control values -> 'github' or 'ado' Not Provided!")
       }
 
+    })
+
+  program
+    .command("org-stats")
+    .alias("os")
+    .description('Generates git stats for all orgs')
+    .action(() => {
+      console.log("Generating git stats for all orgs")
+      readJSONFiles("stats", (jsonArr) => {
+        data = calculateOrgStats(jsonArr)
+        persistOrgStats(".", data)
+      })
     })
 
   await program.parseAsync(process.argv)

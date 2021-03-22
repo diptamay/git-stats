@@ -1,11 +1,16 @@
 const fs = require('fs')
 const path = require('path')
 
+const GENERATED_DIR = "generated"
+
 function getFilePath(root, org, repo, extn) {
-  if (!fs.existsSync(root)) {
-    fs.mkdirSync(root)
+  if (!fs.existsSync(GENERATED_DIR)) {
+    fs.mkdirSync(GENERATED_DIR)
   }
-  return path.join(`${root}`, `${org}-${repo}.${extn}`)
+  if (!fs.existsSync(path.join(`${GENERATED_DIR}`, `${root}`))) {
+    fs.mkdirSync(path.join(`${GENERATED_DIR}`, `${root}`))
+  }
+  return path.join(`${GENERATED_DIR}`, `${root}`, `${org}-${repo}.${extn}`)
 }
 
 function readJSON(filePath, callback) {
@@ -21,21 +26,23 @@ function readJSON(filePath, callback) {
 }
 
 function readJSONFiles(root, callback) {
-  if (!fs.existsSync(root)) {
-    throw new Error(`Directory ${root} doesn't exist`)
+  const dirPath = path.join(`${GENERATED_DIR}`, `${root}`)
+  if (!fs.existsSync(dirPath)) {
+    throw new Error(`Directory ${dirPath} doesn't exist`)
   }
-  fs.readdir(root, (err, files) => {
-    let jsonArr = []
+  fs.readdir(dirPath, (err, files) => {
     //handling error
     if (err) {
+      console.log(err)
       throw new Error('Unable to scan directory: ' + err)
     }
 
+    let jsonArr = []
     let filesProcessed = 0
     //listing all files using forEach
     files.forEach((file) => {
       console.log(`Processing ${file}`)
-      let filePath = path.join(`${root}`, `${file}`)
+      let filePath = path.join(`${GENERATED_DIR}`, `${root}`, `${file}`)
       readJSON(filePath, (json) => {
         jsonArr.push(json)
         filesProcessed++;
@@ -47,24 +54,37 @@ function readJSONFiles(root, callback) {
   })
 }
 
-function persistAsJSON(root, org, repo, out) {
-  const fileContents = JSON.stringify(out, undefined, 2)
+function persistJSONFile(filePath, json) {
+  const fileContents = JSON.stringify(json, undefined, 2)
   try {
-    fs.writeFileSync(getFilePath(root, org, repo, "json"), fileContents)
+    fs.writeFileSync(filePath, fileContents)
+  } catch (e) {
+    console.log("Error writing file", e)
+  }
+}
+
+function persistAsJSON(root, org, repo, out) {
+  persistJSONFile(getFilePath(root, org, repo, "json"), out)
+}
+
+function persistCSVFile(filePath, out) {
+  const fileContents =
+    Object.keys(out[0]) + '\n' + out.map(d => Object.values(d).join(',')).join('\n')
+
+  try {
+    fs.writeFileSync(filePath, fileContents)
   } catch (e) {
     console.log("Error writing file", e)
   }
 }
 
 function persistAsCSV(root, org, repo, out) {
-  const fileContents =
-    Object.keys(out[0]) + '\n' + out.map(d => Object.values(d).join(',')).join('\n')
-
-  try {
-    fs.writeFileSync(getFilePath(root, org, repo, "csv"), fileContents)
-  } catch (e) {
-    console.log("Error writing file", e)
-  }
+  persistCSVFile(getFilePath(root, org, repo, "csv"), out)
 }
 
-module.exports = {persistAsCSV, persistAsJSON, readJSONFiles}
+function persistOrgStats(root, out) {
+  persistJSONFile(path.join(`${GENERATED_DIR}`, "orgs-stats.json"), out)
+  persistCSVFile(path.join(`${GENERATED_DIR}`, "orgs-stats.csv"), out)
+}
+
+module.exports = {persistAsCSV, persistAsJSON, readJSONFiles, persistOrgStats}

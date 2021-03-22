@@ -1,5 +1,5 @@
-const {groupBy} = require('lodash')
-const {roundOff} = require('./utils')
+const {chain} = require('lodash')
+const {roundOff, printToConsole} = require('./utils')
 
 function median(values) {
   if (values.length === 0) return 0
@@ -42,19 +42,36 @@ function calculateRepoStats(org, repo, data) {
 }
 
 function calculateOrgStats(data) {
-  const out = {
-    org: org,
-    mean_hours_open: mean(data.map(d => d.hours_open)),
-    mean_hours_open_no_review: mean(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
-    mean_hours_open_in_review: mean(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
-    mean_hours_to_first_review: mean(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
-    mean_minutes_to_first_review: mean(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
-    median_hours_open: median(data.map(d => d.hours_open)),
-    median_hours_open_no_review: median(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
-    median_hours_open_in_review: median(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
-    median_hours_to_first_review: median(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
-    median_minutes_to_first_review: median(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
+  let out = chain(data)
+    .groupBy(x => x.org)
+    .map((values, key) => ({
+      org: key,
+      mean_hours_open: mean(values.map(d => d.mean_hours_open)),
+      mean_hours_open_no_review: mean(values.map(d => d.mean_hours_open_no_review)),
+      mean_hours_open_in_review: mean(values.map(d => d.mean_hours_open_in_review)),
+      mean_hours_to_first_review: mean(values.map(d => d.mean_hours_to_first_review)),
+      mean_minutes_to_first_review: mean(values.map(d => d.mean_minutes_to_first_review)),
+      median_hours_open: median(values.map(d => d.median_hours_open)),
+      median_hours_open_no_review: median(values.map(d => d.median_hours_open_no_review)),
+      median_hours_open_in_review: median(values.map(d => d.median_hours_open_in_review)),
+      median_hours_to_first_review: median(values.map(d => d.median_hours_to_first_review)),
+      median_minutes_to_first_review: median(values.map(d => d.median_minutes_to_first_review)),
+    }))
+    .value()
+  let overall = {
+    org: "_all",
+    mean_hours_open: mean(out.map(d => d.mean_hours_open)),
+    mean_hours_open_no_review: mean(out.map(d => d.mean_hours_open_no_review)),
+    mean_hours_open_in_review: mean(out.map(d => d.mean_hours_open_in_review)),
+    mean_hours_to_first_review: mean(out.map(d => d.mean_hours_to_first_review)),
+    mean_minutes_to_first_review: mean(out.map(d => d.mean_minutes_to_first_review)),
+    median_hours_open: median(out.map(d => d.median_hours_open)),
+    median_hours_open_no_review: median(out.map(d => d.median_hours_open_no_review)),
+    median_hours_open_in_review: median(out.map(d => d.median_hours_open_in_review)),
+    median_hours_to_first_review: median(out.map(d => d.median_hours_to_first_review)),
+    median_minutes_to_first_review: median(out.map(d => d.median_minutes_to_first_review)),
   }
+  out.push(overall)
   return out
 }
 

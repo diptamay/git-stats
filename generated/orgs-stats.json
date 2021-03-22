@@ -1,0 +1,28 @@
+[
+  {
+    "org": "tumblr",
+    "mean_hours_open": 261.32,
+    "mean_hours_open_no_review": 196.32,
+    "mean_hours_open_in_review": 556.52,
+    "mean_hours_to_first_review": 75.61,
+    "mean_minutes_to_first_review": 4536.23,
+    "median_hours_open": 34.86,
+    "median_hours_open_no_review": 25.71,
+    "median_hours_open_in_review": 104.06,
+    "median_hours_to_first_review": 7.35,
+    "median_minutes_to_first_review": 440.98
+  },
+  {
+    "org": "_all",
+    "mean_hours_open": 261.32,
+    "mean_hours_open_no_review": 196.32,
+    "mean_hours_open_in_review": 556.52,
+    "mean_hours_to_first_review": 75.61,
+    "mean_minutes_to_first_review": 4536.23,
+    "median_hours_open": 34.86,
+    "median_hours_open_no_review": 25.71,
+    "median_hours_open_in_review": 104.06,
+    "median_hours_to_first_review": 7.35,
+    "median_minutes_to_first_review": 440.98
+  }
+]
