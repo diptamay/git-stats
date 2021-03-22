@@ -1,7 +1,14 @@
 {
   "org": "tumblr",
   "repo": "colossus",
-  "avg_hours_open": 100,
-  "avg_hours_to_first_review": 79,
-  "avg_minutes_to_first_review": 4742
+  "mean_hours_open": 100.39,
+  "mean_hours_open_no_review": 82.75,
+  "mean_hours_open_in_review": 154.72,
+  "mean_hours_to_first_review": 79.03,
+  "mean_minutes_to_first_review": 4741.79,
+  "median_hours_open": 23.95,
+  "median_hours_open_no_review": 21.56,
+  "median_hours_open_in_review": 54.28,
+  "median_hours_to_first_review": 2.41,
+  "median_minutes_to_first_review": 144.68
 }
