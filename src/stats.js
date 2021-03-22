@@ -48,11 +48,9 @@ function calculateRepoStats(org, repo, data) {
   return out
 }
 
-function calculateOrgStats(org) {
-  //let relevantLength = data.filter(d => d.reviews > 0).length
+function calculateOrgStats(org, allData, existingData, incomingData) {
   const out = {
     org: org,
-    repo: repo,
     mean_hours_open: mean(data.map(d => d.hours_open)),
     mean_hours_open_no_review: mean(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
     mean_hours_open_in_review: mean(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
@@ -67,4 +65,4 @@ function calculateOrgStats(org) {
   return out
 }
 
-module.exports = {calculateRepoStats}
+module.exports = {calculateRepoStats, calculateOrgStats}

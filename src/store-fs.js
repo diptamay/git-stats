@@ -1,22 +1,50 @@
 const fs = require('fs')
+const path = require('path')
 
 function getFilePath(root, org, repo, extn) {
   if (!fs.existsSync(root)) {
     fs.mkdirSync(root)
   }
-  return `${root}/${org}-${repo}.${extn}`
+  return path.join(`${root}`, `${org}-${repo}.${extn}`)
 }
 
-function readJSON(root, org, repo) {
+function readJSON(filePath, callback) {
   try {
-    fs.readFile(getFilePath(root, org, repo, "json"), (err, data) => {
-      if (err) throw err;
-      let json = JSON.parse(data);
-      return json
+    fs.readFile(filePath, (err, data) => {
+      if (err) throw err
+      let json = JSON.parse(data)
+      callback(json)
     })
   } catch (e) {
-    console.log("Error reading file", e);
+    console.log("Error reading file", e)
   }
+}
+
+function readJSONFiles(root, callback) {
+  if (!fs.existsSync(root)) {
+    throw new Error(`Directory ${root} doesn't exist`)
+  }
+  fs.readdir(root, function (err, files) {
+    let jsonArr = []
+    //handling error
+    if (err) {
+      throw new Error('Unable to scan directory: ' + err)
+    }
+
+    let filesProcessed = 0
+    //listing all files using forEach
+    files.forEach(function (file) {
+      console.log(`Processing ${file}`)
+      let filePath = path.join(`${root}`, `${file}`)
+      readJSON(filePath, (json) => {
+        jsonArr.push(json)
+        filesProcessed++;
+        if (filesProcessed === files.length) {
+          callback(jsonArr);
+        }
+      })
+    })
+  })
 }
 
 function persistAsJSON(root, org, repo, out) {
@@ -24,7 +52,7 @@ function persistAsJSON(root, org, repo, out) {
   try {
     fs.writeFileSync(getFilePath(root, org, repo, "json"), fileContents)
   } catch (e) {
-    console.log("Error writing file", e);
+    console.log("Error writing file", e)
   }
 }
 
@@ -35,7 +63,7 @@ function persistAsCSV(root, org, repo, out) {
   try {
     fs.writeFileSync(getFilePath(root, org, repo, "csv"), fileContents)
   } catch (e) {
-    console.log("Error writing file", e);
+    console.log("Error writing file", e)
   }
 }
 
@@ -43,4 +71,4 @@ function printToConsole(json) {
   console.log(JSON.stringify(json, undefined, 2))
 }
 
-module.exports = {persistAsCSV, persistAsJSON, printToConsole}
+module.exports = {persistAsCSV, persistAsJSON, printToConsole, readJSONFiles}
