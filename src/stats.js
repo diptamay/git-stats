@@ -1,5 +1,5 @@
 const {chain} = require('lodash')
-const {roundOff} = require('./utils')
+const {roundOff, getTimeDiffInDays} = require('./utils')
 
 function median(values) {
   if (values.length === 0) return 0
@@ -54,6 +54,11 @@ function mean(values) {
   return roundOff(out)
 }
 
+function isDateWithin4wks(d) {
+  let days = getTimeDiffInDays(d, new Date())
+  return (days <= 28)
+}
+
 function calculateRepoStats(org, repo, data) {
   const out = {
     org: org,
@@ -76,6 +81,24 @@ function calculateRepoStats(org, repo, data) {
     hours_open_in_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
     hours_to_first_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
     minutes_to_first_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
+
+    hours_open_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at)).map(d => d.hours_open)),
+    hours_open_no_review_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews === 0).map(d => d.hours_open)),
+    hours_open_in_review_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hours_open)),
+    hours_to_first_review_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hours_to_first_review)),
+    minutes_to_first_review_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.minutes_to_first_review)),
+
+    hours_open_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at)).map(d => d.hours_open)),
+    hours_open_no_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews === 0).map(d => d.hours_open)),
+    hours_open_in_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hours_open)),
+    hours_to_first_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hours_to_first_review)),
+    minutes_to_first_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.minutes_to_first_review)),
+
+    hours_open_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at)).map(d => d.hours_open)),
+    hours_open_no_review_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews === 0).map(d => d.hours_open)),
+    hours_open_in_review_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hours_open)),
+    hours_to_first_review_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hours_to_first_review)),
+    minutes_to_first_review_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.minutes_to_first_review)),
   }
   return out
 }
@@ -102,6 +125,24 @@ function generateStats(org, repo, values) {
     hours_open_in_review_p90: p90(values.map(d => d.hours_open_in_review_p90)),
     hours_to_first_review_p90: p90(values.map(d => d.hours_to_first_review_p90)),
     minutes_to_first_review_p90: p90(values.map(d => d.minutes_to_first_review_p90)),
+
+    hours_open_4wk_avg: mean(values.map(d => d.hours_open_4wk_avg)),
+    hours_open_no_review_4wk_avg: mean(values.map(d => d.hours_open_no_review_4wk_avg)),
+    hours_open_in_review_4wk_avg: mean(values.map(d => d.hours_open_in_review_4wk_avg)),
+    hours_to_first_review_4wk_avg: mean(values.map(d => d.hours_to_first_review_4wk_avg)),
+    minutes_to_first_review_4wk_avg: mean(values.map(d => d.minutes_to_first_review_4wk_avg)),
+
+    hours_open_4wk_p50: p50(values.map(d => d.hours_open_4wk_p50)),
+    hours_open_no_review_4wk_p50: p50(values.map(d => d.hours_open_no_review_4wk_p50)),
+    hours_open_in_review_4wk_p50: p50(values.map(d => d.hours_open_in_review_4wk_p50)),
+    hours_to_first_review_4wk_p50: p50(values.map(d => d.hours_to_first_review_4wk_p50)),
+    minutes_to_first_review_4wk_p50: p50(values.map(d => d.minutes_to_first_review_4wk_p50)),
+
+    hours_open_4wk_p90: p90(values.map(d => d.hours_open_p90)),
+    hours_open_no_review_4wk_p90: p90(values.map(d => d.hours_open_no_review_4wk_p90)),
+    hours_open_in_review_4wk_p90: p90(values.map(d => d.hours_open_in_review_4wk_p90)),
+    hours_to_first_review_4wk_p90: p90(values.map(d => d.hours_to_first_review_4wk_p90)),
+    minutes_to_first_review_4wk_p90: p90(values.map(d => d.minutes_to_first_review_4wk_p90)),
   }
 }
 

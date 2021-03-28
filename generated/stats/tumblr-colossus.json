@@ -15,5 +15,20 @@
   "hours_open_no_review_p90": 169.55,
   "hours_open_in_review_p90": 239.12,
   "hours_to_first_review_p90": 75.22,
-  "minutes_to_first_review_p90": 4513.25
+  "minutes_to_first_review_p90": 4513.25,
+  "hours_open_4wk_avg": 0,
+  "hours_open_no_review_4wk_avg": 0,
+  "hours_open_in_review_4wk_avg": 0,
+  "hours_to_first_review_4wk_avg": 0,
+  "minutes_to_first_review_4wk_avg": 0,
+  "hours_open_4wk_p50": 0,
+  "hours_open_no_review_4wk_p50": 0,
+  "hours_open_in_review_4wk_p50": 0,
+  "hours_to_first_review_4wk_p50": 0,
+  "minutes_to_first_review_4wk_p50": 0,
+  "hours_open_4wk_p90": 0,
+  "hours_open_no_review_4wk_p90": 0,
+  "hours_open_in_review_4wk_p90": 0,
+  "hours_to_first_review_4wk_p90": 0,
+  "minutes_to_first_review_4wk_p90": 0
 }
