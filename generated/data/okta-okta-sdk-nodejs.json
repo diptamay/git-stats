@@ -13,7 +13,13 @@
     "deletions": 1,
     "reviews": 10,
     "time_of_first_review": "2017-06-02T01:32:49Z",
-    "reviewers": "\"rchild-okta,lboyette-okta,robertjd\"",
+    "reviewers": [
+      [
+        "rchild-okta",
+        "lboyette-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 168.8,
     "hours_to_first_review": 2.88,
     "minutes_to_first_review": 172.75
@@ -32,7 +38,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2017-06-14T18:10:54Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 161.78,
     "hours_to_first_review": 113.83,
     "minutes_to_first_review": 6830.08
@@ -51,7 +61,16 @@
     "deletions": 248,
     "reviews": 46,
     "time_of_first_review": "2017-06-13T17:39:16Z",
-    "reviewers": "\"rchild-okta,vijetmahabaleshwar-okta,robertjd,bdemers,lboyette-okta,nbarbettini\"",
+    "reviewers": [
+      [
+        "rchild-okta",
+        "vijetmahabaleshwar-okta",
+        "robertjd",
+        "bdemers",
+        "lboyette-okta",
+        "nbarbettini"
+      ]
+    ],
     "hours_open": 331.35,
     "hours_to_first_review": 14.11,
     "minutes_to_first_review": 846.82
@@ -70,7 +89,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2017-06-14T18:32:42Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 49.67,
     "hours_to_first_review": 2.22,
     "minutes_to_first_review": 132.95
@@ -89,7 +112,11 @@
     "deletions": 498,
     "reviews": 1,
     "time_of_first_review": "2017-06-16T20:47:46Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 3.15,
     "hours_to_first_review": 2.09,
     "minutes_to_first_review": 125.25
@@ -108,7 +135,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2017-06-16T22:51:16Z",
-    "reviewers": "\"rchild-okta\"",
+    "reviewers": [
+      [
+        "rchild-okta"
+      ]
+    ],
     "hours_open": 0.99,
     "hours_to_first_review": 0.87,
     "minutes_to_first_review": 51.93
@@ -127,7 +158,11 @@
     "deletions": 3,
     "reviews": 1,
     "time_of_first_review": "2017-06-27T17:42:37Z",
-    "reviewers": "\"vijetmahabaleshwar-okta\"",
+    "reviewers": [
+      [
+        "vijetmahabaleshwar-okta"
+      ]
+    ],
     "hours_open": 0.39,
     "hours_to_first_review": 0.02,
     "minutes_to_first_review": 0.92
@@ -146,7 +181,11 @@
     "deletions": 5,
     "reviews": 1,
     "time_of_first_review": "2017-06-27T20:04:47Z",
-    "reviewers": "\"bretterer\"",
+    "reviewers": [
+      [
+        "bretterer"
+      ]
+    ],
     "hours_open": 1.29,
     "hours_to_first_review": 1.27,
     "minutes_to_first_review": 75.92
@@ -165,7 +204,11 @@
     "deletions": 3,
     "reviews": 1,
     "time_of_first_review": "2017-06-27T20:15:53Z",
-    "reviewers": "\"bretterer\"",
+    "reviewers": [
+      [
+        "bretterer"
+      ]
+    ],
     "hours_open": 0.15,
     "hours_to_first_review": 0.02,
     "minutes_to_first_review": 0.92
@@ -184,7 +227,13 @@
     "deletions": 69,
     "reviews": 14,
     "time_of_first_review": "2017-06-27T23:57:53Z",
-    "reviewers": "\"jmelberg-okta,vijetmahabaleshwar-okta,robertjd\"",
+    "reviewers": [
+      [
+        "jmelberg-okta",
+        "vijetmahabaleshwar-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 235.99,
     "hours_to_first_review": 3.63,
     "minutes_to_first_review": 217.88
@@ -203,7 +252,11 @@
     "deletions": 5,
     "reviews": 1,
     "time_of_first_review": "2017-06-30T20:30:20Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 23.61,
     "hours_to_first_review": 23.59,
     "minutes_to_first_review": 1415.67
@@ -222,7 +275,11 @@
     "deletions": 6,
     "reviews": 1,
     "time_of_first_review": "2017-07-12T15:20:40Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 300.4,
     "hours_to_first_review": 300.16,
     "minutes_to_first_review": 18009.52
@@ -241,7 +298,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2017-07-07T23:45:13Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 0.14,
     "hours_to_first_review": 0.09,
     "minutes_to_first_review": 5.4
@@ -260,7 +321,11 @@
     "deletions": 3,
     "reviews": 1,
     "time_of_first_review": "2017-07-14T20:08:32Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 22.76,
     "hours_to_first_review": 22.76,
     "minutes_to_first_review": 1365.62
@@ -279,7 +344,11 @@
     "deletions": 32,
     "reviews": 2,
     "time_of_first_review": "2017-07-25T16:17:58Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 196.61,
     "hours_to_first_review": 192.46,
     "minutes_to_first_review": 11547.52
@@ -298,7 +367,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2017-07-25T16:16:24Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 190.29,
     "hours_to_first_review": 190.28,
     "minutes_to_first_review": 11417.07
@@ -317,7 +390,12 @@
     "deletions": 83,
     "reviews": 3,
     "time_of_first_review": "2017-10-10T18:26:45Z",
-    "reviewers": "\"lboyette-okta,robertjd\"",
+    "reviewers": [
+      [
+        "lboyette-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 67.29,
     "hours_to_first_review": 19.35,
     "minutes_to_first_review": 1160.95
@@ -336,7 +414,11 @@
     "deletions": 4,
     "reviews": 1,
     "time_of_first_review": "2017-10-16T20:37:05Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 0.04,
     "hours_to_first_review": 0.02,
     "minutes_to_first_review": 1.07
@@ -355,7 +437,13 @@
     "deletions": 356,
     "reviews": 8,
     "time_of_first_review": "2017-11-21T22:14:50Z",
-    "reviewers": "\"lboyette-okta,vijetmahabaleshwar-okta,robertjd\"",
+    "reviewers": [
+      [
+        "lboyette-okta",
+        "vijetmahabaleshwar-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 239.23,
     "hours_to_first_review": 0.17,
     "minutes_to_first_review": 10.35
@@ -374,7 +462,11 @@
     "deletions": 8,
     "reviews": 1,
     "time_of_first_review": "2017-12-01T23:20:15Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 53.35,
     "hours_to_first_review": 53.32,
     "minutes_to_first_review": 3199.02
@@ -393,7 +485,11 @@
     "deletions": 2,
     "reviews": 1,
     "time_of_first_review": "2017-11-30T18:32:57Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 0.1,
     "hours_to_first_review": 0.06,
     "minutes_to_first_review": 3.8
@@ -412,7 +508,11 @@
     "deletions": 137,
     "reviews": 1,
     "time_of_first_review": "2018-01-25T18:15:50Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 145.61,
     "hours_to_first_review": 17.94,
     "minutes_to_first_review": 1076.15
@@ -431,7 +531,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2018-01-25T23:38:31Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 18.02,
     "hours_to_first_review": 0.53,
     "minutes_to_first_review": 31.93
@@ -450,7 +554,11 @@
     "deletions": 44,
     "reviews": 2,
     "time_of_first_review": "2018-01-26T18:52:52Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 239.22,
     "hours_to_first_review": 1.41,
     "minutes_to_first_review": 84.37
@@ -469,7 +577,11 @@
     "deletions": 93,
     "reviews": 3,
     "time_of_first_review": "2018-02-02T19:17:33Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 70.29,
     "hours_to_first_review": 64.72,
     "minutes_to_first_review": 3883.05
@@ -488,7 +600,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2018-02-05T17:40:14Z",
-    "reviewers": "\"lboyette-okta\"",
+    "reviewers": [
+      [
+        "lboyette-okta"
+      ]
+    ],
     "hours_open": 0.18,
     "hours_to_first_review": 0.01,
     "minutes_to_first_review": 0.47
@@ -507,7 +623,11 @@
     "deletions": 4,
     "reviews": 1,
     "time_of_first_review": "2018-02-05T18:17:43Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 0.08,
     "hours_to_first_review": 0.08,
     "minutes_to_first_review": 4.68
@@ -526,7 +646,11 @@
     "deletions": 4,
     "reviews": 1,
     "time_of_first_review": "2018-03-07T22:25:51Z",
-    "reviewers": "\"jmelberg-okta\"",
+    "reviewers": [
+      [
+        "jmelberg-okta"
+      ]
+    ],
     "hours_open": 20.58,
     "hours_to_first_review": 0.63,
     "minutes_to_first_review": 37.6
@@ -545,7 +669,13 @@
     "deletions": 213,
     "reviews": 12,
     "time_of_first_review": "2018-04-20T16:05:09Z",
-    "reviewers": "\"jmelberg-okta,vijetmahabaleshwar-okta,robertjd\"",
+    "reviewers": [
+      [
+        "jmelberg-okta",
+        "vijetmahabaleshwar-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 2112.3,
     "hours_to_first_review": 17.81,
     "minutes_to_first_review": 1068.57
@@ -564,7 +694,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2018-05-11T15:28:00Z",
-    "reviewers": "\"bdemers\"",
+    "reviewers": [
+      [
+        "bdemers"
+      ]
+    ],
     "hours_open": 0.17,
     "hours_to_first_review": 0.03,
     "minutes_to_first_review": 1.8
@@ -583,7 +717,14 @@
     "deletions": 788,
     "reviews": 42,
     "time_of_first_review": "2018-06-22T16:29:39Z",
-    "reviewers": "\"jmelberg-okta,bdemers,robertjd,rchild-okta\"",
+    "reviewers": [
+      [
+        "jmelberg-okta",
+        "bdemers",
+        "robertjd",
+        "rchild-okta"
+      ]
+    ],
     "hours_open": 677.15,
     "hours_to_first_review": 0.94,
     "minutes_to_first_review": 56.15
@@ -602,7 +743,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2018-07-20T21:42:21Z",
-    "reviewers": "\"jgao-okta\"",
+    "reviewers": [
+      [
+        "jgao-okta"
+      ]
+    ],
     "hours_open": 0.04,
     "hours_to_first_review": 0.01,
     "minutes_to_first_review": 0.4
@@ -621,7 +766,12 @@
     "deletions": 59,
     "reviews": 2,
     "time_of_first_review": "2018-07-20T22:54:56Z",
-    "reviewers": "\"jmelberg-okta,robertjd\"",
+    "reviewers": [
+      [
+        "jmelberg-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 27.99,
     "hours_to_first_review": 0.52,
     "minutes_to_first_review": 31.45
@@ -640,7 +790,13 @@
     "deletions": 6,
     "reviews": 7,
     "time_of_first_review": "2018-07-24T00:43:57Z",
-    "reviewers": "\"jmelberg-okta,vijetmahabaleshwar-okta,robertjd\"",
+    "reviewers": [
+      [
+        "jmelberg-okta",
+        "vijetmahabaleshwar-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 25.07,
     "hours_to_first_review": 6.91,
     "minutes_to_first_review": 414.82
@@ -659,7 +815,11 @@
     "deletions": 62,
     "reviews": 1,
     "time_of_first_review": "2018-07-25T16:03:17Z",
-    "reviewers": "\"robertdamphousse-okta\"",
+    "reviewers": [
+      [
+        "robertdamphousse-okta"
+      ]
+    ],
     "hours_open": 13.45,
     "hours_to_first_review": 13.28,
     "minutes_to_first_review": 796.73
@@ -678,7 +838,12 @@
     "deletions": 0,
     "reviews": 3,
     "time_of_first_review": "2018-07-25T17:06:49Z",
-    "reviewers": "\"jmelberg-okta,robertjd\"",
+    "reviewers": [
+      [
+        "jmelberg-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 0.4,
     "hours_to_first_review": 0.29,
     "minutes_to_first_review": 17.15
@@ -697,7 +862,12 @@
     "deletions": 3,
     "reviews": 8,
     "time_of_first_review": "2018-07-31T18:28:18Z",
-    "reviewers": "\"vijetmahabaleshwar-okta,jmelberg-okta\"",
+    "reviewers": [
+      [
+        "vijetmahabaleshwar-okta",
+        "jmelberg-okta"
+      ]
+    ],
     "hours_open": 41.05,
     "hours_to_first_review": 20.81,
     "minutes_to_first_review": 1248.67
@@ -716,7 +886,11 @@
     "deletions": 358,
     "reviews": 1,
     "time_of_first_review": "2018-07-31T22:03:38Z",
-    "reviewers": "\"jmelberg-okta\"",
+    "reviewers": [
+      [
+        "jmelberg-okta"
+      ]
+    ],
     "hours_open": 0.1,
     "hours_to_first_review": 0.04,
     "minutes_to_first_review": 2.43
@@ -735,7 +909,11 @@
     "deletions": 36,
     "reviews": 1,
     "time_of_first_review": "2018-08-02T19:55:24Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 98.21,
     "hours_to_first_review": 1.62,
     "minutes_to_first_review": 97.48
@@ -754,7 +932,11 @@
     "deletions": 14,
     "reviews": 1,
     "time_of_first_review": "2018-08-14T22:32:11Z",
-    "reviewers": "\"jmelberg-okta\"",
+    "reviewers": [
+      [
+        "jmelberg-okta"
+      ]
+    ],
     "hours_open": 0.16,
     "hours_to_first_review": 0.15,
     "minutes_to_first_review": 9.22
@@ -773,7 +955,11 @@
     "deletions": 3,
     "reviews": 1,
     "time_of_first_review": "2018-08-14T22:46:54Z",
-    "reviewers": "\"jmelberg-okta\"",
+    "reviewers": [
+      [
+        "jmelberg-okta"
+      ]
+    ],
     "hours_open": 0.11,
     "hours_to_first_review": 0.1,
     "minutes_to_first_review": 5.87
@@ -792,7 +978,12 @@
     "deletions": 37,
     "reviews": 2,
     "time_of_first_review": "2018-08-30T19:46:02Z",
-    "reviewers": "\"jmelberg-okta,robertjd\"",
+    "reviewers": [
+      [
+        "jmelberg-okta",
+        "robertjd"
+      ]
+    ],
     "hours_open": 23.69,
     "hours_to_first_review": 21.93,
     "minutes_to_first_review": 1315.62
@@ -811,7 +1002,11 @@
     "deletions": 8,
     "reviews": 1,
     "time_of_first_review": "2018-10-22T22:53:49Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 3.93,
     "hours_to_first_review": 3.91,
     "minutes_to_first_review": 234.67
@@ -830,7 +1025,11 @@
     "deletions": 2,
     "reviews": 1,
     "time_of_first_review": "2019-01-10T19:50:52Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 0.64,
     "hours_to_first_review": 0.05,
     "minutes_to_first_review": 3.27
@@ -849,7 +1048,12 @@
     "deletions": 1510,
     "reviews": 2,
     "time_of_first_review": "2019-04-02T19:37:20Z",
-    "reviewers": "\"swiftone,robertjd\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "robertjd"
+      ]
+    ],
     "hours_open": 285.82,
     "hours_to_first_review": 283.89,
     "minutes_to_first_review": 17033.65
@@ -868,7 +1072,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2019-04-02T21:40:57Z",
-    "reviewers": "\"aarongranick-okta\"",
+    "reviewers": [
+      [
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 1.19,
     "hours_to_first_review": 0.66,
     "minutes_to_first_review": 39.62
@@ -887,7 +1095,11 @@
     "deletions": 1185,
     "reviews": 1,
     "time_of_first_review": "2019-04-02T21:41:15Z",
-    "reviewers": "\"aarongranick-okta\"",
+    "reviewers": [
+      [
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 0.88,
     "hours_to_first_review": 0.53,
     "minutes_to_first_review": 31.65
@@ -906,7 +1118,13 @@
     "deletions": 3,
     "reviews": 3,
     "time_of_first_review": "2019-04-02T21:38:25Z",
-    "reviewers": "\"aarongranick-okta,swiftone,robertjd\"",
+    "reviewers": [
+      [
+        "aarongranick-okta",
+        "swiftone",
+        "robertjd"
+      ]
+    ],
     "hours_open": 0.2,
     "hours_to_first_review": 0.02,
     "minutes_to_first_review": 1.05
@@ -925,7 +1143,11 @@
     "deletions": 12,
     "reviews": 1,
     "time_of_first_review": "2019-04-02T23:20:21Z",
-    "reviewers": "\"aarongranick-okta\"",
+    "reviewers": [
+      [
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 0.48,
     "hours_to_first_review": 0.06,
     "minutes_to_first_review": 3.37
@@ -944,7 +1166,11 @@
     "deletions": 4,
     "reviews": 1,
     "time_of_first_review": "2019-05-01T19:23:12Z",
-    "reviewers": "\"bretterer\"",
+    "reviewers": [
+      [
+        "bretterer"
+      ]
+    ],
     "hours_open": 0.45,
     "hours_to_first_review": 0.34,
     "minutes_to_first_review": 20.48
@@ -963,7 +1189,11 @@
     "deletions": 5,
     "reviews": 1,
     "time_of_first_review": "2019-05-03T17:47:12Z",
-    "reviewers": "\"vijetmahabaleshwar-okta\"",
+    "reviewers": [
+      [
+        "vijetmahabaleshwar-okta"
+      ]
+    ],
     "hours_open": 0.34,
     "hours_to_first_review": 0.33,
     "minutes_to_first_review": 19.95
@@ -982,7 +1212,11 @@
     "deletions": 2,
     "reviews": 1,
     "time_of_first_review": "2019-05-15T20:50:32Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 21.57,
     "hours_to_first_review": 21.54,
     "minutes_to_first_review": 1292.55
@@ -1001,7 +1235,11 @@
     "deletions": 10,
     "reviews": 1,
     "time_of_first_review": "2019-06-05T16:35:18Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 19.67,
     "hours_to_first_review": 19.65,
     "minutes_to_first_review": 1179.23
@@ -1020,7 +1258,11 @@
     "deletions": 27,
     "reviews": 1,
     "time_of_first_review": "2019-06-27T21:43:51Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 0.91,
     "hours_to_first_review": 0.3,
     "minutes_to_first_review": 18.02
@@ -1039,7 +1281,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2019-08-12T20:46:04Z",
-    "reviewers": "\"manueltanzi-okta\"",
+    "reviewers": [
+      [
+        "manueltanzi-okta"
+      ]
+    ],
     "hours_open": 0.7,
     "hours_to_first_review": 0.05,
     "minutes_to_first_review": 3.02
@@ -1058,7 +1304,11 @@
     "deletions": 42,
     "reviews": 2,
     "time_of_first_review": "2019-08-19T20:09:55Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 0.12,
     "hours_to_first_review": 0.06,
     "minutes_to_first_review": 3.52
@@ -1077,7 +1327,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2019-08-19T21:24:41Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 0.47,
     "hours_to_first_review": 0.19,
     "minutes_to_first_review": 11.12
@@ -1096,7 +1350,13 @@
     "deletions": 1706,
     "reviews": 20,
     "time_of_first_review": "2019-10-23T01:14:01Z",
-    "reviewers": "\"swiftone,bretterer,laura-rodriguez\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "bretterer",
+        "laura-rodriguez"
+      ]
+    ],
     "hours_open": 289.9,
     "hours_to_first_review": 130.82,
     "minutes_to_first_review": 7849.32
@@ -1115,7 +1375,11 @@
     "deletions": 13,
     "reviews": 1,
     "time_of_first_review": "2019-10-25T18:16:23Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 71.29,
     "hours_to_first_review": 2.35,
     "minutes_to_first_review": 140.85
@@ -1134,7 +1398,11 @@
     "deletions": 16,
     "reviews": 1,
     "time_of_first_review": "2019-12-11T16:18:34Z",
-    "reviewers": "\"bretterer\"",
+    "reviewers": [
+      [
+        "bretterer"
+      ]
+    ],
     "hours_open": 696.29,
     "hours_to_first_review": 21.19,
     "minutes_to_first_review": 1271.35
@@ -1153,7 +1421,12 @@
     "deletions": 9,
     "reviews": 3,
     "time_of_first_review": "2020-01-02T22:41:46Z",
-    "reviewers": "\"laura-rodriguez,vijetmahabaleshwar-okta\"",
+    "reviewers": [
+      [
+        "laura-rodriguez",
+        "vijetmahabaleshwar-okta"
+      ]
+    ],
     "hours_open": 18.38,
     "hours_to_first_review": 0.05,
     "minutes_to_first_review": 3.08
@@ -1172,7 +1445,11 @@
     "deletions": 2,
     "reviews": 2,
     "time_of_first_review": "2020-01-07T23:19:33Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 18.15,
     "hours_to_first_review": 0.22,
     "minutes_to_first_review": 13.42
@@ -1191,7 +1468,11 @@
     "deletions": 9420,
     "reviews": 2,
     "time_of_first_review": "2020-02-27T18:58:41Z",
-    "reviewers": "\"bretterer\"",
+    "reviewers": [
+      [
+        "bretterer"
+      ]
+    ],
     "hours_open": 43.5,
     "hours_to_first_review": 18.75,
     "minutes_to_first_review": 1124.97
@@ -1210,7 +1491,11 @@
     "deletions": 19,
     "reviews": 2,
     "time_of_first_review": "2020-08-26T06:51:42Z",
-    "reviewers": "\"vijetmahabaleshwar-okta\"",
+    "reviewers": [
+      [
+        "vijetmahabaleshwar-okta"
+      ]
+    ],
     "hours_open": 4172.12,
     "hours_to_first_review": 4136.42,
     "minutes_to_first_review": 248185.13
@@ -1229,7 +1514,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2020-03-16T17:49:33Z",
-    "reviewers": "\"bretterer\"",
+    "reviewers": [
+      [
+        "bretterer"
+      ]
+    ],
     "hours_open": 71.78,
     "hours_to_first_review": 71.64,
     "minutes_to_first_review": 4298.2
@@ -1248,7 +1537,11 @@
     "deletions": 5,
     "reviews": 2,
     "time_of_first_review": "2020-03-13T22:55:08Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 453.48,
     "hours_to_first_review": 0.18,
     "minutes_to_first_review": 10.7
@@ -1267,7 +1560,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2020-04-22T20:29:11Z",
-    "reviewers": "\"aarongranick-okta\"",
+    "reviewers": [
+      [
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 21.37,
     "hours_to_first_review": 0.17,
     "minutes_to_first_review": 10.25
@@ -1286,7 +1583,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2020-04-27T16:28:27Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 65.81,
     "hours_to_first_review": 65.79,
     "minutes_to_first_review": 3947.5
@@ -1305,7 +1606,12 @@
     "deletions": 168,
     "reviews": 5,
     "time_of_first_review": "2020-05-13T23:07:21Z",
-    "reviewers": "\"robertjd,shuowu\"",
+    "reviewers": [
+      [
+        "robertjd",
+        "shuowu"
+      ]
+    ],
     "hours_open": 625.44,
     "hours_to_first_review": 340.44,
     "minutes_to_first_review": 20426.43
@@ -1324,7 +1630,12 @@
     "deletions": 4,
     "reviews": 2,
     "time_of_first_review": "2020-05-05T05:19:51Z",
-    "reviewers": "\"robertjd,swiftone\"",
+    "reviewers": [
+      [
+        "robertjd",
+        "swiftone"
+      ]
+    ],
     "hours_open": 27.01,
     "hours_to_first_review": 9.46,
     "minutes_to_first_review": 567.57
@@ -1343,7 +1654,12 @@
     "deletions": 10,
     "reviews": 2,
     "time_of_first_review": "2020-05-07T17:21:19Z",
-    "reviewers": "\"swiftone,robertjd\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "robertjd"
+      ]
+    ],
     "hours_open": 56.85,
     "hours_to_first_review": 48.06,
     "minutes_to_first_review": 2883.3
@@ -1362,7 +1678,13 @@
     "deletions": 0,
     "reviews": 5,
     "time_of_first_review": "2020-05-07T17:24:02Z",
-    "reviewers": "\"swiftone,shuowu,robertjd\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "shuowu",
+        "robertjd"
+      ]
+    ],
     "hours_open": 378.07,
     "hours_to_first_review": 19.32,
     "minutes_to_first_review": 1159.33
@@ -1381,7 +1703,14 @@
     "deletions": 1651,
     "reviews": 8,
     "time_of_first_review": "2020-06-29T23:32:36Z",
-    "reviewers": "\"aarongranick-okta,bretterer,justinabrokwah-okta,shuowu\"",
+    "reviewers": [
+      [
+        "aarongranick-okta",
+        "bretterer",
+        "justinabrokwah-okta",
+        "shuowu"
+      ]
+    ],
     "hours_open": 1347.68,
     "hours_to_first_review": 1181.64,
     "minutes_to_first_review": 70898.68
@@ -1400,7 +1729,12 @@
     "deletions": 212,
     "reviews": 2,
     "time_of_first_review": "2020-05-12T14:49:52Z",
-    "reviewers": "\"shuowu,swiftone\"",
+    "reviewers": [
+      [
+        "shuowu",
+        "swiftone"
+      ]
+    ],
     "hours_open": 0.44,
     "hours_to_first_review": 0.01,
     "minutes_to_first_review": 0.78
@@ -1419,7 +1753,13 @@
     "deletions": 7,
     "reviews": 4,
     "time_of_first_review": "2020-05-19T18:26:22Z",
-    "reviewers": "\"swiftone,robertjd,shuowu\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "robertjd",
+        "shuowu"
+      ]
+    ],
     "hours_open": 168.64,
     "hours_to_first_review": 146.88,
     "minutes_to_first_review": 8812.85
@@ -1438,7 +1778,12 @@
     "deletions": 1,
     "reviews": 2,
     "time_of_first_review": "2020-05-19T18:24:58Z",
-    "reviewers": "\"swiftone,robertjd\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "robertjd"
+      ]
+    ],
     "hours_open": 162.66,
     "hours_to_first_review": 92.87,
     "minutes_to_first_review": 5572.28
@@ -1457,7 +1802,12 @@
     "deletions": 0,
     "reviews": 3,
     "time_of_first_review": "2020-05-21T00:55:49Z",
-    "reviewers": "\"robertjd,shuowu\"",
+    "reviewers": [
+      [
+        "robertjd",
+        "shuowu"
+      ]
+    ],
     "hours_open": 21.82,
     "hours_to_first_review": 9.18,
     "minutes_to_first_review": 550.7
@@ -1476,7 +1826,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2020-05-20T16:40:36Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 1.05,
     "hours_to_first_review": 0.85,
     "minutes_to_first_review": 51.18
@@ -1495,7 +1849,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2020-05-21T19:52:06Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 24.17,
     "hours_to_first_review": 24.15,
     "minutes_to_first_review": 1448.97
@@ -1514,7 +1872,12 @@
     "deletions": 207,
     "reviews": 2,
     "time_of_first_review": "2020-05-28T19:40:35Z",
-    "reviewers": "\"robertjd,shuowu\"",
+    "reviewers": [
+      [
+        "robertjd",
+        "shuowu"
+      ]
+    ],
     "hours_open": 1.45,
     "hours_to_first_review": 0.39,
     "minutes_to_first_review": 23.63
@@ -1533,7 +1896,11 @@
     "deletions": 33,
     "reviews": 1,
     "time_of_first_review": "2020-06-02T20:58:35Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 1.75,
     "hours_to_first_review": 1.73,
     "minutes_to_first_review": 103.93
@@ -1552,7 +1919,12 @@
     "deletions": 438,
     "reviews": 7,
     "time_of_first_review": "2020-06-02T20:52:08Z",
-    "reviewers": "\"robertjd,shuowu\"",
+    "reviewers": [
+      [
+        "robertjd",
+        "shuowu"
+      ]
+    ],
     "hours_open": 192.7,
     "hours_to_first_review": 0.32,
     "minutes_to_first_review": 19.27
@@ -1571,7 +1943,12 @@
     "deletions": 7,
     "reviews": 2,
     "time_of_first_review": "2020-06-08T21:42:57Z",
-    "reviewers": "\"shuowu,robertjd\"",
+    "reviewers": [
+      [
+        "shuowu",
+        "robertjd"
+      ]
+    ],
     "hours_open": 212.34,
     "hours_to_first_review": 0.08,
     "minutes_to_first_review": 4.77
@@ -1590,7 +1967,11 @@
     "deletions": 2,
     "reviews": 1,
     "time_of_first_review": "2020-06-11T19:24:29Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 71.57,
     "hours_to_first_review": 69.59,
     "minutes_to_first_review": 4175.47
@@ -1609,7 +1990,12 @@
     "deletions": 0,
     "reviews": 2,
     "time_of_first_review": "2020-06-11T19:16:55Z",
-    "reviewers": "\"robertjd,shuowu\"",
+    "reviewers": [
+      [
+        "robertjd",
+        "shuowu"
+      ]
+    ],
     "hours_open": 48.63,
     "hours_to_first_review": 46.02,
     "minutes_to_first_review": 2761.38
@@ -1628,7 +2014,11 @@
     "deletions": 4,
     "reviews": 1,
     "time_of_first_review": "2020-06-11T20:17:29Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 46.7,
     "hours_to_first_review": 45.62,
     "minutes_to_first_review": 2737.05
@@ -1647,7 +2037,11 @@
     "deletions": 62,
     "reviews": 1,
     "time_of_first_review": "2020-06-11T20:02:07Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 4.54,
     "hours_to_first_review": 3.22,
     "minutes_to_first_review": 193.03
@@ -1666,7 +2060,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2020-06-11T20:17:01Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 2.94,
     "hours_to_first_review": 1.88,
     "minutes_to_first_review": 112.93
@@ -1685,7 +2083,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2020-06-12T21:44:12Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 23.88,
     "hours_to_first_review": 22.66,
     "minutes_to_first_review": 1359.73
@@ -1704,7 +2106,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2020-06-12T21:44:52Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 7.5,
     "hours_to_first_review": 6.31,
     "minutes_to_first_review": 378.38
@@ -1723,7 +2129,11 @@
     "deletions": 15,
     "reviews": 1,
     "time_of_first_review": "2020-06-19T16:53:11Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 2.2,
     "hours_to_first_review": 1.73,
     "minutes_to_first_review": 104.03
@@ -1742,7 +2152,11 @@
     "deletions": 10,
     "reviews": 1,
     "time_of_first_review": "2020-06-25T05:53:45Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 42.6,
     "hours_to_first_review": 34.07,
     "minutes_to_first_review": 2044.15
@@ -1761,7 +2175,11 @@
     "deletions": 472,
     "reviews": 1,
     "time_of_first_review": "2020-06-25T15:58:33Z",
-    "reviewers": "\"robertjd\"",
+    "reviewers": [
+      [
+        "robertjd"
+      ]
+    ],
     "hours_open": 25.07,
     "hours_to_first_review": 24.94,
     "minutes_to_first_review": 1496.58
@@ -1780,7 +2198,14 @@
     "deletions": 1037,
     "reviews": 7,
     "time_of_first_review": "2020-06-25T20:46:32Z",
-    "reviewers": "\"justinabrokwah-okta,aarongranick-okta,swiftone,shuowu\"",
+    "reviewers": [
+      [
+        "justinabrokwah-okta",
+        "aarongranick-okta",
+        "swiftone",
+        "shuowu"
+      ]
+    ],
     "hours_open": 96.51,
     "hours_to_first_review": 2.86,
     "minutes_to_first_review": 171.6
@@ -1799,7 +2224,11 @@
     "deletions": 22432,
     "reviews": 1,
     "time_of_first_review": "2020-06-30T17:02:23Z",
-    "reviewers": "\"aarongranick-okta\"",
+    "reviewers": [
+      [
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 202.17,
     "hours_to_first_review": 1.1,
     "minutes_to_first_review": 65.98
@@ -1818,7 +2247,11 @@
     "deletions": 3,
     "reviews": 1,
     "time_of_first_review": "2020-07-07T22:18:15Z",
-    "reviewers": "\"vijetmahabaleshwar-okta\"",
+    "reviewers": [
+      [
+        "vijetmahabaleshwar-okta"
+      ]
+    ],
     "hours_open": 1.58,
     "hours_to_first_review": 0.59,
     "minutes_to_first_review": 35.12
@@ -1837,7 +2270,11 @@
     "deletions": 2,
     "reviews": 1,
     "time_of_first_review": "2020-07-09T16:18:55Z",
-    "reviewers": "\"shuowu\"",
+    "reviewers": [
+      [
+        "shuowu"
+      ]
+    ],
     "hours_open": 9.49,
     "hours_to_first_review": 9.47,
     "minutes_to_first_review": 567.98
@@ -1856,7 +2293,12 @@
     "deletions": 27,
     "reviews": 2,
     "time_of_first_review": "2020-07-10T16:04:43Z",
-    "reviewers": "\"shuowu,vijetmahabaleshwar-okta\"",
+    "reviewers": [
+      [
+        "shuowu",
+        "vijetmahabaleshwar-okta"
+      ]
+    ],
     "hours_open": 0.83,
     "hours_to_first_review": 0.05,
     "minutes_to_first_review": 2.7
@@ -1875,7 +2317,12 @@
     "deletions": 25,
     "reviews": 2,
     "time_of_first_review": "2020-07-21T16:38:43Z",
-    "reviewers": "\"shuowu,shuowu-okta\"",
+    "reviewers": [
+      [
+        "shuowu",
+        "shuowu-okta"
+      ]
+    ],
     "hours_open": 18.45,
     "hours_to_first_review": 18.28,
     "minutes_to_first_review": 1096.58
@@ -1894,7 +2341,13 @@
     "deletions": 4,
     "reviews": 4,
     "time_of_first_review": "2020-07-27T19:37:30Z",
-    "reviewers": "\"vijetmahabaleshwar-okta,aarongranick-okta,shuowu\"",
+    "reviewers": [
+      [
+        "vijetmahabaleshwar-okta",
+        "aarongranick-okta",
+        "shuowu"
+      ]
+    ],
     "hours_open": 22.27,
     "hours_to_first_review": 0.8,
     "minutes_to_first_review": 47.97
@@ -1913,7 +2366,13 @@
     "deletions": 31,
     "reviews": 4,
     "time_of_first_review": "2020-07-30T22:45:17Z",
-    "reviewers": "\"swiftone,vijetmahabaleshwar-okta,shuowu-okta\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "vijetmahabaleshwar-okta",
+        "shuowu-okta"
+      ]
+    ],
     "hours_open": 19.69,
     "hours_to_first_review": 0.43,
     "minutes_to_first_review": 25.97
@@ -1932,7 +2391,11 @@
     "deletions": 3,
     "reviews": 1,
     "time_of_first_review": "2020-09-04T17:06:06Z",
-    "reviewers": "\"shuowu-okta\"",
+    "reviewers": [
+      [
+        "shuowu-okta"
+      ]
+    ],
     "hours_open": 743.68,
     "hours_to_first_review": 743.68,
     "minutes_to_first_review": 44620.57
@@ -1951,7 +2414,11 @@
     "deletions": 6,
     "reviews": 1,
     "time_of_first_review": "2020-08-10T16:34:10Z",
-    "reviewers": "\"shuowu-okta\"",
+    "reviewers": [
+      [
+        "shuowu-okta"
+      ]
+    ],
     "hours_open": 113.78,
     "hours_to_first_review": 113.76,
     "minutes_to_first_review": 6825.58
@@ -1970,7 +2437,12 @@
     "deletions": 3,
     "reviews": 3,
     "time_of_first_review": "2020-08-11T21:33:10Z",
-    "reviewers": "\"swiftone,aarongranick-okta\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 572.61,
     "hours_to_first_review": 0.08,
     "minutes_to_first_review": 4.82
@@ -1989,7 +2461,12 @@
     "deletions": 1,
     "reviews": 3,
     "time_of_first_review": "2020-08-17T20:55:56Z",
-    "reviewers": "\"swiftone,vijetmahabaleshwar-okta\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "vijetmahabaleshwar-okta"
+      ]
+    ],
     "hours_open": 2.76,
     "hours_to_first_review": 0.92,
     "minutes_to_first_review": 55.32
@@ -2008,7 +2485,11 @@
     "deletions": 9,
     "reviews": 1,
     "time_of_first_review": "2020-08-18T16:55:44Z",
-    "reviewers": "\"shuowu\"",
+    "reviewers": [
+      [
+        "shuowu"
+      ]
+    ],
     "hours_open": 5.62,
     "hours_to_first_review": 1.07,
     "minutes_to_first_review": 64.45
@@ -2027,7 +2508,11 @@
     "deletions": 0,
     "reviews": 1,
     "time_of_first_review": "2020-08-19T05:25:49Z",
-    "reviewers": "\"shuowu\"",
+    "reviewers": [
+      [
+        "shuowu"
+      ]
+    ],
     "hours_open": 1416.61,
     "hours_to_first_review": 7.53,
     "minutes_to_first_review": 451.85
@@ -2046,7 +2531,7 @@
     "deletions": 6,
     "reviews": 0,
     "time_of_first_review": "",
-    "reviewers": "",
+    "reviewers": [],
     "hours_open": 1.96,
     "hours_to_first_review": 0,
     "minutes_to_first_review": 0
@@ -2065,7 +2550,11 @@
     "deletions": 28,
     "reviews": 1,
     "time_of_first_review": "2020-10-09T16:07:36Z",
-    "reviewers": "\"vijetmahabaleshwar-okta\"",
+    "reviewers": [
+      [
+        "vijetmahabaleshwar-okta"
+      ]
+    ],
     "hours_open": 207.8,
     "hours_to_first_review": 70.11,
     "minutes_to_first_review": 4206.87
@@ -2084,7 +2573,11 @@
     "deletions": 10,
     "reviews": 1,
     "time_of_first_review": "2020-10-08T16:37:38Z",
-    "reviewers": "\"shuowu\"",
+    "reviewers": [
+      [
+        "shuowu"
+      ]
+    ],
     "hours_open": 19.02,
     "hours_to_first_review": 13.75,
     "minutes_to_first_review": 824.82
@@ -2103,7 +2596,11 @@
     "deletions": 120,
     "reviews": 2,
     "time_of_first_review": "2020-10-09T20:06:46Z",
-    "reviewers": "\"swiftone\"",
+    "reviewers": [
+      [
+        "swiftone"
+      ]
+    ],
     "hours_open": 119.5,
     "hours_to_first_review": 27.77,
     "minutes_to_first_review": 1665.95
@@ -2122,7 +2619,11 @@
     "deletions": 1,
     "reviews": 1,
     "time_of_first_review": "2020-10-08T18:30:06Z",
-    "reviewers": "\"shuowu\"",
+    "reviewers": [
+      [
+        "shuowu"
+      ]
+    ],
     "hours_open": 194.87,
     "hours_to_first_review": 0.19,
     "minutes_to_first_review": 11.1
@@ -2141,7 +2642,11 @@
     "deletions": 37,
     "reviews": 1,
     "time_of_first_review": "2020-10-16T18:25:24Z",
-    "reviewers": "\"aarongranick-okta\"",
+    "reviewers": [
+      [
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 22.39,
     "hours_to_first_review": 22.39,
     "minutes_to_first_review": 1343.15
@@ -2160,7 +2665,11 @@
     "deletions": 4,
     "reviews": 1,
     "time_of_first_review": "2020-11-11T19:36:31Z",
-    "reviewers": "\"aarongranick-okta\"",
+    "reviewers": [
+      [
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 119.64,
     "hours_to_first_review": 2.33,
     "minutes_to_first_review": 140.05
@@ -2179,7 +2688,13 @@
     "deletions": 33,
     "reviews": 5,
     "time_of_first_review": "2021-02-18T17:28:42Z",
-    "reviewers": "\"swiftone,oleksandrpravosudko-okta,aarongranick-okta\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "oleksandrpravosudko-okta",
+        "aarongranick-okta"
+      ]
+    ],
     "hours_open": 190.94,
     "hours_to_first_review": 51.46,
     "minutes_to_first_review": 3087.58
@@ -2198,7 +2713,13 @@
     "deletions": 520,
     "reviews": 4,
     "time_of_first_review": "2021-03-04T19:42:05Z",
-    "reviewers": "\"swiftone,oleksandrpravosudko-okta,shuowu\"",
+    "reviewers": [
+      [
+        "swiftone",
+        "oleksandrpravosudko-okta",
+        "shuowu"
+      ]
+    ],
     "hours_open": 573.3,
     "hours_to_first_review": 388.31,
     "minutes_to_first_review": 23298.53
@@ -2217,7 +2738,7 @@
     "deletions": 84,
     "reviews": 0,
     "time_of_first_review": "",
-    "reviewers": "",
+    "reviewers": [],
     "hours_open": 262.25,
     "hours_to_first_review": 0,
     "minutes_to_first_review": 0
@@ -2236,7 +2757,12 @@
     "deletions": 238,
     "reviews": 4,
     "time_of_first_review": "2021-03-09T16:57:52Z",
-    "reviewers": "\"shuowu,oleksandrpravosudko-okta\"",
+    "reviewers": [
+      [
+        "shuowu",
+        "oleksandrpravosudko-okta"
+      ]
+    ],
     "hours_open": 68.72,
     "hours_to_first_review": 0.54,
     "minutes_to_first_review": 32.27

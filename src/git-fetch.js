@@ -28,7 +28,7 @@ function normalize(org, repo, data) {
       deletions: d.deletions,
       reviews: d.reviews.totalCount,
       time_of_first_review: (d.reviews.totalCount > 0) ? d.reviews.nodes[0].publishedAt : '',
-      reviewers: (d.reviews.totalCount > 0) ? `"${uniq(d.reviews.nodes.map(r => r.author ? r.author.login : '')).join(',')}"` : '',
+      reviewers: (d.reviews.totalCount > 0) ? [uniq(d.reviews.nodes.map(r => r.author ? r.author.login : ''))] : [],
       hours_open: getTimeDiffInHours(d.createdAt, d.mergedAt),
       hours_to_first_review: (d.reviews.totalCount > 0) ? getTimeDiffInHours(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
       minutes_to_first_review: (d.reviews.totalCount > 0) ? getTimeDiffInMinutes(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,

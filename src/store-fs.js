@@ -67,11 +67,18 @@ function persistAsJSON(root, org, repo, out) {
   persistJSONFile(getFilePath(root, org, repo, "json"), out)
 }
 
-function persistCSVFile(filePath, out) {
-  const fileContents = Object.keys(out[0]) + '\n' + out.map(d => Object.values(d).join(',')).join('\n')
+function persistCSVFile(filePath, items) {
+  const replacer = (key, value) => value === null ? '' : value // specify how you want to handle null values here
+  const header = Object.keys(items[0])
+  const csv = [
+    header.join(','), // header row first
+    ...items.map(row => header.map(fieldName => JSON.stringify(row[fieldName], replacer)).join(','))
+  ].join('\r\n')
+
+  //const fileContents = Object.keys(out[0]) + '\n' + out.map(d => Object.values(d).join(',')).join('\n')
 
   try {
-    fs.writeFileSync(filePath, fileContents)
+    fs.writeFileSync(filePath, csv)
   } catch (e) {
     console.log("Error writing file", e)
   }
