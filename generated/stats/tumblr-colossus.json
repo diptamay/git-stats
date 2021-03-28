@@ -10,5 +10,10 @@
   "hours_open_no_review_p50": 21.56,
   "hours_open_in_review_p50": 54.28,
   "hours_to_first_review_p50": 2.41,
-  "minutes_to_first_review_p50": 144.68
+  "minutes_to_first_review_p50": 144.68,
+  "hours_open_p90": 190.24,
+  "hours_open_no_review_p90": 169.55,
+  "hours_open_in_review_p90": 239.12,
+  "hours_to_first_review_p90": 75.22,
+  "minutes_to_first_review_p90": 4513.25
 }

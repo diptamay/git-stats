@@ -10,7 +10,9 @@ function getFilePath(root, org, repo, extn) {
   if (!fs.existsSync(path.join(`${GENERATED_DIR}`, `${root}`))) {
     fs.mkdirSync(path.join(`${GENERATED_DIR}`, `${root}`))
   }
-  return path.join(`${GENERATED_DIR}`, `${root}`, `${org}-${repo}.${extn}`)
+  const fPath = path.join(`${GENERATED_DIR}`, `${root}`, `${org}-${repo}.${extn}`)
+  console.log(fPath)
+  return fPath
 }
 
 function readJSON(filePath, callback) {

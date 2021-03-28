@@ -20,9 +20,11 @@ async function main() {
       if (source === "github") {
         gitStats(token, org, repo, 25, 100).then(
           (data) => {
+            console.log("Writing data")
             persistAsCSV(DATA_DIR, org, repo, data)
             persistAsJSON(DATA_DIR, org, repo, data)
 
+            console.log("Writing repo stats")
             let stats = calculateRepoStats(org, repo, data)
             persistAsJSON(STATS_DIR, org, repo, stats)
           })

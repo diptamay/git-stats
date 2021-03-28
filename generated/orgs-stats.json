@@ -1,20 +1,6 @@
 [
   {
     "org": "tumblr",
-    "repo": "collins",
-    "hours_open_avg": 422.25,
-    "hours_open_no_review_avg": 309.88,
-    "hours_open_in_review_avg": 958.31,
-    "hours_to_first_review_avg": 72.18,
-    "minutes_to_first_review_avg": 4330.66,
-    "hours_open_p50": 45.77,
-    "hours_open_no_review_p50": 29.86,
-    "hours_open_in_review_p50": 153.84,
-    "hours_to_first_review_p50": 12.29,
-    "minutes_to_first_review_p50": 737.27
-  },
-  {
-    "org": "tumblr",
     "repo": "colossus",
     "hours_open_avg": 100.39,
     "hours_open_no_review_avg": 82.75,
@@ -25,7 +11,31 @@
     "hours_open_no_review_p50": 21.56,
     "hours_open_in_review_p50": 54.28,
     "hours_to_first_review_p50": 2.41,
-    "minutes_to_first_review_p50": 144.68
+    "minutes_to_first_review_p50": 144.68,
+    "hours_open_p90": 190.24,
+    "hours_open_no_review_p90": 169.55,
+    "hours_open_in_review_p90": 239.12,
+    "hours_to_first_review_p90": 75.22,
+    "minutes_to_first_review_p90": 4513.25
+  },
+  {
+    "org": "tumblr",
+    "repo": "collins",
+    "hours_open_avg": 422.25,
+    "hours_open_no_review_avg": 309.88,
+    "hours_open_in_review_avg": 958.31,
+    "hours_to_first_review_avg": 72.18,
+    "minutes_to_first_review_avg": 4330.66,
+    "hours_open_p50": 45.77,
+    "hours_open_no_review_p50": 29.86,
+    "hours_open_in_review_p50": 153.84,
+    "hours_to_first_review_p50": 12.29,
+    "minutes_to_first_review_p50": 737.27,
+    "hours_open_p90": 712.27,
+    "hours_open_no_review_p90": 436.15,
+    "hours_open_in_review_p90": 1765.45,
+    "hours_to_first_review_p90": 196.63,
+    "minutes_to_first_review_p90": 11797.6
   },
   {
     "org": "tumblr",
@@ -39,15 +49,30 @@
     "hours_open_no_review_p50": 25.71,
     "hours_open_in_review_p50": 104.06,
     "hours_to_first_review_p50": 7.35,
-    "minutes_to_first_review_p50": 440.98
+    "minutes_to_first_review_p50": 440.98,
+    "hours_open_p90": 712.27,
+    "hours_open_no_review_p90": 436.15,
+    "hours_open_in_review_p90": 1765.45,
+    "hours_to_first_review_p90": 196.63,
+    "minutes_to_first_review_p90": 11797.6
   },
   {
     "org": "_all",
     "repo": "_all",
-    "hours_open_avg": null,
-    "hours_open_no_review_avg": null,
-    "hours_open_in_review_avg": null,
-    "hours_to_first_review_avg": null,
-    "minutes_to_first_review_avg": null
+    "hours_open_avg": 261.32,
+    "hours_open_no_review_avg": 196.32,
+    "hours_open_in_review_avg": 556.52,
+    "hours_to_first_review_avg": 75.61,
+    "minutes_to_first_review_avg": 4536.23,
+    "hours_open_p50": 34.86,
+    "hours_open_no_review_p50": 25.71,
+    "hours_open_in_review_p50": 104.06,
+    "hours_to_first_review_p50": 7.35,
+    "minutes_to_first_review_p50": 440.98,
+    "hours_open_p90": 712.27,
+    "hours_open_no_review_p90": 436.15,
+    "hours_open_in_review_p90": 1765.45,
+    "hours_to_first_review_p90": 196.63,
+    "minutes_to_first_review_p90": 11797.6
   }
 ]
