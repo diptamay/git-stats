@@ -42,6 +42,11 @@ function isDateWithin6mths(d) {
   return (days <= 183)
 }
 
+function isDateWithin1yr(d) {
+  let days = getTimeDiffInDays(d, new Date())
+  return (days <= 366)
+}
+
 function mean(values) {
   const out = sum(values) / values.length
   return roundOff(out)
@@ -140,15 +145,6 @@ function calculateDevStats(org, repo, data) {
         org: org,
         repo: repo,
 
-        total_prs: values.length,
-        total_changed_files: sum(values.map(d => d.changed_files)),
-        total_commits: sum(values.map(d => d.commits)),
-        total_additions: sum(values.map(d => d.additions)),
-        total_deletions: sum(values.map(d => d.deletions)),
-        avg_reviews_on_prs: mean(values.map(d => d.reviews)),
-        hours_open_p50: p50(values.map(d => d.hours_open)),
-        hours_open_p90: p90(values.map(d => d.hours_open)),
-
         total_6mth_prs: values.filter(d => isDateWithin6mths(d.merged_at)).length,
         total_6mth_changed_files: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.changed_files)),
         total_6mth_commits: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.commits)),
@@ -157,6 +153,24 @@ function calculateDevStats(org, repo, data) {
         avg_6mth_reviews_on_prs: mean(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.reviews)),
         hours_open_6mth_p50: p50(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.hours_open)),
         hours_open_6mth_p90: p90(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.hours_open)),
+
+        total_1yr_prs: values.filter(d => isDateWithin1yr(d.merged_at)).length,
+        total_1yr_changed_files: sum(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.changed_files)),
+        total_1yr_commits: sum(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.commits)),
+        total_1yr_additions: sum(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.additions)),
+        total_1yr_deletions: sum(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.deletions)),
+        avg_1yr_reviews_on_prs: mean(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.reviews)),
+        hours_open_1yr_p50: p50(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.hours_open)),
+        hours_open_1yr_p90: p90(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.hours_open)),
+
+        total_prs: values.length,
+        total_changed_files: sum(values.map(d => d.changed_files)),
+        total_commits: sum(values.map(d => d.commits)),
+        total_additions: sum(values.map(d => d.additions)),
+        total_deletions: sum(values.map(d => d.deletions)),
+        avg_reviews_on_prs: mean(values.map(d => d.reviews)),
+        hours_open_p50: p50(values.map(d => d.hours_open)),
+        hours_open_p90: p90(values.map(d => d.hours_open)),
       }
     ))
     .value()
@@ -165,20 +179,14 @@ function calculateDevStats(org, repo, data) {
 }
 
 function aggregateDevStats(data) {
-  let grouped = chain(data.flat())
+  let input = data.flat()
+  let grouped = chain(input)
     .groupBy(x => x.author)
     .map((values, key) => (
       {
         author: key,
-
-        total_prs: sum(values.map(d => d.total_prs)),
-        total_changed_files: sum(values.map(d => d.total_changed_files)),
-        total_commits: sum(values.map(d => d.total_commits)),
-        total_additions: sum(values.map(d => d.total_additions)),
-        total_deletions: sum(values.map(d => d.total_deletions)),
-        avg_reviews_on_prs: mean(values.map(d => d.avg_reviews_on_prs)),
-        hours_open_p50: p50(values.map(d => d.hours_open_p50)),
-        hours_open_p90: p90(values.map(d => d.hours_open_p90)),
+        org: "_all",
+        repo: "_all",
 
         total_6mth_prs: sum(values.map(d => d.total_6mth_prs)),
         total_6mth_changed_files: sum(values.map(d => d.total_6mth_changed_files)),
@@ -188,10 +196,29 @@ function aggregateDevStats(data) {
         avg_6mth_reviews_on_prs: mean(values.map(d => d.avg_6mth_reviews_on_prs)),
         hours_open_6mth_p50: p50(values.map(d => d.hours_open_6mth_p50)),
         hours_open_6mth_p90: p90(values.map(d => d.hours_open_6mth_p90)),
+
+        total_1yr_prs: sum(values.map(d => d.total_1yr_prs)),
+        total_1yr_changed_files: sum(values.map(d => d.total_1yr_changed_files)),
+        total_1yr_commits: sum(values.map(d => d.total_1yr_commits)),
+        total_1yr_additions: sum(values.map(d => d.total_1yr_additions)),
+        total_1yr_deletions: sum(values.map(d => d.total_1yr_deletions)),
+        avg_1yr_reviews_on_prs: mean(values.map(d => d.avg_1yr_reviews_on_prs)),
+        hours_open_1yr_p50: p50(values.map(d => d.hours_open_1yr_p50)),
+        hours_open_1yr_p90: p90(values.map(d => d.hours_open_1yr_p90)),
+
+        total_prs: sum(values.map(d => d.total_prs)),
+        total_changed_files: sum(values.map(d => d.total_changed_files)),
+        total_commits: sum(values.map(d => d.total_commits)),
+        total_additions: sum(values.map(d => d.total_additions)),
+        total_deletions: sum(values.map(d => d.total_deletions)),
+        avg_reviews_on_prs: mean(values.map(d => d.avg_reviews_on_prs)),
+        hours_open_p50: p50(values.map(d => d.hours_open_p50)),
+        hours_open_p90: p90(values.map(d => d.hours_open_p90)),
       }
     ))
     .value()
-  return grouped
+  let out = chain(input.concat(grouped)).sortBy(x => x.author).value()
+  return out
 }
 
 module.exports = {calculateRepoStats, calculateOrgStats, calculateDevStats, aggregateDevStats}

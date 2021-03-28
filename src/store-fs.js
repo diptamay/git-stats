@@ -10,9 +10,7 @@ function getFilePath(root, org, repo, extn) {
   if (!fs.existsSync(path.join(`${GENERATED_DIR}`, `${root}`))) {
     fs.mkdirSync(path.join(`${GENERATED_DIR}`, `${root}`))
   }
-  const fPath = path.join(`${GENERATED_DIR}`, `${root}`, `${org}-${repo}.${extn}`)
-  console.log(fPath)
-  return fPath
+  return path.join(`${GENERATED_DIR}`, `${root}`, `${org}-${repo}.${extn}`)
 }
 
 function readJSON(filePath, callback) {
@@ -70,8 +68,7 @@ function persistAsJSON(root, org, repo, out) {
 }
 
 function persistCSVFile(filePath, out) {
-  const fileContents =
-    Object.keys(out[0]) + '\n' + out.map(d => Object.values(d).join(',')).join('\n')
+  const fileContents = Object.keys(out[0]) + '\n' + out.map(d => Object.values(d).join(',')).join('\n')
 
   try {
     fs.writeFileSync(filePath, fileContents)
