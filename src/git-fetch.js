@@ -22,16 +22,18 @@ function normalize(org, repo, data) {
       author: d.author ? d.author.login : '',
       created_at: d.createdAt,
       merged_at: d.mergedAt,
+      base_branch: d.baseRefName,
+      head_branch: d.headRefName,
       changed_files: d.changedFiles,
       commits: d.commits.totalCount,
       additions: d.additions,
       deletions: d.deletions,
       reviews: d.reviews.totalCount,
-      time_of_first_review: (d.reviews.totalCount > 0) ? d.reviews.nodes[0].publishedAt : '',
-      reviewers: (d.reviews.totalCount > 0) ? [uniq(d.reviews.nodes.map(r => r.author ? r.author.login : ''))] : [],
-      hours_open: getTimeDiffInHours(d.createdAt, d.mergedAt),
-      hours_to_first_review: (d.reviews.totalCount > 0) ? getTimeDiffInHours(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
-      minutes_to_first_review: (d.reviews.totalCount > 0) ? getTimeDiffInMinutes(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
+      time_of_1st_review: (d.reviews.totalCount > 0) ? d.reviews.nodes[0].publishedAt : '',
+      reviewers: (d.reviews.totalCount > 0) ? uniq(d.reviews.nodes.map(r => r.author ? r.author.login : '')) : [],
+      hrs_open: getTimeDiffInHours(d.createdAt, d.mergedAt),
+      hrs_to_1st_review: (d.reviews.totalCount > 0) ? getTimeDiffInHours(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
+      mins_to_1st_review: (d.reviews.totalCount > 0) ? getTimeDiffInMinutes(d.createdAt, d.reviews.nodes[0].publishedAt) : 0,
     }))
   return out
 }
@@ -54,6 +56,8 @@ function getQuery(org, repo, prLimit, internalLimit, pagination = '') {
           author {
             login
           }
+          baseRefName
+          headRefName
           changedFiles
           additions
           deletions

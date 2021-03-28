@@ -7,16 +7,18 @@
     "author": "joelfranusic-okta",
     "created_at": "2015-01-17T00:28:18Z",
     "merged_at": "2015-02-23T23:49:10Z",
+    "base_branch": "master",
+    "head_branch": "master",
     "changed_files": 5,
     "commits": 6,
     "additions": 80,
     "deletions": 7,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 911.35,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 911.35,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -26,16 +28,18 @@
     "author": "dbrownx",
     "created_at": "2015-01-23T22:15:04Z",
     "merged_at": "2015-01-23T23:02:43Z",
+    "base_branch": "master",
+    "head_branch": "FixedAppSerialization",
     "changed_files": 4,
     "commits": 1,
     "additions": 29,
     "deletions": 2,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.79,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.79,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -45,16 +49,18 @@
     "author": "Rus7am",
     "created_at": "2015-02-26T20:02:23Z",
     "merged_at": "2015-02-28T00:56:40Z",
+    "base_branch": "master",
+    "head_branch": "Rus7am",
     "changed_files": 2,
     "commits": 1,
     "additions": 8,
     "deletions": 4,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 28.9,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 28.9,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -64,16 +70,18 @@
     "author": "cbarbara-okta",
     "created_at": "2015-11-20T21:23:47Z",
     "merged_at": "2015-11-20T21:24:06Z",
+    "base_branch": "master",
+    "head_branch": "master",
     "changed_files": 14,
     "commits": 1,
     "additions": 215,
     "deletions": 3,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.01,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.01,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -83,16 +91,18 @@
     "author": "marksztainbok-okta",
     "created_at": "2016-02-11T20:25:18Z",
     "merged_at": "2016-02-16T22:24:01Z",
+    "base_branch": "master",
+    "head_branch": "misc-fixes-mark.sztainbok",
     "changed_files": 86,
     "commits": 1,
     "additions": 1310,
     "deletions": 1620,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 121.98,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 121.98,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -102,21 +112,21 @@
     "author": "raphaellondner-okta",
     "created_at": "2016-11-22T00:05:02Z",
     "merged_at": "2016-12-12T18:48:27Z",
+    "base_branch": "master",
+    "head_branch": "ps-sroka-modules-merge",
     "changed_files": 26,
     "commits": 6,
     "additions": 1182,
     "deletions": 279,
     "reviews": 5,
-    "time_of_first_review": "2016-11-29T00:53:51Z",
+    "time_of_1st_review": "2016-11-29T00:53:51Z",
     "reviewers": [
-      [
-        "marksztainbok-okta",
-        "raphaellondner-okta"
-      ]
+      "marksztainbok-okta",
+      "raphaellondner-okta"
     ],
-    "hours_open": 498.72,
-    "hours_to_first_review": 168.81,
-    "minutes_to_first_review": 10128.82
+    "hrs_open": 498.72,
+    "hrs_to_1st_review": 168.81,
+    "mins_to_1st_review": 10128.82
   },
   {
     "org": "okta",
@@ -126,21 +136,21 @@
     "author": "raphaellondner-okta",
     "created_at": "2016-12-12T22:27:36Z",
     "merged_at": "2016-12-13T23:46:48Z",
+    "base_branch": "master",
+    "head_branch": "rl-version-upgrade",
     "changed_files": 13,
     "commits": 2,
     "additions": 115,
     "deletions": 79,
     "reviews": 4,
-    "time_of_first_review": "2016-12-12T22:49:02Z",
+    "time_of_1st_review": "2016-12-12T22:49:02Z",
     "reviewers": [
-      [
-        "rchild-okta",
-        "raphaellondner-okta"
-      ]
+      "rchild-okta",
+      "raphaellondner-okta"
     ],
-    "hours_open": 25.32,
-    "hours_to_first_review": 0.36,
-    "minutes_to_first_review": 21.43
+    "hrs_open": 25.32,
+    "hrs_to_1st_review": 0.36,
+    "mins_to_1st_review": 21.43
   },
   {
     "org": "okta",
@@ -150,23 +160,23 @@
     "author": "raphaellondner-okta",
     "created_at": "2016-12-13T00:36:25Z",
     "merged_at": "2017-01-11T18:48:12Z",
+    "base_branch": "master",
+    "head_branch": "rl-delete-user",
     "changed_files": 14,
     "commits": 6,
     "additions": 246,
     "deletions": 54,
     "reviews": 14,
-    "time_of_first_review": "2016-12-14T18:50:23Z",
+    "time_of_1st_review": "2016-12-14T18:50:23Z",
     "reviewers": [
-      [
-        "marksztainbok-okta",
-        "raphaellondner-okta",
-        "rchild-okta",
-        "yiyangli-okta"
-      ]
+      "marksztainbok-okta",
+      "raphaellondner-okta",
+      "rchild-okta",
+      "yiyangli-okta"
     ],
-    "hours_open": 714.2,
-    "hours_to_first_review": 42.23,
-    "minutes_to_first_review": 2533.97
+    "hrs_open": 714.2,
+    "hrs_to_1st_review": 42.23,
+    "mins_to_1st_review": 2533.97
   },
   {
     "org": "okta",
@@ -176,21 +186,21 @@
     "author": "raphaellondner-okta",
     "created_at": "2017-01-04T21:05:55Z",
     "merged_at": "2017-01-13T22:58:43Z",
+    "base_branch": "master",
+    "head_branch": "rl-ps-enrollfactor",
     "changed_files": 22,
     "commits": 13,
     "additions": 507,
     "deletions": 91,
     "reviews": 5,
-    "time_of_first_review": "2017-01-06T05:25:05Z",
+    "time_of_1st_review": "2017-01-06T05:25:05Z",
     "reviewers": [
-      [
-        "rchild-okta",
-        "raphaellondner-okta"
-      ]
+      "rchild-okta",
+      "raphaellondner-okta"
     ],
-    "hours_open": 217.88,
-    "hours_to_first_review": 32.32,
-    "minutes_to_first_review": 1939.17
+    "hrs_open": 217.88,
+    "hrs_to_1st_review": 32.32,
+    "mins_to_1st_review": 1939.17
   },
   {
     "org": "okta",
@@ -200,20 +210,20 @@
     "author": "lboyette-okta",
     "created_at": "2017-02-22T23:11:02Z",
     "merged_at": "2017-03-01T21:57:43Z",
+    "base_branch": "master",
+    "head_branch": "lb-remove-unnecessary-code",
     "changed_files": 2,
     "commits": 1,
     "additions": 10,
     "deletions": 57,
     "reviews": 1,
-    "time_of_first_review": "2017-02-23T01:36:27Z",
+    "time_of_1st_review": "2017-02-23T01:36:27Z",
     "reviewers": [
-      [
-        "rchild-okta"
-      ]
+      "rchild-okta"
     ],
-    "hours_open": 166.78,
-    "hours_to_first_review": 2.42,
-    "minutes_to_first_review": 145.42
+    "hrs_open": 166.78,
+    "hrs_to_1st_review": 2.42,
+    "mins_to_1st_review": 145.42
   },
   {
     "org": "okta",
@@ -223,20 +233,20 @@
     "author": "johngronberg-okta",
     "created_at": "2017-03-02T01:16:05Z",
     "merged_at": "2017-03-03T19:09:43Z",
+    "base_branch": "master",
+    "head_branch": "fix_readme",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2017-03-02T01:33:12Z",
+    "time_of_1st_review": "2017-03-02T01:33:12Z",
     "reviewers": [
-      [
-        "jmelberg-okta"
-      ]
+      "jmelberg-okta"
     ],
-    "hours_open": 41.89,
-    "hours_to_first_review": 0.29,
-    "minutes_to_first_review": 17.12
+    "hrs_open": 41.89,
+    "hrs_to_1st_review": 0.29,
+    "mins_to_1st_review": 17.12
   },
   {
     "org": "okta",
@@ -246,20 +256,20 @@
     "author": "bdemers",
     "created_at": "2017-03-03T01:00:18Z",
     "merged_at": "2017-03-03T19:12:34Z",
+    "base_branch": "master",
+    "head_branch": "OKTA-118098",
     "changed_files": 5,
     "commits": 1,
     "additions": 274,
     "deletions": 24,
     "reviews": 1,
-    "time_of_first_review": "2017-03-03T19:12:10Z",
+    "time_of_1st_review": "2017-03-03T19:12:10Z",
     "reviewers": [
-      [
-        "jmelberg-okta"
-      ]
+      "jmelberg-okta"
     ],
-    "hours_open": 18.2,
-    "hours_to_first_review": 18.2,
-    "minutes_to_first_review": 1091.87
+    "hrs_open": 18.2,
+    "hrs_to_1st_review": 18.2,
+    "mins_to_1st_review": 1091.87
   },
   {
     "org": "okta",
@@ -269,20 +279,20 @@
     "author": "jmelberg-okta",
     "created_at": "2017-03-13T18:18:08Z",
     "merged_at": "2017-03-13T22:02:03Z",
+    "base_branch": "master",
+    "head_branch": "jm-OKTA-113437-fixes-getUser-bug",
     "changed_files": 1,
     "commits": 1,
     "additions": 5,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2017-03-13T21:00:53Z",
+    "time_of_1st_review": "2017-03-13T21:00:53Z",
     "reviewers": [
-      [
-        "lboyette-okta"
-      ]
+      "lboyette-okta"
     ],
-    "hours_open": 3.73,
-    "hours_to_first_review": 2.71,
-    "minutes_to_first_review": 162.75
+    "hrs_open": 3.73,
+    "hrs_to_1st_review": 2.71,
+    "mins_to_1st_review": 162.75
   },
   {
     "org": "okta",
@@ -292,21 +302,21 @@
     "author": "jmelberg-okta",
     "created_at": "2017-03-13T22:17:40Z",
     "merged_at": "2017-03-15T21:05:15Z",
+    "base_branch": "master",
+    "head_branch": "jm-OKTA-119105-update-readme",
     "changed_files": 1,
     "commits": 3,
     "additions": 177,
     "deletions": 1,
     "reviews": 4,
-    "time_of_first_review": "2017-03-13T22:24:45Z",
+    "time_of_1st_review": "2017-03-13T22:24:45Z",
     "reviewers": [
-      [
-        "joelfranusic-okta",
-        "lboyette-okta"
-      ]
+      "joelfranusic-okta",
+      "lboyette-okta"
     ],
-    "hours_open": 46.79,
-    "hours_to_first_review": 0.12,
-    "minutes_to_first_review": 7.08
+    "hrs_open": 46.79,
+    "hrs_to_1st_review": 0.12,
+    "mins_to_1st_review": 7.08
   },
   {
     "org": "okta",
@@ -316,21 +326,21 @@
     "author": "jmelberg-okta",
     "created_at": "2017-03-27T21:13:14Z",
     "merged_at": "2017-03-29T21:12:41Z",
+    "base_branch": "master",
+    "head_branch": "jm-OKTA-120424-fixes-getList-deserialization",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2017-03-27T23:31:34Z",
+    "time_of_1st_review": "2017-03-27T23:31:34Z",
     "reviewers": [
-      [
-        "nbarbettini",
-        "lboyette-okta"
-      ]
+      "nbarbettini",
+      "lboyette-okta"
     ],
-    "hours_open": 47.99,
-    "hours_to_first_review": 2.31,
-    "minutes_to_first_review": 138.33
+    "hrs_open": 47.99,
+    "hrs_to_1st_review": 2.31,
+    "mins_to_1st_review": 138.33
   },
   {
     "org": "okta",
@@ -340,21 +350,21 @@
     "author": "jmelberg-okta",
     "created_at": "2017-04-12T23:04:49Z",
     "merged_at": "2017-04-17T20:29:17Z",
+    "base_branch": "master",
+    "head_branch": "jm-OKTA-119500-fixes-hal-links",
     "changed_files": 1,
     "commits": 1,
     "additions": 18,
     "deletions": 6,
     "reviews": 6,
-    "time_of_first_review": "2017-04-12T23:53:37Z",
+    "time_of_1st_review": "2017-04-12T23:53:37Z",
     "reviewers": [
-      [
-        "lboyette-okta",
-        "nbarbettini"
-      ]
+      "lboyette-okta",
+      "nbarbettini"
     ],
-    "hours_open": 117.41,
-    "hours_to_first_review": 0.81,
-    "minutes_to_first_review": 48.8
+    "hrs_open": 117.41,
+    "hrs_to_1st_review": 0.81,
+    "mins_to_1st_review": 48.8
   },
   {
     "org": "okta",
@@ -364,20 +374,20 @@
     "author": "nbarbettini",
     "created_at": "2017-04-17T22:26:13Z",
     "merged_at": "2017-04-17T22:51:58Z",
+    "base_branch": "master",
+    "head_branch": "fix-syntax",
     "changed_files": 1,
     "commits": 1,
     "additions": 5,
     "deletions": 5,
     "reviews": 1,
-    "time_of_first_review": "2017-04-17T22:49:45Z",
+    "time_of_1st_review": "2017-04-17T22:49:45Z",
     "reviewers": [
-      [
-        "lboyette-okta"
-      ]
+      "lboyette-okta"
     ],
-    "hours_open": 0.43,
-    "hours_to_first_review": 0.39,
-    "minutes_to_first_review": 23.53
+    "hrs_open": 0.43,
+    "hrs_to_1st_review": 0.39,
+    "mins_to_1st_review": 23.53
   },
   {
     "org": "okta",
@@ -387,20 +397,20 @@
     "author": "nbarbettini",
     "created_at": "2017-04-17T23:14:19Z",
     "merged_at": "2017-04-17T23:24:22Z",
+    "base_branch": "master",
+    "head_branch": "add-tryget",
     "changed_files": 1,
     "commits": 1,
     "additions": 13,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2017-04-17T23:18:48Z",
+    "time_of_1st_review": "2017-04-17T23:18:48Z",
     "reviewers": [
-      [
-        "jmelberg-okta"
-      ]
+      "jmelberg-okta"
     ],
-    "hours_open": 0.17,
-    "hours_to_first_review": 0.07,
-    "minutes_to_first_review": 4.48
+    "hrs_open": 0.17,
+    "hrs_to_1st_review": 0.07,
+    "mins_to_1st_review": 4.48
   },
   {
     "org": "okta",
@@ -410,21 +420,21 @@
     "author": "nbarbettini",
     "created_at": "2017-06-13T22:11:22Z",
     "merged_at": "2017-06-17T01:43:10Z",
+    "base_branch": "master",
+    "head_branch": "mvp",
     "changed_files": 235,
     "commits": 4,
     "additions": 4689,
     "deletions": 11845,
     "reviews": 6,
-    "time_of_first_review": "2017-06-16T21:32:16Z",
+    "time_of_1st_review": "2017-06-16T21:32:16Z",
     "reviewers": [
-      [
-        "jmelberg-okta",
-        "nbarbettini"
-      ]
+      "jmelberg-okta",
+      "nbarbettini"
     ],
-    "hours_open": 75.53,
-    "hours_to_first_review": 71.35,
-    "minutes_to_first_review": 4280.9
+    "hrs_open": 75.53,
+    "hrs_to_1st_review": 71.35,
+    "mins_to_1st_review": 4280.9
   },
   {
     "org": "okta",
@@ -434,21 +444,21 @@
     "author": "nbarbettini",
     "created_at": "2017-06-17T01:45:30Z",
     "merged_at": "2017-06-22T00:43:52Z",
+    "base_branch": "master",
+    "head_branch": "mvp-newerer-generator",
     "changed_files": 68,
     "commits": 1,
     "additions": 2914,
     "deletions": 72,
     "reviews": 2,
-    "time_of_first_review": "2017-06-21T23:34:39Z",
+    "time_of_1st_review": "2017-06-21T23:34:39Z",
     "reviewers": [
-      [
-        "jmelberg-okta",
-        "nbarbettini"
-      ]
+      "jmelberg-okta",
+      "nbarbettini"
     ],
-    "hours_open": 118.97,
-    "hours_to_first_review": 117.82,
-    "minutes_to_first_review": 7069.15
+    "hrs_open": 118.97,
+    "hrs_to_1st_review": 117.82,
+    "mins_to_1st_review": 7069.15
   },
   {
     "org": "okta",
@@ -458,20 +468,20 @@
     "author": "nbarbettini",
     "created_at": "2017-06-22T01:06:35Z",
     "merged_at": "2017-06-22T18:51:54Z",
+    "base_branch": "master",
+    "head_branch": "add-third-party-notices",
     "changed_files": 1,
     "commits": 1,
     "additions": 831,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2017-06-22T18:51:21Z",
+    "time_of_1st_review": "2017-06-22T18:51:21Z",
     "reviewers": [
-      [
-        "rchild-okta"
-      ]
+      "rchild-okta"
     ],
-    "hours_open": 17.76,
-    "hours_to_first_review": 17.75,
-    "minutes_to_first_review": 1064.77
+    "hrs_open": 17.76,
+    "hrs_to_1st_review": 17.75,
+    "mins_to_1st_review": 1064.77
   },
   {
     "org": "okta",
@@ -481,21 +491,21 @@
     "author": "nbarbettini",
     "created_at": "2017-06-22T18:04:56Z",
     "merged_at": "2017-06-22T20:28:05Z",
+    "base_branch": "master",
+    "head_branch": "44-configuration",
     "changed_files": 7,
     "commits": 1,
     "additions": 145,
     "deletions": 82,
     "reviews": 2,
-    "time_of_first_review": "2017-06-22T19:08:44Z",
+    "time_of_1st_review": "2017-06-22T19:08:44Z",
     "reviewers": [
-      [
-        "jmelberg-okta",
-        "nbarbettini"
-      ]
+      "jmelberg-okta",
+      "nbarbettini"
     ],
-    "hours_open": 2.39,
-    "hours_to_first_review": 1.06,
-    "minutes_to_first_review": 63.8
+    "hrs_open": 2.39,
+    "hrs_to_1st_review": 1.06,
+    "mins_to_1st_review": 63.8
   },
   {
     "org": "okta",
@@ -505,20 +515,20 @@
     "author": "nbarbettini",
     "created_at": "2017-06-27T20:27:48Z",
     "merged_at": "2017-06-27T21:48:52Z",
+    "base_branch": "master",
+    "head_branch": "spec-update",
     "changed_files": 14,
     "commits": 1,
     "additions": 260,
     "deletions": 97,
     "reviews": 1,
-    "time_of_first_review": "2017-06-27T21:46:53Z",
+    "time_of_1st_review": "2017-06-27T21:46:53Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 1.35,
-    "hours_to_first_review": 1.32,
-    "minutes_to_first_review": 79.08
+    "hrs_open": 1.35,
+    "hrs_to_1st_review": 1.32,
+    "mins_to_1st_review": 79.08
   },
   {
     "org": "okta",
@@ -528,21 +538,21 @@
     "author": "nbarbettini",
     "created_at": "2017-06-27T21:52:47Z",
     "merged_at": "2017-06-27T22:23:03Z",
+    "base_branch": "master",
+    "head_branch": "add-codedoc",
     "changed_files": 89,
     "commits": 1,
     "additions": 944,
     "deletions": 110,
     "reviews": 3,
-    "time_of_first_review": "2017-06-27T22:10:44Z",
+    "time_of_1st_review": "2017-06-27T22:10:44Z",
     "reviewers": [
-      [
-        "jmelberg-okta",
-        "nbarbettini"
-      ]
+      "jmelberg-okta",
+      "nbarbettini"
     ],
-    "hours_open": 0.5,
-    "hours_to_first_review": 0.3,
-    "minutes_to_first_review": 17.95
+    "hrs_open": 0.5,
+    "hrs_to_1st_review": 0.3,
+    "mins_to_1st_review": 17.95
   },
   {
     "org": "okta",
@@ -552,22 +562,22 @@
     "author": "nbarbettini",
     "created_at": "2017-06-27T23:18:47Z",
     "merged_at": "2017-06-30T18:40:48Z",
+    "base_branch": "master",
+    "head_branch": "75-code-cleanup",
     "changed_files": 15,
     "commits": 1,
     "additions": 87,
     "deletions": 93,
     "reviews": 3,
-    "time_of_first_review": "2017-06-30T18:15:42Z",
+    "time_of_1st_review": "2017-06-30T18:15:42Z",
     "reviewers": [
-      [
-        "jmelberg-okta",
-        "leebrandt",
-        "nbarbettini"
-      ]
+      "jmelberg-okta",
+      "leebrandt",
+      "nbarbettini"
     ],
-    "hours_open": 67.37,
-    "hours_to_first_review": 66.95,
-    "minutes_to_first_review": 4016.92
+    "hrs_open": 67.37,
+    "hrs_to_1st_review": 66.95,
+    "mins_to_1st_review": 4016.92
   },
   {
     "org": "okta",
@@ -577,20 +587,20 @@
     "author": "nbarbettini",
     "created_at": "2017-06-28T23:28:16Z",
     "merged_at": "2017-06-29T14:38:29Z",
+    "base_branch": "master",
+    "head_branch": "wip-user-tests",
     "changed_files": 23,
     "commits": 2,
     "additions": 604,
     "deletions": 22,
     "reviews": 1,
-    "time_of_first_review": "2017-06-29T14:35:05Z",
+    "time_of_1st_review": "2017-06-29T14:35:05Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 15.17,
-    "hours_to_first_review": 15.11,
-    "minutes_to_first_review": 906.82
+    "hrs_open": 15.17,
+    "hrs_to_1st_review": 15.11,
+    "mins_to_1st_review": 906.82
   },
   {
     "org": "okta",
@@ -600,20 +610,20 @@
     "author": "nbarbettini",
     "created_at": "2017-06-30T20:05:37Z",
     "merged_at": "2017-07-05T20:54:39Z",
+    "base_branch": "master",
+    "head_branch": "46-add-user-agent",
     "changed_files": 32,
     "commits": 2,
     "additions": 541,
     "deletions": 196,
     "reviews": 1,
-    "time_of_first_review": "2017-07-05T19:53:48Z",
+    "time_of_1st_review": "2017-07-05T19:53:48Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 120.82,
-    "hours_to_first_review": 119.8,
-    "minutes_to_first_review": 7188.18
+    "hrs_open": 120.82,
+    "hrs_to_1st_review": 119.8,
+    "mins_to_1st_review": 7188.18
   },
   {
     "org": "okta",
@@ -623,20 +633,20 @@
     "author": "leebrandt",
     "created_at": "2017-06-30T20:10:23Z",
     "merged_at": "2017-06-30T21:11:05Z",
+    "base_branch": "master",
+    "head_branch": "user-its",
     "changed_files": 2,
     "commits": 3,
     "additions": 52,
     "deletions": 33,
     "reviews": 1,
-    "time_of_first_review": "2017-06-30T20:15:47Z",
+    "time_of_1st_review": "2017-06-30T20:15:47Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 1.01,
-    "hours_to_first_review": 0.09,
-    "minutes_to_first_review": 5.4
+    "hrs_open": 1.01,
+    "hrs_to_1st_review": 0.09,
+    "mins_to_1st_review": 5.4
   },
   {
     "org": "okta",
@@ -646,20 +656,20 @@
     "author": "nbarbettini",
     "created_at": "2017-06-30T20:15:10Z",
     "merged_at": "2017-07-01T05:00:06Z",
+    "base_branch": "master",
+    "head_branch": "77-better-interface-docs",
     "changed_files": 27,
     "commits": 1,
     "additions": 27,
     "deletions": 27,
     "reviews": 1,
-    "time_of_first_review": "2017-06-30T21:44:19Z",
+    "time_of_1st_review": "2017-06-30T21:44:19Z",
     "reviewers": [
-      [
-        "jmelberg-okta"
-      ]
+      "jmelberg-okta"
     ],
-    "hours_open": 8.75,
-    "hours_to_first_review": 1.49,
-    "minutes_to_first_review": 89.15
+    "hrs_open": 8.75,
+    "hrs_to_1st_review": 1.49,
+    "mins_to_1st_review": 89.15
   },
   {
     "org": "okta",
@@ -669,20 +679,20 @@
     "author": "leebrandt",
     "created_at": "2017-07-05T20:44:41Z",
     "merged_at": "2017-07-05T21:20:20Z",
+    "base_branch": "master",
+    "head_branch": "84-git-password-reset-url",
     "changed_files": 1,
     "commits": 1,
     "additions": 31,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2017-07-05T21:00:37Z",
+    "time_of_1st_review": "2017-07-05T21:00:37Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 0.59,
-    "hours_to_first_review": 0.27,
-    "minutes_to_first_review": 15.93
+    "hrs_open": 0.59,
+    "hrs_to_1st_review": 0.27,
+    "mins_to_1st_review": 15.93
   },
   {
     "org": "okta",
@@ -692,20 +702,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-05T21:55:41Z",
     "merged_at": "2017-07-05T22:01:49Z",
+    "base_branch": "master",
+    "head_branch": "more-cleanup",
     "changed_files": 3,
     "commits": 2,
     "additions": 82,
     "deletions": 80,
     "reviews": 1,
-    "time_of_first_review": "2017-07-05T21:58:53Z",
+    "time_of_1st_review": "2017-07-05T21:58:53Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 0.1,
-    "hours_to_first_review": 0.05,
-    "minutes_to_first_review": 3.2
+    "hrs_open": 0.1,
+    "hrs_to_1st_review": 0.05,
+    "mins_to_1st_review": 3.2
   },
   {
     "org": "okta",
@@ -715,20 +725,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-05T22:05:30Z",
     "merged_at": "2017-07-05T22:39:26Z",
+    "base_branch": "master",
+    "head_branch": "more-its",
     "changed_files": 13,
     "commits": 5,
     "additions": 364,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2017-07-05T22:38:18Z",
+    "time_of_1st_review": "2017-07-05T22:38:18Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 0.57,
-    "hours_to_first_review": 0.55,
-    "minutes_to_first_review": 32.8
+    "hrs_open": 0.57,
+    "hrs_to_1st_review": 0.55,
+    "mins_to_1st_review": 32.8
   },
   {
     "org": "okta",
@@ -738,21 +748,21 @@
     "author": "leebrandt",
     "created_at": "2017-07-05T22:38:58Z",
     "merged_at": "2017-07-06T11:53:09Z",
+    "base_branch": "master",
+    "head_branch": "83-change-user-password",
     "changed_files": 1,
     "commits": 1,
     "additions": 38,
     "deletions": 7,
     "reviews": 4,
-    "time_of_first_review": "2017-07-05T22:41:05Z",
+    "time_of_1st_review": "2017-07-05T22:41:05Z",
     "reviewers": [
-      [
-        "nbarbettini",
-        "leebrandt"
-      ]
+      "nbarbettini",
+      "leebrandt"
     ],
-    "hours_open": 13.24,
-    "hours_to_first_review": 0.04,
-    "minutes_to_first_review": 2.12
+    "hrs_open": 13.24,
+    "hrs_to_1st_review": 0.04,
+    "mins_to_1st_review": 2.12
   },
   {
     "org": "okta",
@@ -762,20 +772,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-06T15:53:46Z",
     "merged_at": "2017-07-06T15:58:44Z",
+    "base_branch": "master",
+    "head_branch": "fix-retries",
     "changed_files": 4,
     "commits": 2,
     "additions": 28,
     "deletions": 17,
     "reviews": 1,
-    "time_of_first_review": "2017-07-06T15:58:22Z",
+    "time_of_1st_review": "2017-07-06T15:58:22Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 0.08,
-    "hours_to_first_review": 0.08,
-    "minutes_to_first_review": 4.6
+    "hrs_open": 0.08,
+    "hrs_to_1st_review": 0.08,
+    "mins_to_1st_review": 4.6
   },
   {
     "org": "okta",
@@ -785,20 +795,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-06T21:10:41Z",
     "merged_at": "2017-07-06T23:03:44Z",
+    "base_branch": "master",
+    "head_branch": "interface-review",
     "changed_files": 79,
     "commits": 27,
     "additions": 820,
     "deletions": 680,
     "reviews": 1,
-    "time_of_first_review": "2017-07-06T22:43:47Z",
+    "time_of_1st_review": "2017-07-06T22:43:47Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 1.88,
-    "hours_to_first_review": 1.55,
-    "minutes_to_first_review": 93.1
+    "hrs_open": 1.88,
+    "hrs_to_1st_review": 1.55,
+    "mins_to_1st_review": 93.1
   },
   {
     "org": "okta",
@@ -808,20 +818,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-06T23:03:23Z",
     "merged_at": "2017-07-06T23:07:34Z",
+    "base_branch": "master",
+    "head_branch": "59-add-package-info",
     "changed_files": 1,
     "commits": 2,
     "additions": 11,
     "deletions": 7,
     "reviews": 1,
-    "time_of_first_review": "2017-07-06T23:07:05Z",
+    "time_of_1st_review": "2017-07-06T23:07:05Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 0.07,
-    "hours_to_first_review": 0.06,
-    "minutes_to_first_review": 3.7
+    "hrs_open": 0.07,
+    "hrs_to_1st_review": 0.06,
+    "mins_to_1st_review": 3.7
   },
   {
     "org": "okta",
@@ -831,20 +841,20 @@
     "author": "leebrandt",
     "created_at": "2017-07-07T02:07:12Z",
     "merged_at": "2017-07-07T11:58:21Z",
+    "base_branch": "master",
+    "head_branch": "90-list-groups",
     "changed_files": 2,
     "commits": 2,
     "additions": 24,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2017-07-07T05:14:08Z",
+    "time_of_1st_review": "2017-07-07T05:14:08Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 9.85,
-    "hours_to_first_review": 3.12,
-    "minutes_to_first_review": 186.93
+    "hrs_open": 9.85,
+    "hrs_to_1st_review": 3.12,
+    "mins_to_1st_review": 186.93
   },
   {
     "org": "okta",
@@ -854,20 +864,20 @@
     "author": "leebrandt",
     "created_at": "2017-07-07T13:08:16Z",
     "merged_at": "2017-07-07T13:36:06Z",
+    "base_branch": "master",
+    "head_branch": "91-search-groups",
     "changed_files": 2,
     "commits": 1,
     "additions": 23,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2017-07-07T13:35:09Z",
+    "time_of_1st_review": "2017-07-07T13:35:09Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 0.46,
-    "hours_to_first_review": 0.45,
-    "minutes_to_first_review": 26.88
+    "hrs_open": 0.46,
+    "hrs_to_1st_review": 0.45,
+    "mins_to_1st_review": 26.88
   },
   {
     "org": "okta",
@@ -877,20 +887,20 @@
     "author": "leebrandt",
     "created_at": "2017-07-07T15:52:25Z",
     "merged_at": "2017-07-07T17:01:08Z",
+    "base_branch": "master",
+    "head_branch": "92-update-group",
     "changed_files": 2,
     "commits": 1,
     "additions": 25,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2017-07-07T17:00:11Z",
+    "time_of_1st_review": "2017-07-07T17:00:11Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 1.15,
-    "hours_to_first_review": 1.13,
-    "minutes_to_first_review": 67.77
+    "hrs_open": 1.15,
+    "hrs_to_1st_review": 1.13,
+    "mins_to_1st_review": 67.77
   },
   {
     "org": "okta",
@@ -900,20 +910,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-07T21:51:15Z",
     "merged_at": "2017-07-10T16:52:56Z",
+    "base_branch": "master",
+    "head_branch": "113-add-icon",
     "changed_files": 2,
     "commits": 1,
     "additions": 1,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2017-07-08T01:58:50Z",
+    "time_of_1st_review": "2017-07-08T01:58:50Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 67.03,
-    "hours_to_first_review": 4.13,
-    "minutes_to_first_review": 247.58
+    "hrs_open": 67.03,
+    "hrs_to_1st_review": 4.13,
+    "mins_to_1st_review": 247.58
   },
   {
     "org": "okta",
@@ -923,20 +933,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-07T21:52:54Z",
     "merged_at": "2017-07-08T00:56:10Z",
+    "base_branch": "master",
+    "head_branch": "112-add-travis-ci",
     "changed_files": 10,
     "commits": 3,
     "additions": 379,
     "deletions": 6,
     "reviews": 1,
-    "time_of_first_review": "2017-07-08T00:46:40Z",
+    "time_of_1st_review": "2017-07-08T00:46:40Z",
     "reviewers": [
-      [
-        "lboyette-okta"
-      ]
+      "lboyette-okta"
     ],
-    "hours_open": 3.05,
-    "hours_to_first_review": 2.9,
-    "minutes_to_first_review": 173.77
+    "hrs_open": 3.05,
+    "hrs_to_1st_review": 2.9,
+    "mins_to_1st_review": 173.77
   },
   {
     "org": "okta",
@@ -946,20 +956,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-07T23:43:29Z",
     "merged_at": "2017-07-08T01:06:46Z",
+    "base_branch": "master",
+    "head_branch": "add-autodocs",
     "changed_files": 7,
     "commits": 2,
     "additions": 229,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2017-07-08T00:47:47Z",
+    "time_of_1st_review": "2017-07-08T00:47:47Z",
     "reviewers": [
-      [
-        "lboyette-okta"
-      ]
+      "lboyette-okta"
     ],
-    "hours_open": 1.39,
-    "hours_to_first_review": 1.07,
-    "minutes_to_first_review": 64.3
+    "hrs_open": 1.39,
+    "hrs_to_1st_review": 1.07,
+    "mins_to_1st_review": 64.3
   },
   {
     "org": "okta",
@@ -969,20 +979,20 @@
     "author": "leebrandt",
     "created_at": "2017-07-11T00:23:51Z",
     "merged_at": "2017-07-14T20:58:30Z",
+    "base_branch": "master",
+    "head_branch": "43-update-readme",
     "changed_files": 1,
     "commits": 1,
     "additions": 109,
     "deletions": 4,
     "reviews": 3,
-    "time_of_first_review": "2017-07-11T01:03:22Z",
+    "time_of_1st_review": "2017-07-11T01:03:22Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 92.58,
-    "hours_to_first_review": 0.66,
-    "minutes_to_first_review": 39.52
+    "hrs_open": 92.58,
+    "hrs_to_1st_review": 0.66,
+    "mins_to_1st_review": 39.52
   },
   {
     "org": "okta",
@@ -992,20 +1002,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-11T01:02:23Z",
     "merged_at": "2017-07-14T16:54:31Z",
+    "base_branch": "master",
+    "head_branch": "101-clone-config",
     "changed_files": 4,
     "commits": 1,
     "additions": 48,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2017-07-13T22:32:55Z",
+    "time_of_1st_review": "2017-07-13T22:32:55Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 87.87,
-    "hours_to_first_review": 69.51,
-    "minutes_to_first_review": 4170.53
+    "hrs_open": 87.87,
+    "hrs_to_1st_review": 69.51,
+    "mins_to_1st_review": 4170.53
   },
   {
     "org": "okta",
@@ -1015,20 +1025,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-11T01:34:02Z",
     "merged_at": "2017-07-14T18:42:41Z",
+    "base_branch": "master",
+    "head_branch": "110-fix-autodocs",
     "changed_files": 3,
     "commits": 2,
     "additions": 16,
     "deletions": 16,
     "reviews": 1,
-    "time_of_first_review": "2017-07-13T19:58:15Z",
+    "time_of_1st_review": "2017-07-13T19:58:15Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 89.14,
-    "hours_to_first_review": 66.4,
-    "minutes_to_first_review": 3984.22
+    "hrs_open": 89.14,
+    "hrs_to_1st_review": 66.4,
+    "mins_to_1st_review": 3984.22
   },
   {
     "org": "okta",
@@ -1038,20 +1048,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-13T22:25:33Z",
     "merged_at": "2017-07-13T23:48:09Z",
+    "base_branch": "master",
+    "head_branch": "autodoc-with-docfx",
     "changed_files": 19,
     "commits": 2,
     "additions": 808,
     "deletions": 218,
     "reviews": 1,
-    "time_of_first_review": "2017-07-13T22:31:09Z",
+    "time_of_1st_review": "2017-07-13T22:31:09Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 1.38,
-    "hours_to_first_review": 0.09,
-    "minutes_to_first_review": 5.6
+    "hrs_open": 1.38,
+    "hrs_to_1st_review": 0.09,
+    "mins_to_1st_review": 5.6
   },
   {
     "org": "okta",
@@ -1061,20 +1071,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-14T00:14:28Z",
     "merged_at": "2017-07-14T20:26:48Z",
+    "base_branch": "master",
+    "head_branch": "127-fix-parse-error",
     "changed_files": 1,
     "commits": 1,
     "additions": 8,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2017-07-14T18:45:07Z",
+    "time_of_1st_review": "2017-07-14T18:45:07Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 20.21,
-    "hours_to_first_review": 18.51,
-    "minutes_to_first_review": 1110.65
+    "hrs_open": 20.21,
+    "hrs_to_1st_review": 18.51,
+    "mins_to_1st_review": 1110.65
   },
   {
     "org": "okta",
@@ -1084,20 +1094,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-14T16:21:55Z",
     "merged_at": "2017-07-14T18:54:39Z",
+    "base_branch": "master",
+    "head_branch": "fix-autodoc",
     "changed_files": 4,
     "commits": 3,
     "additions": 184,
     "deletions": 191,
     "reviews": 1,
-    "time_of_first_review": "2017-07-14T17:21:00Z",
+    "time_of_1st_review": "2017-07-14T17:21:00Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 2.55,
-    "hours_to_first_review": 0.98,
-    "minutes_to_first_review": 59.08
+    "hrs_open": 2.55,
+    "hrs_to_1st_review": 0.98,
+    "mins_to_1st_review": 59.08
   },
   {
     "org": "okta",
@@ -1107,20 +1117,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-14T22:03:39Z",
     "merged_at": "2017-07-14T22:15:14Z",
+    "base_branch": "master",
+    "head_branch": "109-create-user-methods",
     "changed_files": 6,
     "commits": 1,
     "additions": 242,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2017-07-14T22:08:05Z",
+    "time_of_1st_review": "2017-07-14T22:08:05Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 0.19,
-    "hours_to_first_review": 0.07,
-    "minutes_to_first_review": 4.43
+    "hrs_open": 0.19,
+    "hrs_to_1st_review": 0.07,
+    "mins_to_1st_review": 4.43
   },
   {
     "org": "okta",
@@ -1130,20 +1140,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-14T22:33:30Z",
     "merged_at": "2017-07-14T22:52:20Z",
+    "base_branch": "master",
+    "head_branch": "bump-version-alpha2",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2017-07-14T22:34:04Z",
+    "time_of_1st_review": "2017-07-14T22:34:04Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 0.31,
-    "hours_to_first_review": 0.01,
-    "minutes_to_first_review": 0.57
+    "hrs_open": 0.31,
+    "hrs_to_1st_review": 0.01,
+    "mins_to_1st_review": 0.57
   },
   {
     "org": "okta",
@@ -1153,20 +1163,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-14T23:01:35Z",
     "merged_at": "2017-07-14T23:23:16Z",
+    "base_branch": "master",
+    "head_branch": "fix-doc-deploy-tag",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2017-07-14T23:13:54Z",
+    "time_of_1st_review": "2017-07-14T23:13:54Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 0.36,
-    "hours_to_first_review": 0.21,
-    "minutes_to_first_review": 12.32
+    "hrs_open": 0.36,
+    "hrs_to_1st_review": 0.21,
+    "mins_to_1st_review": 12.32
   },
   {
     "org": "okta",
@@ -1176,20 +1186,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-14T23:23:05Z",
     "merged_at": "2017-07-17T16:10:08Z",
+    "base_branch": "master",
+    "head_branch": "fix-icon-url",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2017-07-15T00:47:41Z",
+    "time_of_1st_review": "2017-07-15T00:47:41Z",
     "reviewers": [
-      [
-        "leebrandt"
-      ]
+      "leebrandt"
     ],
-    "hours_open": 64.78,
-    "hours_to_first_review": 1.41,
-    "minutes_to_first_review": 84.6
+    "hrs_open": 64.78,
+    "hrs_to_1st_review": 1.41,
+    "mins_to_1st_review": 84.6
   },
   {
     "org": "okta",
@@ -1199,20 +1209,20 @@
     "author": "diveboatslave",
     "created_at": "2017-07-17T03:37:55Z",
     "merged_at": "2017-07-17T16:21:45Z",
+    "base_branch": "master",
+    "head_branch": "fix-deepclone-bug",
     "changed_files": 1,
     "commits": 2,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2017-07-17T16:09:38Z",
+    "time_of_1st_review": "2017-07-17T16:09:38Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 12.73,
-    "hours_to_first_review": 12.53,
-    "minutes_to_first_review": 751.72
+    "hrs_open": 12.73,
+    "hrs_to_1st_review": 12.53,
+    "mins_to_1st_review": 751.72
   },
   {
     "org": "okta",
@@ -1222,22 +1232,22 @@
     "author": "nbarbettini",
     "created_at": "2017-07-17T22:30:37Z",
     "merged_at": "2017-07-17T23:08:43Z",
+    "base_branch": "master",
+    "head_branch": "139-preserve-old-docs",
     "changed_files": 2,
     "commits": 1,
     "additions": 69,
     "deletions": 28,
     "reviews": 3,
-    "time_of_first_review": "2017-07-17T22:58:00Z",
+    "time_of_1st_review": "2017-07-17T22:58:00Z",
     "reviewers": [
-      [
-        "leebrandt",
-        "jmelberg-okta",
-        "nbarbettini"
-      ]
+      "leebrandt",
+      "jmelberg-okta",
+      "nbarbettini"
     ],
-    "hours_open": 0.64,
-    "hours_to_first_review": 0.46,
-    "minutes_to_first_review": 27.38
+    "hrs_open": 0.64,
+    "hrs_to_1st_review": 0.46,
+    "mins_to_1st_review": 27.38
   },
   {
     "org": "okta",
@@ -1247,21 +1257,21 @@
     "author": "nbarbettini",
     "created_at": "2017-07-17T22:34:41Z",
     "merged_at": "2017-07-17T23:45:39Z",
+    "base_branch": "master",
+    "head_branch": "140-bump-version",
     "changed_files": 1,
     "commits": 2,
     "additions": 1,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2017-07-17T22:58:29Z",
+    "time_of_1st_review": "2017-07-17T22:58:29Z",
     "reviewers": [
-      [
-        "leebrandt",
-        "jmelberg-okta"
-      ]
+      "leebrandt",
+      "jmelberg-okta"
     ],
-    "hours_open": 1.18,
-    "hours_to_first_review": 0.4,
-    "minutes_to_first_review": 23.8
+    "hrs_open": 1.18,
+    "hrs_to_1st_review": 0.4,
+    "mins_to_1st_review": 23.8
   },
   {
     "org": "okta",
@@ -1271,20 +1281,20 @@
     "author": "nbarbettini",
     "created_at": "2017-07-17T23:27:52Z",
     "merged_at": "2017-07-17T23:39:14Z",
+    "base_branch": "master",
+    "head_branch": "143-fix-update-user",
     "changed_files": 3,
     "commits": 1,
     "additions": 1,
     "deletions": 14,
     "reviews": 1,
-    "time_of_first_review": "2017-07-17T23:37:56Z",
+    "time_of_1st_review": "2017-07-17T23:37:56Z",
     "reviewers": [
-      [
-        "jmelberg-okta"
-      ]
+      "jmelberg-okta"
     ],
-    "hours_open": 0.19,
-    "hours_to_first_review": 0.17,
-    "minutes_to_first_review": 10.07
+    "hrs_open": 0.19,
+    "hrs_to_1st_review": 0.17,
+    "mins_to_1st_review": 10.07
   },
   {
     "org": "okta",
@@ -1294,21 +1304,21 @@
     "author": "nbarbettini",
     "created_at": "2017-07-18T19:49:58Z",
     "merged_at": "2017-07-19T17:57:41Z",
+    "base_branch": "legacy",
+    "head_branch": "legacy-fix-delete-bug",
     "changed_files": 3,
     "commits": 1,
     "additions": 22,
     "deletions": 9,
     "reviews": 2,
-    "time_of_first_review": "2017-07-18T20:05:05Z",
+    "time_of_1st_review": "2017-07-18T20:05:05Z",
     "reviewers": [
-      [
-        "jmelberg-okta",
-        "lboyette-okta"
-      ]
+      "jmelberg-okta",
+      "lboyette-okta"
     ],
-    "hours_open": 22.13,
-    "hours_to_first_review": 0.25,
-    "minutes_to_first_review": 15.12
+    "hrs_open": 22.13,
+    "hrs_to_1st_review": 0.25,
+    "mins_to_1st_review": 15.12
   },
   {
     "org": "okta",
@@ -1318,21 +1328,21 @@
     "author": "nbarbettini",
     "created_at": "2017-10-30T04:05:07Z",
     "merged_at": "2018-04-11T12:31:11Z",
+    "base_branch": "master",
+    "head_branch": "157-add-getcollection",
     "changed_files": 5,
     "commits": 3,
     "additions": 106,
     "deletions": 2,
     "reviews": 2,
-    "time_of_first_review": "2017-11-22T01:56:47Z",
+    "time_of_1st_review": "2017-11-22T01:56:47Z",
     "reviewers": [
-      [
-        "lboyette-okta",
-        "jmelberg-okta"
-      ]
+      "lboyette-okta",
+      "jmelberg-okta"
     ],
-    "hours_open": 3920.43,
-    "hours_to_first_review": 549.86,
-    "minutes_to_first_review": 32991.67
+    "hrs_open": 3920.43,
+    "hrs_to_1st_review": 549.86,
+    "mins_to_1st_review": 32991.67
   },
   {
     "org": "okta",
@@ -1342,20 +1352,20 @@
     "author": "nbarbettini",
     "created_at": "2017-10-31T03:36:24Z",
     "merged_at": "2017-10-31T04:40:23Z",
+    "base_branch": "master",
+    "head_branch": "fix-cake",
     "changed_files": 1,
     "commits": 1,
     "additions": 5,
     "deletions": 5,
     "reviews": 1,
-    "time_of_first_review": "2017-10-31T04:10:01Z",
+    "time_of_1st_review": "2017-10-31T04:10:01Z",
     "reviewers": [
-      [
-        "jmelberg-okta"
-      ]
+      "jmelberg-okta"
     ],
-    "hours_open": 1.07,
-    "hours_to_first_review": 0.56,
-    "minutes_to_first_review": 33.62
+    "hrs_open": 1.07,
+    "hrs_to_1st_review": 0.56,
+    "mins_to_1st_review": 33.62
   },
   {
     "org": "okta",
@@ -1365,20 +1375,20 @@
     "author": "robertjd",
     "created_at": "2017-11-03T21:57:32Z",
     "merged_at": "2017-11-03T22:03:01Z",
+    "base_branch": "master",
+    "head_branch": "rd-add-alpha-banner",
     "changed_files": 1,
     "commits": 1,
     "additions": 7,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2017-11-03T22:02:26Z",
+    "time_of_1st_review": "2017-11-03T22:02:26Z",
     "reviewers": [
-      [
-        "jmelberg-okta"
-      ]
+      "jmelberg-okta"
     ],
-    "hours_open": 0.09,
-    "hours_to_first_review": 0.08,
-    "minutes_to_first_review": 4.9
+    "hrs_open": 0.09,
+    "hrs_to_1st_review": 0.08,
+    "mins_to_1st_review": 4.9
   },
   {
     "org": "okta",
@@ -1388,20 +1398,20 @@
     "author": "robertjd",
     "created_at": "2017-11-03T22:09:15Z",
     "merged_at": "2017-11-03T23:00:21Z",
+    "base_branch": "master",
+    "head_branch": "rd-fix-devforum-link",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2017-11-03T22:10:44Z",
+    "time_of_1st_review": "2017-11-03T22:10:44Z",
     "reviewers": [
-      [
-        "jmelberg-okta"
-      ]
+      "jmelberg-okta"
     ],
-    "hours_open": 0.85,
-    "hours_to_first_review": 0.02,
-    "minutes_to_first_review": 1.48
+    "hrs_open": 0.85,
+    "hrs_to_1st_review": 0.02,
+    "mins_to_1st_review": 1.48
   },
   {
     "org": "okta",
@@ -1411,22 +1421,22 @@
     "author": "lboyette-okta",
     "created_at": "2017-11-08T18:03:13Z",
     "merged_at": "2017-11-28T18:08:24Z",
+    "base_branch": "master",
+    "head_branch": "factors-api",
     "changed_files": 143,
     "commits": 25,
     "additions": 2858,
     "deletions": 223,
     "reviews": 6,
-    "time_of_first_review": "2017-11-10T19:52:11Z",
+    "time_of_1st_review": "2017-11-10T19:52:11Z",
     "reviewers": [
-      [
-        "jmelberg-okta",
-        "lboyette-okta",
-        "nbarbettini"
-      ]
+      "jmelberg-okta",
+      "lboyette-okta",
+      "nbarbettini"
     ],
-    "hours_open": 480.09,
-    "hours_to_first_review": 49.82,
-    "minutes_to_first_review": 2988.97
+    "hrs_open": 480.09,
+    "hrs_to_1st_review": 49.82,
+    "mins_to_1st_review": 2988.97
   },
   {
     "org": "okta",
@@ -1436,20 +1446,20 @@
     "author": "lboyette-okta",
     "created_at": "2017-12-02T01:07:36Z",
     "merged_at": "2017-12-02T01:18:19Z",
+    "base_branch": "master",
+    "head_branch": "version-bump",
     "changed_files": 3,
     "commits": 1,
     "additions": 5,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2017-12-02T01:07:56Z",
+    "time_of_1st_review": "2017-12-02T01:07:56Z",
     "reviewers": [
-      [
-        "robertdamphousse-okta"
-      ]
+      "robertdamphousse-okta"
     ],
-    "hours_open": 0.18,
-    "hours_to_first_review": 0.01,
-    "minutes_to_first_review": 0.33
+    "hrs_open": 0.18,
+    "hrs_to_1st_review": 0.01,
+    "mins_to_1st_review": 0.33
   },
   {
     "org": "okta",
@@ -1459,20 +1469,20 @@
     "author": "lboyette-okta",
     "created_at": "2018-01-24T19:57:37Z",
     "merged_at": "2018-03-29T21:54:30Z",
+    "base_branch": "master",
+    "head_branch": "readme-details",
     "changed_files": 1,
     "commits": 2,
     "additions": 3,
     "deletions": 6,
     "reviews": 1,
-    "time_of_first_review": "2018-03-29T01:05:50Z",
+    "time_of_1st_review": "2018-03-29T01:05:50Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 1537.95,
-    "hours_to_first_review": 1517.14,
-    "minutes_to_first_review": 91028.22
+    "hrs_open": 1537.95,
+    "hrs_to_1st_review": 1517.14,
+    "mins_to_1st_review": 91028.22
   },
   {
     "org": "okta",
@@ -1482,20 +1492,20 @@
     "author": "laurarodriguez-okta",
     "created_at": "2018-03-06T23:05:23Z",
     "merged_at": "2018-03-08T23:07:34Z",
+    "base_branch": "legacy",
+    "head_branch": "TLS1.2_PS_Compatibility",
     "changed_files": 3,
     "commits": 5,
     "additions": 8,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2018-03-08T23:07:15Z",
+    "time_of_1st_review": "2018-03-08T23:07:15Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 48.04,
-    "hours_to_first_review": 48.03,
-    "minutes_to_first_review": 2881.87
+    "hrs_open": 48.04,
+    "hrs_to_1st_review": 48.03,
+    "mins_to_1st_review": 2881.87
   },
   {
     "org": "okta",
@@ -1505,20 +1515,20 @@
     "author": "nbarbettini",
     "created_at": "2018-03-27T13:37:41Z",
     "merged_at": "2018-03-29T01:04:54Z",
+    "base_branch": "master",
+    "head_branch": "172-fix-net461-sslprotocols-error",
     "changed_files": 3,
     "commits": 2,
     "additions": 2,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2018-03-27T14:12:14Z",
+    "time_of_1st_review": "2018-03-27T14:12:14Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 35.45,
-    "hours_to_first_review": 0.58,
-    "minutes_to_first_review": 34.55
+    "hrs_open": 35.45,
+    "hrs_to_1st_review": 0.58,
+    "mins_to_1st_review": 34.55
   },
   {
     "org": "okta",
@@ -1528,21 +1538,21 @@
     "author": "laura-rodriguez",
     "created_at": "2018-04-10T16:43:52Z",
     "merged_at": "2018-04-19T17:05:03Z",
+    "base_branch": "master",
+    "head_branch": "update-readme-with-more-sdk-examples",
     "changed_files": 1,
     "commits": 9,
     "additions": 94,
     "deletions": 7,
     "reviews": 5,
-    "time_of_first_review": "2018-04-13T20:22:14Z",
+    "time_of_1st_review": "2018-04-13T20:22:14Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "nbarbettini"
-      ]
+      "laura-rodriguez",
+      "nbarbettini"
     ],
-    "hours_open": 216.35,
-    "hours_to_first_review": 75.64,
-    "minutes_to_first_review": 4538.37
+    "hrs_open": 216.35,
+    "hrs_to_1st_review": 75.64,
+    "mins_to_1st_review": 4538.37
   },
   {
     "org": "okta",
@@ -1552,20 +1562,20 @@
     "author": "nbarbettini",
     "created_at": "2018-04-26T01:51:11Z",
     "merged_at": "2018-04-30T21:49:11Z",
+    "base_branch": "master",
+    "head_branch": "simplify-handlebars",
     "changed_files": 77,
     "commits": 20,
     "additions": 1637,
     "deletions": 1416,
     "reviews": 1,
-    "time_of_first_review": "2018-04-26T20:21:13Z",
+    "time_of_1st_review": "2018-04-26T20:21:13Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 115.97,
-    "hours_to_first_review": 18.5,
-    "minutes_to_first_review": 1110.03
+    "hrs_open": 115.97,
+    "hrs_to_1st_review": 18.5,
+    "mins_to_1st_review": 1110.03
   },
   {
     "org": "okta",
@@ -1575,20 +1585,20 @@
     "author": "nbarbettini",
     "created_at": "2018-05-17T18:11:17Z",
     "merged_at": "2018-05-18T19:22:46Z",
+    "base_branch": "master",
+    "head_branch": "nb-remove-docs-from-build",
     "changed_files": 3,
     "commits": 5,
     "additions": 2,
     "deletions": 112,
     "reviews": 1,
-    "time_of_first_review": "2018-05-17T18:47:22Z",
+    "time_of_1st_review": "2018-05-17T18:47:22Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 25.19,
-    "hours_to_first_review": 0.6,
-    "minutes_to_first_review": 36.08
+    "hrs_open": 25.19,
+    "hrs_to_1st_review": 0.6,
+    "mins_to_1st_review": 36.08
   },
   {
     "org": "okta",
@@ -1598,20 +1608,20 @@
     "author": "nbarbettini",
     "created_at": "2018-05-18T19:32:40Z",
     "merged_at": "2018-06-05T20:48:19Z",
+    "base_branch": "master",
+    "head_branch": "176-add-errorcauses",
     "changed_files": 18,
     "commits": 7,
     "additions": 314,
     "deletions": 48,
     "reviews": 1,
-    "time_of_first_review": "2018-05-28T19:10:44Z",
+    "time_of_1st_review": "2018-05-28T19:10:44Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 433.26,
-    "hours_to_first_review": 239.63,
-    "minutes_to_first_review": 14378.07
+    "hrs_open": 433.26,
+    "hrs_to_1st_review": 239.63,
+    "mins_to_1st_review": 14378.07
   },
   {
     "org": "okta",
@@ -1621,20 +1631,20 @@
     "author": "ryannewington",
     "created_at": "2018-05-22T05:58:30Z",
     "merged_at": "2018-05-24T23:11:21Z",
+    "base_branch": "master",
+    "head_branch": "issue/187",
     "changed_files": 1,
     "commits": 2,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2018-05-24T20:31:12Z",
+    "time_of_1st_review": "2018-05-24T20:31:12Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 65.21,
-    "hours_to_first_review": 62.54,
-    "minutes_to_first_review": 3752.7
+    "hrs_open": 65.21,
+    "hrs_to_1st_review": 62.54,
+    "mins_to_1st_review": 3752.7
   },
   {
     "org": "okta",
@@ -1644,20 +1654,20 @@
     "author": "nbarbettini",
     "created_at": "2018-06-06T00:46:18Z",
     "merged_at": "2018-06-13T00:32:24Z",
+    "base_branch": "master",
+    "head_branch": "pass-in-httpclient",
     "changed_files": 12,
     "commits": 3,
     "additions": 191,
     "deletions": 211,
     "reviews": 1,
-    "time_of_first_review": "2018-06-12T22:00:31Z",
+    "time_of_1st_review": "2018-06-12T22:00:31Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 167.77,
-    "hours_to_first_review": 165.24,
-    "minutes_to_first_review": 9914.22
+    "hrs_open": 167.77,
+    "hrs_to_1st_review": 165.24,
+    "mins_to_1st_review": 9914.22
   },
   {
     "org": "okta",
@@ -1667,20 +1677,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-06-08T19:08:57Z",
     "merged_at": "2018-06-08T20:53:10Z",
+    "base_branch": "master",
+    "head_branch": "update-readme-to-link-developer-okta",
     "changed_files": 2,
     "commits": 6,
     "additions": 13,
     "deletions": 14,
     "reviews": 2,
-    "time_of_first_review": "2018-06-08T19:19:45Z",
+    "time_of_1st_review": "2018-06-08T19:19:45Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 1.74,
-    "hours_to_first_review": 0.18,
-    "minutes_to_first_review": 10.8
+    "hrs_open": 1.74,
+    "hrs_to_1st_review": 0.18,
+    "mins_to_1st_review": 10.8
   },
   {
     "org": "okta",
@@ -1690,20 +1700,20 @@
     "author": "nbarbettini",
     "created_at": "2018-06-08T21:04:47Z",
     "merged_at": "2018-06-08T22:42:38Z",
+    "base_branch": "master",
+    "head_branch": "update-license-text",
     "changed_files": 206,
     "commits": 1,
     "additions": 206,
     "deletions": 206,
     "reviews": 1,
-    "time_of_first_review": "2018-06-08T22:21:58Z",
+    "time_of_1st_review": "2018-06-08T22:21:58Z",
     "reviewers": [
-      [
-        "robertjd"
-      ]
+      "robertjd"
     ],
-    "hours_open": 1.63,
-    "hours_to_first_review": 1.29,
-    "minutes_to_first_review": 77.18
+    "hrs_open": 1.63,
+    "hrs_to_1st_review": 1.29,
+    "mins_to_1st_review": 77.18
   },
   {
     "org": "okta",
@@ -1713,20 +1723,20 @@
     "author": "nbarbettini",
     "created_at": "2018-06-08T22:46:13Z",
     "merged_at": "2018-06-11T23:04:46Z",
+    "base_branch": "master",
+    "head_branch": "netcoreapp2",
     "changed_files": 4,
     "commits": 4,
     "additions": 4,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2018-06-11T15:21:53Z",
+    "time_of_1st_review": "2018-06-11T15:21:53Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 72.31,
-    "hours_to_first_review": 64.59,
-    "minutes_to_first_review": 3875.67
+    "hrs_open": 72.31,
+    "hrs_to_1st_review": 64.59,
+    "mins_to_1st_review": 3875.67
   },
   {
     "org": "okta",
@@ -1736,20 +1746,20 @@
     "author": "nbarbettini",
     "created_at": "2018-06-11T16:59:21Z",
     "merged_at": "2018-06-11T17:16:24Z",
+    "base_branch": "master",
+    "head_branch": "nb-better-errata",
     "changed_files": 2,
     "commits": 1,
     "additions": 41,
     "deletions": 38,
     "reviews": 1,
-    "time_of_first_review": "2018-06-11T17:16:08Z",
+    "time_of_1st_review": "2018-06-11T17:16:08Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 0.28,
-    "hours_to_first_review": 0.28,
-    "minutes_to_first_review": 16.78
+    "hrs_open": 0.28,
+    "hrs_to_1st_review": 0.28,
+    "mins_to_1st_review": 16.78
   },
   {
     "org": "okta",
@@ -1759,21 +1769,21 @@
     "author": "laura-rodriguez",
     "created_at": "2018-06-14T21:51:30Z",
     "merged_at": "2018-07-09T16:32:10Z",
+    "base_branch": "master",
+    "head_branch": "openapi-0.9.0",
     "changed_files": 160,
     "commits": 39,
     "additions": 7150,
     "deletions": 69,
     "reviews": 14,
-    "time_of_first_review": "2018-06-18T20:08:03Z",
+    "time_of_1st_review": "2018-06-18T20:08:03Z",
     "reviewers": [
-      [
-        "nbarbettini",
-        "laura-rodriguez"
-      ]
+      "nbarbettini",
+      "laura-rodriguez"
     ],
-    "hours_open": 594.68,
-    "hours_to_first_review": 94.28,
-    "minutes_to_first_review": 5656.55
+    "hrs_open": 594.68,
+    "hrs_to_1st_review": 94.28,
+    "mins_to_1st_review": 5656.55
   },
   {
     "org": "okta",
@@ -1783,20 +1793,20 @@
     "author": "nbarbettini",
     "created_at": "2018-07-05T17:26:42Z",
     "merged_at": "2018-07-05T18:48:11Z",
+    "base_branch": "master",
+    "head_branch": "nb-fix-tests-1",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2018-07-05T18:21:51Z",
+    "time_of_1st_review": "2018-07-05T18:21:51Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 1.36,
-    "hours_to_first_review": 0.92,
-    "minutes_to_first_review": 55.15
+    "hrs_open": 1.36,
+    "hrs_to_1st_review": 0.92,
+    "mins_to_1st_review": 55.15
   },
   {
     "org": "okta",
@@ -1806,20 +1816,20 @@
     "author": "nbarbettini",
     "created_at": "2018-07-05T21:18:37Z",
     "merged_at": "2018-07-05T22:37:55Z",
+    "base_branch": "master",
+    "head_branch": "nb-fix-tests-2",
     "changed_files": 2,
     "commits": 1,
     "additions": 55,
     "deletions": 43,
     "reviews": 1,
-    "time_of_first_review": "2018-07-05T21:34:30Z",
+    "time_of_1st_review": "2018-07-05T21:34:30Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 1.32,
-    "hours_to_first_review": 0.26,
-    "minutes_to_first_review": 15.88
+    "hrs_open": 1.32,
+    "hrs_to_1st_review": 0.26,
+    "mins_to_1st_review": 15.88
   },
   {
     "org": "okta",
@@ -1829,20 +1839,20 @@
     "author": "nbarbettini",
     "created_at": "2018-07-06T00:25:24Z",
     "merged_at": "2018-07-19T14:24:33Z",
+    "base_branch": "master",
+    "head_branch": "nb-fix-tests-3",
     "changed_files": 0,
     "commits": 2,
     "additions": 0,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2018-07-06T14:38:32Z",
+    "time_of_1st_review": "2018-07-06T14:38:32Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 325.99,
-    "hours_to_first_review": 14.22,
-    "minutes_to_first_review": 853.13
+    "hrs_open": 325.99,
+    "hrs_to_1st_review": 14.22,
+    "mins_to_1st_review": 853.13
   },
   {
     "org": "okta",
@@ -1852,21 +1862,21 @@
     "author": "laura-rodriguez",
     "created_at": "2018-07-09T16:13:13Z",
     "merged_at": "2018-07-20T20:39:09Z",
+    "base_branch": "master",
+    "head_branch": "openapi-1.0.0",
     "changed_files": 84,
     "commits": 61,
     "additions": 2517,
     "deletions": 165,
     "reviews": 7,
-    "time_of_first_review": "2018-07-11T17:58:57Z",
+    "time_of_1st_review": "2018-07-11T17:58:57Z",
     "reviewers": [
-      [
-        "nbarbettini",
-        "laura-rodriguez"
-      ]
+      "nbarbettini",
+      "laura-rodriguez"
     ],
-    "hours_open": 268.43,
-    "hours_to_first_review": 49.76,
-    "minutes_to_first_review": 2985.73
+    "hrs_open": 268.43,
+    "hrs_to_1st_review": 49.76,
+    "mins_to_1st_review": 2985.73
   },
   {
     "org": "okta",
@@ -1876,21 +1886,21 @@
     "author": "laura-rodriguez",
     "created_at": "2018-07-18T18:16:10Z",
     "merged_at": "2018-07-25T16:57:29Z",
+    "base_branch": "master",
+    "head_branch": "update-readme-to-match-new-template",
     "changed_files": 1,
     "commits": 8,
     "additions": 308,
     "deletions": 142,
     "reviews": 6,
-    "time_of_first_review": "2018-07-18T18:19:28Z",
+    "time_of_1st_review": "2018-07-18T18:19:28Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "nbarbettini"
-      ]
+      "laura-rodriguez",
+      "nbarbettini"
     ],
-    "hours_open": 166.69,
-    "hours_to_first_review": 0.06,
-    "minutes_to_first_review": 3.3
+    "hrs_open": 166.69,
+    "hrs_to_1st_review": 0.06,
+    "mins_to_1st_review": 3.3
   },
   {
     "org": "okta",
@@ -1900,20 +1910,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-07-25T15:56:10Z",
     "merged_at": "2018-07-25T16:49:35Z",
+    "base_branch": "master",
+    "head_branch": "implement-iasyncenumerable-for-iapplicationclient",
     "changed_files": 2,
     "commits": 1,
     "additions": 2,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2018-07-25T16:16:13Z",
+    "time_of_1st_review": "2018-07-25T16:16:13Z",
     "reviewers": [
-      [
-        "robertjd"
-      ]
+      "robertjd"
     ],
-    "hours_open": 0.89,
-    "hours_to_first_review": 0.33,
-    "minutes_to_first_review": 20.05
+    "hrs_open": 0.89,
+    "hrs_to_1st_review": 0.33,
+    "mins_to_1st_review": 20.05
   },
   {
     "org": "okta",
@@ -1923,20 +1933,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-07-30T21:05:02Z",
     "merged_at": "2018-08-02T17:29:58Z",
+    "base_branch": "master",
+    "head_branch": "lr-fix-issues",
     "changed_files": 9,
     "commits": 4,
     "additions": 38,
     "deletions": 30,
     "reviews": 1,
-    "time_of_first_review": "2018-08-02T17:05:50Z",
+    "time_of_1st_review": "2018-08-02T17:05:50Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 68.42,
-    "hours_to_first_review": 68.01,
-    "minutes_to_first_review": 4080.8
+    "hrs_open": 68.42,
+    "hrs_to_1st_review": 68.01,
+    "mins_to_1st_review": 4080.8
   },
   {
     "org": "okta",
@@ -1946,20 +1956,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-02T19:15:50Z",
     "merged_at": "2018-08-02T20:59:40Z",
+    "base_branch": "master",
+    "head_branch": "93-add-integration-tests-group-user-operations",
     "changed_files": 1,
     "commits": 2,
     "additions": 217,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2018-08-02T20:59:20Z",
+    "time_of_1st_review": "2018-08-02T20:59:20Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 1.73,
-    "hours_to_first_review": 1.73,
-    "minutes_to_first_review": 103.5
+    "hrs_open": 1.73,
+    "hrs_to_1st_review": 1.73,
+    "mins_to_1st_review": 103.5
   },
   {
     "org": "okta",
@@ -1969,20 +1979,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-03T19:17:24Z",
     "merged_at": "2018-08-06T21:49:37Z",
+    "base_branch": "master",
+    "head_branch": "update-spec-to-1.4.0",
     "changed_files": 41,
     "commits": 4,
     "additions": 399,
     "deletions": 62,
     "reviews": 1,
-    "time_of_first_review": "2018-08-06T17:24:29Z",
+    "time_of_1st_review": "2018-08-06T17:24:29Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 74.54,
-    "hours_to_first_review": 70.12,
-    "minutes_to_first_review": 4207.08
+    "hrs_open": 74.54,
+    "hrs_to_1st_review": 70.12,
+    "mins_to_1st_review": 4207.08
   },
   {
     "org": "okta",
@@ -1992,20 +2002,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-03T20:20:51Z",
     "merged_at": "2018-08-06T17:21:43Z",
+    "base_branch": "master",
+    "head_branch": "238-add-implicit-stringenum-conversion",
     "changed_files": 23,
     "commits": 1,
     "additions": 161,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2018-08-06T17:21:29Z",
+    "time_of_1st_review": "2018-08-06T17:21:29Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 69.01,
-    "hours_to_first_review": 69.01,
-    "minutes_to_first_review": 4140.63
+    "hrs_open": 69.01,
+    "hrs_to_1st_review": 69.01,
+    "mins_to_1st_review": 4140.63
   },
   {
     "org": "okta",
@@ -2015,20 +2025,20 @@
     "author": "nbarbettini",
     "created_at": "2018-08-10T15:15:39Z",
     "merged_at": "2018-08-15T19:53:54Z",
+    "base_branch": "master",
+    "head_branch": "159-preserve-case-custom-attributes",
     "changed_files": 11,
     "commits": 2,
     "additions": 132,
     "deletions": 97,
     "reviews": 1,
-    "time_of_first_review": "2018-08-14T19:17:16Z",
+    "time_of_1st_review": "2018-08-14T19:17:16Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 124.64,
-    "hours_to_first_review": 100.03,
-    "minutes_to_first_review": 6001.62
+    "hrs_open": 124.64,
+    "hrs_to_1st_review": 100.03,
+    "mins_to_1st_review": 6001.62
   },
   {
     "org": "okta",
@@ -2038,21 +2048,21 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-13T20:48:45Z",
     "merged_at": "2018-08-18T17:47:13Z",
+    "base_branch": "master",
+    "head_branch": "rename-logclient-to-logclientinfo-v2",
     "changed_files": 9,
     "commits": 7,
     "additions": 16,
     "deletions": 76,
     "reviews": 6,
-    "time_of_first_review": "2018-08-15T19:54:25Z",
+    "time_of_1st_review": "2018-08-15T19:54:25Z",
     "reviewers": [
-      [
-        "nbarbettini",
-        "laura-rodriguez"
-      ]
+      "nbarbettini",
+      "laura-rodriguez"
     ],
-    "hours_open": 116.97,
-    "hours_to_first_review": 47.09,
-    "minutes_to_first_review": 2825.67
+    "hrs_open": 116.97,
+    "hrs_to_1st_review": 47.09,
+    "mins_to_1st_review": 2825.67
   },
   {
     "org": "okta",
@@ -2062,20 +2072,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-14T23:51:39Z",
     "merged_at": "2018-08-15T00:01:38Z",
+    "base_branch": "master",
+    "head_branch": "bump-project-version-to-alpha9",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2018-08-14T23:59:04Z",
+    "time_of_1st_review": "2018-08-14T23:59:04Z",
     "reviewers": [
-      [
-        "robertjd"
-      ]
+      "robertjd"
     ],
-    "hours_open": 0.17,
-    "hours_to_first_review": 0.12,
-    "minutes_to_first_review": 7.42
+    "hrs_open": 0.17,
+    "hrs_to_1st_review": 0.12,
+    "mins_to_1st_review": 7.42
   },
   {
     "org": "okta",
@@ -2085,21 +2095,21 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-15T18:57:19Z",
     "merged_at": "2018-08-18T17:03:23Z",
+    "base_branch": "master",
+    "head_branch": "165-getArrayProperty-shouldnot-return-null",
     "changed_files": 4,
     "commits": 4,
     "additions": 119,
     "deletions": 8,
     "reviews": 3,
-    "time_of_first_review": "2018-08-15T21:37:02Z",
+    "time_of_1st_review": "2018-08-15T21:37:02Z",
     "reviewers": [
-      [
-        "nbarbettini",
-        "laura-rodriguez"
-      ]
+      "nbarbettini",
+      "laura-rodriguez"
     ],
-    "hours_open": 70.1,
-    "hours_to_first_review": 2.66,
-    "minutes_to_first_review": 159.72
+    "hrs_open": 70.1,
+    "hrs_to_1st_review": 2.66,
+    "mins_to_1st_review": 159.72
   },
   {
     "org": "okta",
@@ -2109,20 +2119,20 @@
     "author": "nbarbettini",
     "created_at": "2018-08-18T17:51:21Z",
     "merged_at": "2018-08-21T13:58:22Z",
+    "base_branch": "master",
+    "head_branch": "207-nb-provider-test",
     "changed_files": 13,
     "commits": 4,
     "additions": 136,
     "deletions": 132,
     "reviews": 1,
-    "time_of_first_review": "2018-08-20T16:04:51Z",
+    "time_of_1st_review": "2018-08-20T16:04:51Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 68.12,
-    "hours_to_first_review": 46.23,
-    "minutes_to_first_review": 2773.5
+    "hrs_open": 68.12,
+    "hrs_to_1st_review": 46.23,
+    "mins_to_1st_review": 2773.5
   },
   {
     "org": "okta",
@@ -2132,20 +2142,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-20T17:57:42Z",
     "merged_at": "2018-08-21T18:46:15Z",
+    "base_branch": "master",
+    "head_branch": "152-possible-string-url-encoding-issue",
     "changed_files": 1,
     "commits": 4,
     "additions": 52,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2018-08-21T14:06:56Z",
+    "time_of_1st_review": "2018-08-21T14:06:56Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 24.81,
-    "hours_to_first_review": 20.15,
-    "minutes_to_first_review": 1209.23
+    "hrs_open": 24.81,
+    "hrs_to_1st_review": 20.15,
+    "mins_to_1st_review": 1209.23
   },
   {
     "org": "okta",
@@ -2155,20 +2165,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-20T23:27:15Z",
     "merged_at": "2018-08-21T14:10:15Z",
+    "base_branch": "master",
+    "head_branch": "164-use-case-insensitive-comparison-for-gethashcode",
     "changed_files": 2,
     "commits": 2,
     "additions": 32,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2018-08-21T14:01:57Z",
+    "time_of_1st_review": "2018-08-21T14:01:57Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 14.72,
-    "hours_to_first_review": 14.58,
-    "minutes_to_first_review": 874.7
+    "hrs_open": 14.72,
+    "hrs_to_1st_review": 14.58,
+    "mins_to_1st_review": 874.7
   },
   {
     "org": "okta",
@@ -2178,20 +2188,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-20T23:31:00Z",
     "merged_at": "2018-08-21T14:37:27Z",
+    "base_branch": "master",
+    "head_branch": "245-bump-package-version",
     "changed_files": 1,
     "commits": 2,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2018-08-21T14:08:09Z",
+    "time_of_1st_review": "2018-08-21T14:08:09Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 15.11,
-    "hours_to_first_review": 14.62,
-    "minutes_to_first_review": 877.15
+    "hrs_open": 15.11,
+    "hrs_to_1st_review": 14.62,
+    "mins_to_1st_review": 877.15
   },
   {
     "org": "okta",
@@ -2201,21 +2211,21 @@
     "author": "nbarbettini",
     "created_at": "2018-08-21T14:48:55Z",
     "merged_at": "2018-09-04T13:54:56Z",
+    "base_branch": "master",
+    "head_branch": "nb-222-pagination",
     "changed_files": 40,
     "commits": 14,
     "additions": 679,
     "deletions": 136,
     "reviews": 3,
-    "time_of_first_review": "2018-08-21T18:41:22Z",
+    "time_of_1st_review": "2018-08-21T18:41:22Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "nbarbettini"
-      ]
+      "laura-rodriguez",
+      "nbarbettini"
     ],
-    "hours_open": 335.1,
-    "hours_to_first_review": 3.87,
-    "minutes_to_first_review": 232.45
+    "hrs_open": 335.1,
+    "hrs_to_1st_review": 3.87,
+    "mins_to_1st_review": 232.45
   },
   {
     "org": "okta",
@@ -2225,20 +2235,20 @@
     "author": "nbarbettini",
     "created_at": "2018-08-21T15:42:40Z",
     "merged_at": "2018-08-21T20:56:27Z",
+    "base_branch": "master",
+    "head_branch": "nb-cleanup",
     "changed_files": 12,
     "commits": 3,
     "additions": 16,
     "deletions": 574,
     "reviews": 1,
-    "time_of_first_review": "2018-08-21T20:07:58Z",
+    "time_of_1st_review": "2018-08-21T20:07:58Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 5.23,
-    "hours_to_first_review": 4.42,
-    "minutes_to_first_review": 265.3
+    "hrs_open": 5.23,
+    "hrs_to_1st_review": 4.42,
+    "mins_to_1st_review": 265.3
   },
   {
     "org": "okta",
@@ -2248,20 +2258,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-23T00:02:09Z",
     "merged_at": "2018-08-23T17:52:09Z",
+    "base_branch": "master",
+    "head_branch": "255-fix-stylecop-issues",
     "changed_files": 38,
     "commits": 1,
     "additions": 800,
     "deletions": 79,
     "reviews": 1,
-    "time_of_first_review": "2018-08-23T15:44:23Z",
+    "time_of_1st_review": "2018-08-23T15:44:23Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 17.83,
-    "hours_to_first_review": 15.7,
-    "minutes_to_first_review": 942.23
+    "hrs_open": 17.83,
+    "hrs_to_1st_review": 15.7,
+    "mins_to_1st_review": 942.23
   },
   {
     "org": "okta",
@@ -2271,20 +2281,20 @@
     "author": "nbarbettini",
     "created_at": "2018-08-23T16:33:43Z",
     "merged_at": "2018-08-23T18:05:46Z",
+    "base_branch": "255-fix-stylecop-issues",
+    "head_branch": "nb-stylecop-round2",
     "changed_files": 38,
     "commits": 4,
     "additions": 120,
     "deletions": 80,
     "reviews": 1,
-    "time_of_first_review": "2018-08-23T17:49:07Z",
+    "time_of_1st_review": "2018-08-23T17:49:07Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 1.53,
-    "hours_to_first_review": 1.26,
-    "minutes_to_first_review": 75.4
+    "hrs_open": 1.53,
+    "hrs_to_1st_review": 1.26,
+    "mins_to_1st_review": 75.4
   },
   {
     "org": "okta",
@@ -2294,22 +2304,22 @@
     "author": "vijetmahabaleshwar-okta",
     "created_at": "2018-08-23T17:15:06Z",
     "merged_at": "2018-09-21T17:57:48Z",
+    "base_branch": "master",
+    "head_branch": "vm-cron-job",
     "changed_files": 4,
     "commits": 8,
     "additions": 29,
     "deletions": 4,
     "reviews": 11,
-    "time_of_first_review": "2018-08-31T22:23:12Z",
+    "time_of_1st_review": "2018-08-31T22:23:12Z",
     "reviewers": [
-      [
-        "vijetmahabaleshwar-okta",
-        "nbarbettini",
-        "laura-rodriguez"
-      ]
+      "vijetmahabaleshwar-okta",
+      "nbarbettini",
+      "laura-rodriguez"
     ],
-    "hours_open": 696.71,
-    "hours_to_first_review": 197.14,
-    "minutes_to_first_review": 11828.1
+    "hrs_open": 696.71,
+    "hrs_to_1st_review": 197.14,
+    "mins_to_1st_review": 11828.1
   },
   {
     "org": "okta",
@@ -2319,20 +2329,20 @@
     "author": "nbarbettini",
     "created_at": "2018-08-23T18:35:34Z",
     "merged_at": "2018-08-23T20:38:15Z",
+    "base_branch": "master",
+    "head_branch": "nb-stylecop-round2",
     "changed_files": 38,
     "commits": 2,
     "additions": 120,
     "deletions": 80,
     "reviews": 1,
-    "time_of_first_review": "2018-08-23T18:36:04Z",
+    "time_of_1st_review": "2018-08-23T18:36:04Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 2.04,
-    "hours_to_first_review": 0.01,
-    "minutes_to_first_review": 0.5
+    "hrs_open": 2.04,
+    "hrs_to_1st_review": 0.01,
+    "mins_to_1st_review": 0.5
   },
   {
     "org": "okta",
@@ -2342,20 +2352,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-28T19:28:27Z",
     "merged_at": "2018-09-04T13:36:16Z",
+    "base_branch": "master",
+    "head_branch": "260-add-update-configuration-guards",
     "changed_files": 4,
     "commits": 3,
     "additions": 179,
     "deletions": 41,
     "reviews": 1,
-    "time_of_first_review": "2018-09-04T13:06:26Z",
+    "time_of_1st_review": "2018-09-04T13:06:26Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 162.13,
-    "hours_to_first_review": 161.63,
-    "minutes_to_first_review": 9697.98
+    "hrs_open": 162.13,
+    "hrs_to_1st_review": 161.63,
+    "mins_to_1st_review": 9697.98
   },
   {
     "org": "okta",
@@ -2365,20 +2375,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-08-28T19:38:02Z",
     "merged_at": "2018-09-04T13:07:37Z",
+    "base_branch": "master",
+    "head_branch": "lr-use-diff-usernames-in-application-tests",
     "changed_files": 1,
     "commits": 1,
     "additions": 19,
     "deletions": 19,
     "reviews": 1,
-    "time_of_first_review": "2018-09-04T13:07:31Z",
+    "time_of_1st_review": "2018-09-04T13:07:31Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 161.49,
-    "hours_to_first_review": 161.49,
-    "minutes_to_first_review": 9689.48
+    "hrs_open": 161.49,
+    "hrs_to_1st_review": 161.49,
+    "mins_to_1st_review": 9689.48
   },
   {
     "org": "okta",
@@ -2388,20 +2398,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-09-07T17:29:05Z",
     "merged_at": "2018-09-07T20:07:49Z",
+    "base_branch": "master",
+    "head_branch": "265-allow-disabling-HTTPS-check-for-testing",
     "changed_files": 9,
     "commits": 4,
     "additions": 74,
     "deletions": 5,
     "reviews": 1,
-    "time_of_first_review": "2018-09-07T19:59:47Z",
+    "time_of_1st_review": "2018-09-07T19:59:47Z",
     "reviewers": [
-      [
-        "robertjd"
-      ]
+      "robertjd"
     ],
-    "hours_open": 2.65,
-    "hours_to_first_review": 2.51,
-    "minutes_to_first_review": 150.7
+    "hrs_open": 2.65,
+    "hrs_to_1st_review": 2.51,
+    "mins_to_1st_review": 150.7
   },
   {
     "org": "okta",
@@ -2411,20 +2421,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-09-07T18:25:34Z",
     "merged_at": "2018-09-18T19:16:10Z",
+    "base_branch": "master",
+    "head_branch": "lr-rename-apps-in-integration-tests",
     "changed_files": 1,
     "commits": 3,
     "additions": 46,
     "deletions": 46,
     "reviews": 1,
-    "time_of_first_review": "2018-09-14T03:44:15Z",
+    "time_of_1st_review": "2018-09-14T03:44:15Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 264.84,
-    "hours_to_first_review": 153.31,
-    "minutes_to_first_review": 9198.68
+    "hrs_open": 264.84,
+    "hrs_to_1st_review": 153.31,
+    "mins_to_1st_review": 9198.68
   },
   {
     "org": "okta",
@@ -2434,22 +2444,22 @@
     "author": "vijetmahabaleshwar-okta",
     "created_at": "2018-09-13T19:23:32Z",
     "merged_at": "2018-09-17T16:37:30Z",
+    "base_branch": "master",
+    "head_branch": "vm-bacon-category",
     "changed_files": 3,
     "commits": 1,
     "additions": 6,
     "deletions": 0,
     "reviews": 3,
-    "time_of_first_review": "2018-09-13T19:24:34Z",
+    "time_of_1st_review": "2018-09-13T19:24:34Z",
     "reviewers": [
-      [
-        "vijetmahabaleshwar-okta",
-        "nbarbettini",
-        "laura-rodriguez"
-      ]
+      "vijetmahabaleshwar-okta",
+      "nbarbettini",
+      "laura-rodriguez"
     ],
-    "hours_open": 93.23,
-    "hours_to_first_review": 0.02,
-    "minutes_to_first_review": 1.03
+    "hrs_open": 93.23,
+    "hrs_to_1st_review": 0.02,
+    "mins_to_1st_review": 1.03
   },
   {
     "org": "okta",
@@ -2459,20 +2469,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-09-18T19:44:40Z",
     "merged_at": "2018-09-19T20:57:03Z",
+    "base_branch": "master",
+    "head_branch": "267-update-configuration-checks",
     "changed_files": 2,
     "commits": 2,
     "additions": 25,
     "deletions": 7,
     "reviews": 1,
-    "time_of_first_review": "2018-09-19T20:56:04Z",
+    "time_of_1st_review": "2018-09-19T20:56:04Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 25.21,
-    "hours_to_first_review": 25.19,
-    "minutes_to_first_review": 1511.4
+    "hrs_open": 25.21,
+    "hrs_to_1st_review": 25.19,
+    "mins_to_1st_review": 1511.4
   },
   {
     "org": "okta",
@@ -2482,23 +2492,23 @@
     "author": "laura-rodriguez",
     "created_at": "2018-09-18T20:05:04Z",
     "merged_at": "2018-11-22T00:01:59Z",
+    "base_branch": "master",
+    "head_branch": "275-update-openapi-to-include-policy-api",
     "changed_files": 110,
     "commits": 21,
     "additions": 4594,
     "deletions": 57,
     "reviews": 19,
-    "time_of_first_review": "2018-09-26T21:58:23Z",
+    "time_of_1st_review": "2018-09-26T21:58:23Z",
     "reviewers": [
-      [
-        "robertjd",
-        "laura-rodriguez",
-        "vijetmahabaleshwar-okta",
-        "nbarbettini"
-      ]
+      "robertjd",
+      "laura-rodriguez",
+      "vijetmahabaleshwar-okta",
+      "nbarbettini"
     ],
-    "hours_open": 1539.95,
-    "hours_to_first_review": 193.89,
-    "minutes_to_first_review": 11633.32
+    "hrs_open": 1539.95,
+    "hrs_to_1st_review": 193.89,
+    "mins_to_1st_review": 11633.32
   },
   {
     "org": "okta",
@@ -2508,20 +2518,20 @@
     "author": "nbarbettini",
     "created_at": "2018-09-21T00:34:12Z",
     "merged_at": "2018-09-21T14:49:22Z",
+    "base_branch": "master",
+    "head_branch": "nb-stable-release",
     "changed_files": 3,
     "commits": 4,
     "additions": 63,
     "deletions": 11,
     "reviews": 1,
-    "time_of_first_review": "2018-09-21T14:45:15Z",
+    "time_of_1st_review": "2018-09-21T14:45:15Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 14.25,
-    "hours_to_first_review": 14.18,
-    "minutes_to_first_review": 851.05
+    "hrs_open": 14.25,
+    "hrs_to_1st_review": 14.18,
+    "mins_to_1st_review": 851.05
   },
   {
     "org": "okta",
@@ -2531,21 +2541,21 @@
     "author": "laura-rodriguez",
     "created_at": "2018-09-28T14:59:53Z",
     "merged_at": "2018-10-01T19:57:15Z",
+    "base_branch": "master",
+    "head_branch": "282-use-random-values-in-its",
     "changed_files": 6,
     "commits": 2,
     "additions": 167,
     "deletions": 122,
     "reviews": 2,
-    "time_of_first_review": "2018-09-28T15:30:02Z",
+    "time_of_1st_review": "2018-09-28T15:30:02Z",
     "reviewers": [
-      [
-        "nbarbettini",
-        "vijetmahabaleshwar-okta"
-      ]
+      "nbarbettini",
+      "vijetmahabaleshwar-okta"
     ],
-    "hours_open": 76.96,
-    "hours_to_first_review": 0.5,
-    "minutes_to_first_review": 30.15
+    "hrs_open": 76.96,
+    "hrs_to_1st_review": 0.5,
+    "mins_to_1st_review": 30.15
   },
   {
     "org": "okta",
@@ -2555,16 +2565,18 @@
     "author": "laura-rodriguez",
     "created_at": "2018-10-09T16:32:03Z",
     "merged_at": "2018-10-09T17:03:35Z",
+    "base_branch": "master",
+    "head_branch": "third-party-update-readme",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.53,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.53,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -2574,20 +2586,20 @@
     "author": "vijetmahabaleshwar-okta",
     "created_at": "2018-10-10T20:20:19Z",
     "merged_at": "2018-10-10T20:50:36Z",
+    "base_branch": "master",
+    "head_branch": "vm-slack-notifications",
     "changed_files": 1,
     "commits": 2,
     "additions": 5,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2018-10-10T20:27:00Z",
+    "time_of_1st_review": "2018-10-10T20:27:00Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 0.5,
-    "hours_to_first_review": 0.11,
-    "minutes_to_first_review": 6.68
+    "hrs_open": 0.5,
+    "hrs_to_1st_review": 0.11,
+    "mins_to_1st_review": 6.68
   },
   {
     "org": "okta",
@@ -2597,20 +2609,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-11-29T17:09:48Z",
     "merged_at": "2018-12-04T16:11:48Z",
+    "base_branch": "master",
+    "head_branch": "290-collectionasyncenum-increment-index-in-movenext",
     "changed_files": 1,
     "commits": 1,
     "additions": 4,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2018-11-29T18:32:23Z",
+    "time_of_1st_review": "2018-11-29T18:32:23Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 119.03,
-    "hours_to_first_review": 1.38,
-    "minutes_to_first_review": 82.58
+    "hrs_open": 119.03,
+    "hrs_to_1st_review": 1.38,
+    "mins_to_1st_review": 82.58
   },
   {
     "org": "okta",
@@ -2620,20 +2632,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-12-04T16:29:33Z",
     "merged_at": "2018-12-13T20:32:30Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-openapi-packagejson",
     "changed_files": 2,
     "commits": 1,
     "additions": 654,
     "deletions": 13,
     "reviews": 1,
-    "time_of_first_review": "2018-12-04T16:33:18Z",
+    "time_of_1st_review": "2018-12-04T16:33:18Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 220.05,
-    "hours_to_first_review": 0.06,
-    "minutes_to_first_review": 3.75
+    "hrs_open": 220.05,
+    "hrs_to_1st_review": 0.06,
+    "mins_to_1st_review": 3.75
   },
   {
     "org": "okta",
@@ -2643,21 +2655,21 @@
     "author": "laura-rodriguez",
     "created_at": "2018-12-13T19:00:59Z",
     "merged_at": "2018-12-21T21:17:07Z",
+    "base_branch": "master",
+    "head_branch": "lr-retry-strategy",
     "changed_files": 11,
     "commits": 8,
     "additions": 509,
     "deletions": 6,
     "reviews": 15,
-    "time_of_first_review": "2018-12-14T17:36:26Z",
+    "time_of_1st_review": "2018-12-14T17:36:26Z",
     "reviewers": [
-      [
-        "bradhaverstein-okta",
-        "laura-rodriguez"
-      ]
+      "bradhaverstein-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 194.27,
-    "hours_to_first_review": 22.59,
-    "minutes_to_first_review": 1355.45
+    "hrs_open": 194.27,
+    "hrs_to_1st_review": 22.59,
+    "mins_to_1st_review": 1355.45
   },
   {
     "org": "okta",
@@ -2667,20 +2679,20 @@
     "author": "laura-rodriguez",
     "created_at": "2018-12-21T21:24:48Z",
     "merged_at": "2018-12-21T21:41:42Z",
+    "base_branch": "master",
+    "head_branch": "lr-bump-project-version",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2018-12-21T21:38:03Z",
+    "time_of_1st_review": "2018-12-21T21:38:03Z",
     "reviewers": [
-      [
-        "bretterer"
-      ]
+      "bretterer"
     ],
-    "hours_open": 0.28,
-    "hours_to_first_review": 0.22,
-    "minutes_to_first_review": 13.25
+    "hrs_open": 0.28,
+    "hrs_to_1st_review": 0.22,
+    "mins_to_1st_review": 13.25
   },
   {
     "org": "okta",
@@ -2690,21 +2702,21 @@
     "author": "justinhelgerson",
     "created_at": "2018-12-31T05:24:11Z",
     "merged_at": "2019-01-05T00:52:21Z",
+    "base_branch": "master",
+    "head_branch": "master",
     "changed_files": 2,
     "commits": 4,
     "additions": 35,
     "deletions": 5,
     "reviews": 7,
-    "time_of_first_review": "2019-01-03T19:11:58Z",
+    "time_of_1st_review": "2019-01-03T19:11:58Z",
     "reviewers": [
-      [
-        "bradhaverstein-okta",
-        "justinhelgerson"
-      ]
+      "bradhaverstein-okta",
+      "justinhelgerson"
     ],
-    "hours_open": 115.47,
-    "hours_to_first_review": 85.8,
-    "minutes_to_first_review": 5147.78
+    "hrs_open": 115.47,
+    "hrs_to_1st_review": 85.8,
+    "mins_to_1st_review": 5147.78
   },
   {
     "org": "okta",
@@ -2714,20 +2726,20 @@
     "author": "vijetmahabaleshwar-okta",
     "created_at": "2019-01-11T19:30:04Z",
     "merged_at": "2019-01-14T17:27:33Z",
+    "base_branch": "master",
+    "head_branch": "vm-travis",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2019-01-14T14:27:59Z",
+    "time_of_1st_review": "2019-01-14T14:27:59Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 69.96,
-    "hours_to_first_review": 66.97,
-    "minutes_to_first_review": 4017.92
+    "hrs_open": 69.96,
+    "hrs_to_1st_review": 66.97,
+    "mins_to_1st_review": 4017.92
   },
   {
     "org": "okta",
@@ -2737,21 +2749,21 @@
     "author": "laura-rodriguez",
     "created_at": "2019-01-11T20:37:43Z",
     "merged_at": "2019-01-14T21:30:42Z",
+    "base_branch": "master",
+    "head_branch": "lr-connection-close-issue",
     "changed_files": 3,
     "commits": 4,
     "additions": 70,
     "deletions": 3,
     "reviews": 2,
-    "time_of_first_review": "2019-01-14T18:31:44Z",
+    "time_of_1st_review": "2019-01-14T18:31:44Z",
     "reviewers": [
-      [
-        "bradhaverstein-okta",
-        "laura-rodriguez"
-      ]
+      "bradhaverstein-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 72.88,
-    "hours_to_first_review": 69.9,
-    "minutes_to_first_review": 4194.02
+    "hrs_open": 72.88,
+    "hrs_to_1st_review": 69.9,
+    "mins_to_1st_review": 4194.02
   },
   {
     "org": "okta",
@@ -2761,21 +2773,21 @@
     "author": "laura-rodriguez",
     "created_at": "2019-01-14T21:40:53Z",
     "merged_at": "2019-01-14T22:08:01Z",
+    "base_branch": "master",
+    "head_branch": "lr-list-search-flaky-test",
     "changed_files": 1,
     "commits": 2,
     "additions": 1,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2019-01-14T22:06:31Z",
+    "time_of_1st_review": "2019-01-14T22:06:31Z",
     "reviewers": [
-      [
-        "vijetmahabaleshwar-okta",
-        "robertjd"
-      ]
+      "vijetmahabaleshwar-okta",
+      "robertjd"
     ],
-    "hours_open": 0.45,
-    "hours_to_first_review": 0.43,
-    "minutes_to_first_review": 25.63
+    "hrs_open": 0.45,
+    "hrs_to_1st_review": 0.43,
+    "mins_to_1st_review": 25.63
   },
   {
     "org": "okta",
@@ -2785,20 +2797,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-01-14T22:07:20Z",
     "merged_at": "2019-01-14T22:31:30Z",
+    "base_branch": "master",
+    "head_branch": "lr-bump-project-version-1-2-1",
     "changed_files": 1,
     "commits": 2,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2019-01-14T22:27:42Z",
+    "time_of_1st_review": "2019-01-14T22:27:42Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 0.4,
-    "hours_to_first_review": 0.34,
-    "minutes_to_first_review": 20.37
+    "hrs_open": 0.4,
+    "hrs_to_1st_review": 0.34,
+    "mins_to_1st_review": 20.37
   },
   {
     "org": "okta",
@@ -2808,20 +2820,20 @@
     "author": "OkGoDoIt",
     "created_at": "2019-03-18T17:59:54Z",
     "merged_at": "2019-03-19T17:18:34Z",
+    "base_branch": "master",
+    "head_branch": "rp-update-readme-version-OKTA-212646",
     "changed_files": 3,
     "commits": 3,
     "additions": 15,
     "deletions": 14,
     "reviews": 1,
-    "time_of_first_review": "2019-03-19T17:11:00Z",
+    "time_of_1st_review": "2019-03-19T17:11:00Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 23.31,
-    "hours_to_first_review": 23.19,
-    "minutes_to_first_review": 1391.1
+    "hrs_open": 23.31,
+    "hrs_to_1st_review": 23.19,
+    "mins_to_1st_review": 1391.1
   },
   {
     "org": "okta",
@@ -2831,20 +2843,20 @@
     "author": "OkGoDoIt",
     "created_at": "2019-03-19T17:56:21Z",
     "merged_at": "2019-03-20T20:11:57Z",
+    "base_branch": "master",
+    "head_branch": "rp-fix-broken-links",
     "changed_files": 1,
     "commits": 1,
     "additions": 3,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2019-03-20T19:46:37Z",
+    "time_of_1st_review": "2019-03-20T19:46:37Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 26.26,
-    "hours_to_first_review": 25.84,
-    "minutes_to_first_review": 1550.27
+    "hrs_open": 26.26,
+    "hrs_to_1st_review": 25.84,
+    "mins_to_1st_review": 1550.27
   },
   {
     "org": "okta",
@@ -2854,20 +2866,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-03-22T15:25:23Z",
     "merged_at": "2019-03-22T15:38:49Z",
+    "base_branch": "master",
+    "head_branch": "OKTA-212982-update-readme",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2019-03-22T15:36:34Z",
+    "time_of_1st_review": "2019-03-22T15:36:34Z",
     "reviewers": [
-      [
-        "nbarbettini"
-      ]
+      "nbarbettini"
     ],
-    "hours_open": 0.22,
-    "hours_to_first_review": 0.19,
-    "minutes_to_first_review": 11.18
+    "hrs_open": 0.22,
+    "hrs_to_1st_review": 0.19,
+    "mins_to_1st_review": 11.18
   },
   {
     "org": "okta",
@@ -2877,20 +2889,20 @@
     "author": "vijetmahabaleshwar-okta",
     "created_at": "2019-04-18T20:47:30Z",
     "merged_at": "2019-04-19T15:22:01Z",
+    "base_branch": "master",
+    "head_branch": "vm-upgrade-version",
     "changed_files": 1,
     "commits": 1,
     "additions": 4,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2019-04-18T22:43:52Z",
+    "time_of_1st_review": "2019-04-18T22:43:52Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 18.58,
-    "hours_to_first_review": 1.94,
-    "minutes_to_first_review": 116.37
+    "hrs_open": 18.58,
+    "hrs_to_1st_review": 1.94,
+    "mins_to_1st_review": 116.37
   },
   {
     "org": "okta",
@@ -2900,20 +2912,20 @@
     "author": "OkGoDoIt",
     "created_at": "2019-04-24T00:24:18Z",
     "merged_at": "2019-04-29T17:18:20Z",
+    "base_branch": "master",
+    "head_branch": "rp-recurrent-flaky-test-OKTA-216812",
     "changed_files": 1,
     "commits": 2,
     "additions": 5,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2019-04-24T17:30:17Z",
+    "time_of_1st_review": "2019-04-24T17:30:17Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 136.9,
-    "hours_to_first_review": 17.1,
-    "minutes_to_first_review": 1025.98
+    "hrs_open": 136.9,
+    "hrs_to_1st_review": 17.1,
+    "mins_to_1st_review": 1025.98
   },
   {
     "org": "okta",
@@ -2923,22 +2935,22 @@
     "author": "laura-rodriguez",
     "created_at": "2019-05-15T20:08:37Z",
     "merged_at": "2019-05-21T14:57:02Z",
+    "base_branch": "master",
+    "head_branch": "lr-add-test-for-enroll-sms-factor",
     "changed_files": 1,
     "commits": 3,
     "additions": 43,
     "deletions": 1,
     "reviews": 3,
-    "time_of_first_review": "2019-05-15T20:54:00Z",
+    "time_of_1st_review": "2019-05-15T20:54:00Z",
     "reviewers": [
-      [
-        "vijetmahabaleshwar-okta",
-        "laura-rodriguez",
-        "bdemers"
-      ]
+      "vijetmahabaleshwar-okta",
+      "laura-rodriguez",
+      "bdemers"
     ],
-    "hours_open": 138.81,
-    "hours_to_first_review": 0.76,
-    "minutes_to_first_review": 45.38
+    "hrs_open": 138.81,
+    "hrs_to_1st_review": 0.76,
+    "mins_to_1st_review": 45.38
   },
   {
     "org": "okta",
@@ -2948,20 +2960,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-05-16T20:04:38Z",
     "merged_at": "2019-05-21T15:10:39Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-openapi-spec",
     "changed_files": 4,
     "commits": 2,
     "additions": 11,
     "deletions": 6,
     "reviews": 1,
-    "time_of_first_review": "2019-05-21T14:51:08Z",
+    "time_of_1st_review": "2019-05-21T14:51:08Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 115.1,
-    "hours_to_first_review": 114.78,
-    "minutes_to_first_review": 6886.5
+    "hrs_open": 115.1,
+    "hrs_to_1st_review": 114.78,
+    "mins_to_1st_review": 6886.5
   },
   {
     "org": "okta",
@@ -2971,20 +2983,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-05-28T20:45:45Z",
     "merged_at": "2019-05-31T15:31:10Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-contributing-guide",
     "changed_files": 2,
     "commits": 3,
     "additions": 156,
     "deletions": 31,
     "reviews": 1,
-    "time_of_first_review": "2019-05-29T21:08:08Z",
+    "time_of_1st_review": "2019-05-29T21:08:08Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 66.76,
-    "hours_to_first_review": 24.37,
-    "minutes_to_first_review": 1462.38
+    "hrs_open": 66.76,
+    "hrs_to_1st_review": 24.37,
+    "mins_to_1st_review": 1462.38
   },
   {
     "org": "okta",
@@ -2994,20 +3006,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-07-11T20:17:20Z",
     "merged_at": "2019-07-12T13:37:35Z",
+    "base_branch": "master",
+    "head_branch": "lr-UpdateAsync-does-not-add-the-empty-array-profile",
     "changed_files": 3,
     "commits": 1,
     "additions": 69,
     "deletions": 8,
     "reviews": 1,
-    "time_of_first_review": "2019-07-11T20:51:55Z",
+    "time_of_1st_review": "2019-07-11T20:51:55Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 17.34,
-    "hours_to_first_review": 0.58,
-    "minutes_to_first_review": 34.58
+    "hrs_open": 17.34,
+    "hrs_to_1st_review": 0.58,
+    "mins_to_1st_review": 34.58
   },
   {
     "org": "okta",
@@ -3017,20 +3029,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-07-12T13:59:00Z",
     "merged_at": "2019-07-12T14:31:51Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-project-version-to-1.2.2",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2019-07-12T14:17:44Z",
+    "time_of_1st_review": "2019-07-12T14:17:44Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 0.55,
-    "hours_to_first_review": 0.31,
-    "minutes_to_first_review": 18.73
+    "hrs_open": 0.55,
+    "hrs_to_1st_review": 0.31,
+    "mins_to_1st_review": 18.73
   },
   {
     "org": "okta",
@@ -3040,20 +3052,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-07-18T16:33:08Z",
     "merged_at": "2019-07-18T18:09:07Z",
+    "base_branch": "master",
+    "head_branch": "ymerej-contrib_typo",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2019-07-18T18:07:19Z",
+    "time_of_1st_review": "2019-07-18T18:07:19Z",
     "reviewers": [
-      [
-        "OkGoDoIt"
-      ]
+      "OkGoDoIt"
     ],
-    "hours_open": 1.6,
-    "hours_to_first_review": 1.57,
-    "minutes_to_first_review": 94.18
+    "hrs_open": 1.6,
+    "hrs_to_1st_review": 1.57,
+    "mins_to_1st_review": 94.18
   },
   {
     "org": "okta",
@@ -3063,20 +3075,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-07-26T17:05:58Z",
     "merged_at": "2019-07-29T14:54:05Z",
+    "base_branch": "legacy",
+    "head_branch": "lr-mark-ps-module-as-deprecated",
     "changed_files": 3,
     "commits": 4,
     "additions": 15,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2019-07-26T20:36:07Z",
+    "time_of_1st_review": "2019-07-26T20:36:07Z",
     "reviewers": [
-      [
-        "OkGoDoIt"
-      ]
+      "OkGoDoIt"
     ],
-    "hours_open": 69.8,
-    "hours_to_first_review": 3.5,
-    "minutes_to_first_review": 210.15
+    "hrs_open": 69.8,
+    "hrs_to_1st_review": 3.5,
+    "mins_to_1st_review": 210.15
   },
   {
     "org": "okta",
@@ -3086,21 +3098,21 @@
     "author": "laura-rodriguez",
     "created_at": "2019-08-09T20:37:06Z",
     "merged_at": "2019-08-13T14:22:59Z",
+    "base_branch": "master",
+    "head_branch": "lr-json-serializers",
     "changed_files": 5,
     "commits": 4,
     "additions": 113,
     "deletions": 25,
     "reviews": 3,
-    "time_of_first_review": "2019-08-12T14:50:30Z",
+    "time_of_1st_review": "2019-08-12T14:50:30Z",
     "reviewers": [
-      [
-        "OkGoDoIt",
-        "laura-rodriguez"
-      ]
+      "OkGoDoIt",
+      "laura-rodriguez"
     ],
-    "hours_open": 89.76,
-    "hours_to_first_review": 66.22,
-    "minutes_to_first_review": 3973.4
+    "hrs_open": 89.76,
+    "hrs_to_1st_review": 66.22,
+    "mins_to_1st_review": 3973.4
   },
   {
     "org": "okta",
@@ -3110,21 +3122,21 @@
     "author": "laura-rodriguez",
     "created_at": "2019-08-13T14:44:58Z",
     "merged_at": "2019-08-13T15:42:52Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-version",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2019-08-13T15:02:08Z",
+    "time_of_1st_review": "2019-08-13T15:02:08Z",
     "reviewers": [
-      [
-        "bretterer",
-        "robertjd"
-      ]
+      "bretterer",
+      "robertjd"
     ],
-    "hours_open": 0.97,
-    "hours_to_first_review": 0.29,
-    "minutes_to_first_review": 17.17
+    "hrs_open": 0.97,
+    "hrs_to_1st_review": 0.29,
+    "mins_to_1st_review": 17.17
   },
   {
     "org": "okta",
@@ -3134,21 +3146,21 @@
     "author": "laura-rodriguez",
     "created_at": "2019-08-13T19:56:52Z",
     "merged_at": "2019-08-16T16:21:41Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-openapi-spec",
     "changed_files": 20,
     "commits": 7,
     "additions": 309,
     "deletions": 584,
     "reviews": 2,
-    "time_of_first_review": "2019-08-15T21:54:43Z",
+    "time_of_1st_review": "2019-08-15T21:54:43Z",
     "reviewers": [
-      [
-        "OkGoDoIt",
-        "laura-rodriguez"
-      ]
+      "OkGoDoIt",
+      "laura-rodriguez"
     ],
-    "hours_open": 68.41,
-    "hours_to_first_review": 49.96,
-    "minutes_to_first_review": 2997.85
+    "hrs_open": 68.41,
+    "hrs_to_1st_review": 49.96,
+    "mins_to_1st_review": 2997.85
   },
   {
     "org": "okta",
@@ -3158,20 +3170,20 @@
     "author": "laura-rodriguez",
     "created_at": "2019-08-16T18:13:14Z",
     "merged_at": "2019-08-16T18:18:42Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-version-to-1.4.0",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2019-08-16T18:14:19Z",
+    "time_of_1st_review": "2019-08-16T18:14:19Z",
     "reviewers": [
-      [
-        "vijetmahabaleshwar-okta"
-      ]
+      "vijetmahabaleshwar-okta"
     ],
-    "hours_open": 0.09,
-    "hours_to_first_review": 0.02,
-    "minutes_to_first_review": 1.08
+    "hrs_open": 0.09,
+    "hrs_to_1st_review": 0.02,
+    "mins_to_1st_review": 1.08
   },
   {
     "org": "okta",
@@ -3181,21 +3193,21 @@
     "author": "laura-rodriguez",
     "created_at": "2019-09-04T20:22:53Z",
     "merged_at": "2019-09-10T14:36:58Z",
+    "base_branch": "master",
+    "head_branch": "lr-clone-request-in-retry",
     "changed_files": 3,
     "commits": 7,
     "additions": 115,
     "deletions": 11,
     "reviews": 4,
-    "time_of_first_review": "2019-09-05T19:11:26Z",
+    "time_of_1st_review": "2019-09-05T19:11:26Z",
     "reviewers": [
-      [
-        "bradhaverstein-okta",
-        "laura-rodriguez"
-      ]
+      "bradhaverstein-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 138.23,
-    "hours_to_first_review": 22.81,
-    "minutes_to_first_review": 1368.55
+    "hrs_open": 138.23,
+    "hrs_to_1st_review": 22.81,
+    "mins_to_1st_review": 1368.55
   },
   {
     "org": "okta",
@@ -3205,21 +3217,21 @@
     "author": "laura-rodriguez",
     "created_at": "2019-09-10T14:51:04Z",
     "merged_at": "2019-09-10T15:16:12Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-version-to-1.4.1",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2019-09-10T15:05:09Z",
+    "time_of_1st_review": "2019-09-10T15:05:09Z",
     "reviewers": [
-      [
-        "bretterer",
-        "swiftone"
-      ]
+      "bretterer",
+      "swiftone"
     ],
-    "hours_open": 0.42,
-    "hours_to_first_review": 0.23,
-    "minutes_to_first_review": 14.08
+    "hrs_open": 0.42,
+    "hrs_to_1st_review": 0.23,
+    "mins_to_1st_review": 14.08
   },
   {
     "org": "okta",
@@ -3229,20 +3241,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-01-17T22:34:27Z",
     "merged_at": "2020-01-21T16:49:54Z",
+    "base_branch": "master",
+    "head_branch": "lr-temp-fix-for-latest-mono-version-issue",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2020-01-21T16:49:06Z",
+    "time_of_1st_review": "2020-01-21T16:49:06Z",
     "reviewers": [
-      [
-        "swiftone"
-      ]
+      "swiftone"
     ],
-    "hours_open": 90.26,
-    "hours_to_first_review": 90.24,
-    "minutes_to_first_review": 5414.65
+    "hrs_open": 90.26,
+    "hrs_to_1st_review": 90.24,
+    "mins_to_1st_review": 5414.65
   },
   {
     "org": "okta",
@@ -3252,21 +3264,21 @@
     "author": "laura-rodriguez",
     "created_at": "2020-01-23T22:01:57Z",
     "merged_at": "2020-02-24T15:08:48Z",
+    "base_branch": "lr-release-2.0.0",
+    "head_branch": "lr-upgrade-to-netstandard-2x",
     "changed_files": 26,
     "commits": 11,
     "additions": 113,
     "deletions": 100,
     "reviews": 9,
-    "time_of_first_review": "2020-01-23T22:06:18Z",
+    "time_of_1st_review": "2020-01-23T22:06:18Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bradhaverstein-okta"
-      ]
+      "laura-rodriguez",
+      "bradhaverstein-okta"
     ],
-    "hours_open": 761.11,
-    "hours_to_first_review": 0.07,
-    "minutes_to_first_review": 4.35
+    "hrs_open": 761.11,
+    "hrs_to_1st_review": 0.07,
+    "mins_to_1st_review": 4.35
   },
   {
     "org": "okta",
@@ -3276,20 +3288,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-02-20T23:02:50Z",
     "merged_at": "2020-02-28T16:39:16Z",
+    "base_branch": "lr-release-2.0.0",
+    "head_branch": "lr-add-oauth",
     "changed_files": 28,
     "commits": 18,
     "additions": 1371,
     "deletions": 66,
     "reviews": 3,
-    "time_of_first_review": "2020-02-27T18:22:39Z",
+    "time_of_1st_review": "2020-02-27T18:22:39Z",
     "reviewers": [
-      [
-        "bretterer"
-      ]
+      "bretterer"
     ],
-    "hours_open": 185.61,
-    "hours_to_first_review": 163.33,
-    "minutes_to_first_review": 9799.82
+    "hrs_open": 185.61,
+    "hrs_to_1st_review": 163.33,
+    "mins_to_1st_review": 9799.82
   },
   {
     "org": "okta",
@@ -3299,20 +3311,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-02-28T18:49:46Z",
     "merged_at": "2020-03-05T16:54:47Z",
+    "base_branch": "lr-release-2.0.0",
+    "head_branch": "lr-minor-fixes",
     "changed_files": 6,
     "commits": 4,
     "additions": 70,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2020-03-05T16:50:37Z",
+    "time_of_1st_review": "2020-03-05T16:50:37Z",
     "reviewers": [
-      [
-        "bretterer"
-      ]
+      "bretterer"
     ],
-    "hours_open": 142.08,
-    "hours_to_first_review": 142.01,
-    "minutes_to_first_review": 8520.85
+    "hrs_open": 142.08,
+    "hrs_to_1st_review": 142.01,
+    "mins_to_1st_review": 8520.85
   },
   {
     "org": "okta",
@@ -3322,20 +3334,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-03-02T20:57:00Z",
     "merged_at": "2020-03-05T17:45:17Z",
+    "base_branch": "lr-release-2.0.0",
+    "head_branch": "lr-add-jti",
     "changed_files": 1,
     "commits": 2,
     "additions": 1,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2020-03-02T22:28:17Z",
+    "time_of_1st_review": "2020-03-02T22:28:17Z",
     "reviewers": [
-      [
-        "bretterer"
-      ]
+      "bretterer"
     ],
-    "hours_open": 68.8,
-    "hours_to_first_review": 1.52,
-    "minutes_to_first_review": 91.28
+    "hrs_open": 68.8,
+    "hrs_to_1st_review": 1.52,
+    "mins_to_1st_review": 91.28
   },
   {
     "org": "okta",
@@ -3345,20 +3357,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-03-04T22:17:38Z",
     "merged_at": "2020-03-05T14:58:42Z",
+    "base_branch": "lr-release-2.0.0",
+    "head_branch": "lr-set-built-in-strategy-as-default",
     "changed_files": 3,
     "commits": 1,
     "additions": 12,
     "deletions": 9,
     "reviews": 1,
-    "time_of_first_review": "2020-03-05T14:54:15Z",
+    "time_of_1st_review": "2020-03-05T14:54:15Z",
     "reviewers": [
-      [
-        "bretterer"
-      ]
+      "bretterer"
     ],
-    "hours_open": 16.68,
-    "hours_to_first_review": 16.61,
-    "minutes_to_first_review": 996.62
+    "hrs_open": 16.68,
+    "hrs_to_1st_review": 16.61,
+    "mins_to_1st_review": 996.62
   },
   {
     "org": "okta",
@@ -3368,20 +3380,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-03-23T15:05:35Z",
     "merged_at": "2020-03-23T18:50:21Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-flexibleconfiguration-dependency",
     "changed_files": 2,
     "commits": 2,
     "additions": 4,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2020-03-23T17:31:13Z",
+    "time_of_1st_review": "2020-03-23T17:31:13Z",
     "reviewers": [
-      [
-        "robertjd"
-      ]
+      "robertjd"
     ],
-    "hours_open": 3.75,
-    "hours_to_first_review": 2.43,
-    "minutes_to_first_review": 145.63
+    "hrs_open": 3.75,
+    "hrs_to_1st_review": 2.43,
+    "mins_to_1st_review": 145.63
   },
   {
     "org": "okta",
@@ -3391,21 +3403,21 @@
     "author": "laura-rodriguez",
     "created_at": "2020-03-24T16:34:49Z",
     "merged_at": "2020-03-25T14:05:15Z",
+    "base_branch": "lr-release-2.0.0",
+    "head_branch": "lr-fix-user-agent-report",
     "changed_files": 3,
     "commits": 5,
     "additions": 118,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2020-03-24T16:48:49Z",
+    "time_of_1st_review": "2020-03-24T16:48:49Z",
     "reviewers": [
-      [
-        "bradhaverstein-okta",
-        "laura-rodriguez"
-      ]
+      "bradhaverstein-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 21.51,
-    "hours_to_first_review": 0.23,
-    "minutes_to_first_review": 14
+    "hrs_open": 21.51,
+    "hrs_to_1st_review": 0.23,
+    "mins_to_1st_review": 14
   },
   {
     "org": "okta",
@@ -3415,20 +3427,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-03-27T15:29:06Z",
     "merged_at": "2020-03-27T16:11:51Z",
+    "base_branch": "master",
+    "head_branch": "lr-release-2.0.0",
     "changed_files": 60,
     "commits": 8,
     "additions": 1702,
     "deletions": 188,
     "reviews": 1,
-    "time_of_first_review": "2020-03-27T15:36:30Z",
+    "time_of_1st_review": "2020-03-27T15:36:30Z",
     "reviewers": [
-      [
-        "robertjd"
-      ]
+      "robertjd"
     ],
-    "hours_open": 0.71,
-    "hours_to_first_review": 0.12,
-    "minutes_to_first_review": 7.4
+    "hrs_open": 0.71,
+    "hrs_to_1st_review": 0.12,
+    "mins_to_1st_review": 7.4
   },
   {
     "org": "okta",
@@ -3438,20 +3450,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-04-20T14:41:50Z",
     "merged_at": "2020-04-20T15:46:14Z",
+    "base_branch": "master",
+    "head_branch": "lr-default-serializer-section",
     "changed_files": 1,
     "commits": 1,
     "additions": 12,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2020-04-20T15:18:33Z",
+    "time_of_1st_review": "2020-04-20T15:18:33Z",
     "reviewers": [
-      [
-        "bretterer"
-      ]
+      "bretterer"
     ],
-    "hours_open": 1.07,
-    "hours_to_first_review": 0.61,
-    "minutes_to_first_review": 36.72
+    "hrs_open": 1.07,
+    "hrs_to_1st_review": 0.61,
+    "mins_to_1st_review": 36.72
   },
   {
     "org": "okta",
@@ -3461,20 +3473,20 @@
     "author": "vijetmahabaleshwar-okta",
     "created_at": "2020-04-22T05:46:27Z",
     "merged_at": "2020-04-22T23:13:52Z",
+    "base_branch": "master",
+    "head_branch": "vm-disable-oauth-bacon",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2020-04-22T20:28:09Z",
+    "time_of_1st_review": "2020-04-22T20:28:09Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 17.46,
-    "hours_to_first_review": 14.7,
-    "minutes_to_first_review": 881.7
+    "hrs_open": 17.46,
+    "hrs_to_1st_review": 14.7,
+    "mins_to_1st_review": 881.7
   },
   {
     "org": "okta",
@@ -3484,20 +3496,20 @@
     "author": "vijetmahabaleshwar-okta",
     "created_at": "2020-04-24T21:54:51Z",
     "merged_at": "2020-04-27T16:29:15Z",
+    "base_branch": "master",
+    "head_branch": "vm-slack-notifications-cron",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2020-04-27T16:28:15Z",
+    "time_of_1st_review": "2020-04-27T16:28:15Z",
     "reviewers": [
-      [
-        "swiftone"
-      ]
+      "swiftone"
     ],
-    "hours_open": 66.57,
-    "hours_to_first_review": 66.56,
-    "minutes_to_first_review": 3993.4
+    "hrs_open": 66.57,
+    "hrs_to_1st_review": 66.56,
+    "mins_to_1st_review": 3993.4
   },
   {
     "org": "okta",
@@ -3507,20 +3519,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-04-28T21:27:40Z",
     "merged_at": "2020-05-11T17:49:53Z",
+    "base_branch": "lr-openapi-updates",
+    "head_branch": "lr-openapi-updates-user-factors",
     "changed_files": 396,
     "commits": 6,
     "additions": 17131,
     "deletions": 996,
     "reviews": 1,
-    "time_of_first_review": "2020-05-11T17:48:47Z",
+    "time_of_1st_review": "2020-05-11T17:48:47Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 308.37,
-    "hours_to_first_review": 308.35,
-    "minutes_to_first_review": 18501.12
+    "hrs_open": 308.37,
+    "hrs_to_1st_review": 308.35,
+    "mins_to_1st_review": 18501.12
   },
   {
     "org": "okta",
@@ -3530,20 +3542,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-11T16:06:17Z",
     "merged_at": "2020-05-11T17:31:07Z",
+    "base_branch": "master",
+    "head_branch": "OKTA-286015-add-issue-template",
     "changed_files": 4,
     "commits": 1,
     "additions": 102,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2020-05-11T16:20:09Z",
+    "time_of_1st_review": "2020-05-11T16:20:09Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 1.41,
-    "hours_to_first_review": 0.23,
-    "minutes_to_first_review": 13.87
+    "hrs_open": 1.41,
+    "hrs_to_1st_review": 0.23,
+    "mins_to_1st_review": 13.87
   },
   {
     "org": "okta",
@@ -3553,20 +3565,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-14T19:33:50Z",
     "merged_at": "2020-07-08T14:12:53Z",
+    "base_branch": "master",
+    "head_branch": "dev",
     "changed_files": 455,
     "commits": 62,
     "additions": 24264,
     "deletions": 1281,
     "reviews": 1,
-    "time_of_first_review": "2020-07-08T14:10:16Z",
+    "time_of_1st_review": "2020-07-08T14:10:16Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 1314.65,
-    "hours_to_first_review": 1314.61,
-    "minutes_to_first_review": 78876.43
+    "hrs_open": 1314.65,
+    "hrs_to_1st_review": 1314.61,
+    "mins_to_1st_review": 78876.43
   },
   {
     "org": "okta",
@@ -3576,21 +3588,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-15T16:16:35Z",
     "merged_at": "2020-05-18T13:16:44Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-295706-add-usertypes",
     "changed_files": 8,
     "commits": 7,
     "additions": 300,
     "deletions": 28,
     "reviews": 9,
-    "time_of_first_review": "2020-05-15T16:42:40Z",
+    "time_of_1st_review": "2020-05-15T16:42:40Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 69,
-    "hours_to_first_review": 0.43,
-    "minutes_to_first_review": 26.08
+    "hrs_open": 69,
+    "hrs_to_1st_review": 0.43,
+    "mins_to_1st_review": 26.08
   },
   {
     "org": "okta",
@@ -3600,21 +3612,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-19T13:03:17Z",
     "merged_at": "2020-05-21T14:08:00Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-278598-add-eventhooks",
     "changed_files": 2,
     "commits": 4,
     "additions": 556,
     "deletions": 0,
     "reviews": 14,
-    "time_of_first_review": "2020-05-19T16:28:42Z",
+    "time_of_1st_review": "2020-05-19T16:28:42Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 49.08,
-    "hours_to_first_review": 3.42,
-    "minutes_to_first_review": 205.42
+    "hrs_open": 49.08,
+    "hrs_to_1st_review": 3.42,
+    "mins_to_1st_review": 205.42
   },
   {
     "org": "okta",
@@ -3624,21 +3636,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-19T15:54:45Z",
     "merged_at": "2020-05-21T14:07:19Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-285615-add-inlinehooks",
     "changed_files": 1,
     "commits": 3,
     "additions": 456,
     "deletions": 0,
     "reviews": 7,
-    "time_of_first_review": "2020-05-19T18:26:22Z",
+    "time_of_1st_review": "2020-05-19T18:26:22Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 46.21,
-    "hours_to_first_review": 2.53,
-    "minutes_to_first_review": 151.62
+    "hrs_open": 46.21,
+    "hrs_to_1st_review": 2.53,
+    "mins_to_1st_review": 151.62
   },
   {
     "org": "okta",
@@ -3648,20 +3660,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-21T14:50:13Z",
     "merged_at": "2020-05-22T22:35:36Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-298370-stabalize-integration-tests",
     "changed_files": 4,
     "commits": 9,
     "additions": 68,
     "deletions": 84,
     "reviews": 1,
-    "time_of_first_review": "2020-05-22T21:12:07Z",
+    "time_of_1st_review": "2020-05-22T21:12:07Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 31.76,
-    "hours_to_first_review": 30.37,
-    "minutes_to_first_review": 1821.9
+    "hrs_open": 31.76,
+    "hrs_to_1st_review": 30.37,
+    "mins_to_1st_review": 1821.9
   },
   {
     "org": "okta",
@@ -3671,21 +3683,21 @@
     "author": "laura-rodriguez",
     "created_at": "2020-05-21T16:24:57Z",
     "merged_at": "2020-05-22T17:04:11Z",
+    "base_branch": "dev",
+    "head_branch": "lr-OKTA-285603-add-admin-roles-tests",
     "changed_files": 20,
     "commits": 6,
     "additions": 757,
     "deletions": 63,
     "reviews": 5,
-    "time_of_first_review": "2020-05-21T21:30:00Z",
+    "time_of_1st_review": "2020-05-21T21:30:00Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 24.65,
-    "hours_to_first_review": 5.08,
-    "minutes_to_first_review": 305.05
+    "hrs_open": 24.65,
+    "hrs_to_1st_review": 5.08,
+    "mins_to_1st_review": 305.05
   },
   {
     "org": "okta",
@@ -3695,21 +3707,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-21T18:16:08Z",
     "merged_at": "2020-05-29T15:36:51Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-285614-add-linked-objects",
     "changed_files": 11,
     "commits": 9,
     "additions": 301,
     "deletions": 20,
     "reviews": 20,
-    "time_of_first_review": "2020-05-27T14:08:12Z",
+    "time_of_1st_review": "2020-05-27T14:08:12Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 189.35,
-    "hours_to_first_review": 139.87,
-    "minutes_to_first_review": 8392.07
+    "hrs_open": 189.35,
+    "hrs_to_1st_review": 139.87,
+    "mins_to_1st_review": 8392.07
   },
   {
     "org": "okta",
@@ -3719,20 +3731,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-05-25T16:18:14Z",
     "merged_at": "2020-05-26T14:12:05Z",
+    "base_branch": "dev",
+    "head_branch": "lr-fix-it-issues",
     "changed_files": 3,
     "commits": 7,
     "additions": 8,
     "deletions": 8,
     "reviews": 1,
-    "time_of_first_review": "2020-05-26T13:59:56Z",
+    "time_of_1st_review": "2020-05-26T13:59:56Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 21.9,
-    "hours_to_first_review": 21.7,
-    "minutes_to_first_review": 1301.7
+    "hrs_open": 21.9,
+    "hrs_to_1st_review": 21.7,
+    "mins_to_1st_review": 1301.7
   },
   {
     "org": "okta",
@@ -3742,21 +3754,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-29T13:11:40Z",
     "merged_at": "2020-06-01T19:56:07Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-285610-add-features",
     "changed_files": 3,
     "commits": 4,
     "additions": 123,
     "deletions": 1,
     "reviews": 16,
-    "time_of_first_review": "2020-06-01T13:31:36Z",
+    "time_of_1st_review": "2020-06-01T13:31:36Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 78.74,
-    "hours_to_first_review": 72.33,
-    "minutes_to_first_review": 4339.93
+    "hrs_open": 78.74,
+    "hrs_to_1st_review": 72.33,
+    "mins_to_1st_review": 4339.93
   },
   {
     "org": "okta",
@@ -3766,20 +3778,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-05-29T14:18:47Z",
     "merged_at": "2020-06-11T20:02:35Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-300462-account-for-user-race-condition",
     "changed_files": 7,
     "commits": 2,
     "additions": 29,
     "deletions": 18,
     "reviews": 4,
-    "time_of_first_review": "2020-06-11T18:36:22Z",
+    "time_of_1st_review": "2020-06-11T18:36:22Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 317.73,
-    "hours_to_first_review": 316.29,
-    "minutes_to_first_review": 18977.58
+    "hrs_open": 317.73,
+    "hrs_to_1st_review": 316.29,
+    "mins_to_1st_review": 18977.58
   },
   {
     "org": "okta",
@@ -3789,21 +3801,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-06-02T20:30:35Z",
     "merged_at": "2020-06-09T14:55:29Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-285607-authorization-servers",
     "changed_files": 9,
     "commits": 3,
     "additions": 983,
     "deletions": 16,
     "reviews": 55,
-    "time_of_first_review": "2020-06-05T14:52:48Z",
+    "time_of_1st_review": "2020-06-05T14:52:48Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 162.42,
-    "hours_to_first_review": 66.37,
-    "minutes_to_first_review": 3982.22
+    "hrs_open": 162.42,
+    "hrs_to_1st_review": 66.37,
+    "mins_to_1st_review": 3982.22
   },
   {
     "org": "okta",
@@ -3813,21 +3825,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-06-04T13:33:10Z",
     "merged_at": "2020-06-11T14:37:18Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-285617-groups",
     "changed_files": 1,
     "commits": 2,
     "additions": 641,
     "deletions": 0,
     "reviews": 11,
-    "time_of_first_review": "2020-06-05T16:20:00Z",
+    "time_of_1st_review": "2020-06-05T16:20:00Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 169.07,
-    "hours_to_first_review": 26.78,
-    "minutes_to_first_review": 1606.83
+    "hrs_open": 169.07,
+    "hrs_to_1st_review": 26.78,
+    "mins_to_1st_review": 1606.83
   },
   {
     "org": "okta",
@@ -3837,21 +3849,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-06-10T15:01:08Z",
     "merged_at": "2020-06-12T19:43:46Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-285618-users",
     "changed_files": 6,
     "commits": 5,
     "additions": 924,
     "deletions": 28,
     "reviews": 25,
-    "time_of_first_review": "2020-06-10T19:59:35Z",
+    "time_of_1st_review": "2020-06-10T19:59:35Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 52.71,
-    "hours_to_first_review": 4.97,
-    "minutes_to_first_review": 298.45
+    "hrs_open": 52.71,
+    "hrs_to_1st_review": 4.97,
+    "mins_to_1st_review": 298.45
   },
   {
     "org": "okta",
@@ -3861,21 +3873,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-06-17T19:58:05Z",
     "merged_at": "2020-06-25T15:36:43Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-295020-content-types",
     "changed_files": 58,
     "commits": 28,
     "additions": 1674,
     "deletions": 212,
     "reviews": 66,
-    "time_of_first_review": "2020-06-19T19:26:41Z",
+    "time_of_1st_review": "2020-06-19T19:26:41Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 187.64,
-    "hours_to_first_review": 47.48,
-    "minutes_to_first_review": 2848.6
+    "hrs_open": 187.64,
+    "hrs_to_1st_review": 47.48,
+    "mins_to_1st_review": 2848.6
   },
   {
     "org": "okta",
@@ -3885,21 +3897,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-06-25T15:49:14Z",
     "merged_at": "2020-06-25T16:56:21Z",
+    "base_branch": "dev",
+    "head_branch": "fix-byte-array-payloadhandlers",
     "changed_files": 4,
     "commits": 1,
     "additions": 22,
     "deletions": 4,
     "reviews": 6,
-    "time_of_first_review": "2020-06-25T15:59:19Z",
+    "time_of_1st_review": "2020-06-25T15:59:19Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 1.12,
-    "hours_to_first_review": 0.17,
-    "minutes_to_first_review": 10.08
+    "hrs_open": 1.12,
+    "hrs_to_1st_review": 0.17,
+    "mins_to_1st_review": 10.08
   },
   {
     "org": "okta",
@@ -3909,21 +3921,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-06-29T17:44:07Z",
     "merged_at": "2020-06-30T14:28:31Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-299521-migration-guide",
     "changed_files": 1,
     "commits": 6,
     "additions": 88,
     "deletions": 0,
     "reviews": 21,
-    "time_of_first_review": "2020-06-29T19:27:10Z",
+    "time_of_1st_review": "2020-06-29T19:27:10Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 20.74,
-    "hours_to_first_review": 1.72,
-    "minutes_to_first_review": 103.05
+    "hrs_open": 20.74,
+    "hrs_to_1st_review": 1.72,
+    "mins_to_1st_review": 103.05
   },
   {
     "org": "okta",
@@ -3933,21 +3945,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-06-30T17:53:02Z",
     "merged_at": "2020-06-30T20:04:12Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-308818-renegerate-from-latest-openapi",
     "changed_files": 25,
     "commits": 1,
     "additions": 440,
     "deletions": 88,
     "reviews": 4,
-    "time_of_first_review": "2020-06-30T18:24:32Z",
+    "time_of_1st_review": "2020-06-30T18:24:32Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 2.19,
-    "hours_to_first_review": 0.53,
-    "minutes_to_first_review": 31.5
+    "hrs_open": 2.19,
+    "hrs_to_1st_review": 0.53,
+    "mins_to_1st_review": 31.5
   },
   {
     "org": "okta",
@@ -3957,21 +3969,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-07-01T16:03:02Z",
     "merged_at": "2020-07-06T16:59:34Z",
+    "base_branch": "dev",
+    "head_branch": "OKTA-303288-code-coverage",
     "changed_files": 5,
     "commits": 4,
     "additions": 50,
     "deletions": 9,
     "reviews": 3,
-    "time_of_first_review": "2020-07-06T16:39:01Z",
+    "time_of_1st_review": "2020-07-06T16:39:01Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 120.94,
-    "hours_to_first_review": 120.6,
-    "minutes_to_first_review": 7235.98
+    "hrs_open": 120.94,
+    "hrs_to_1st_review": 120.6,
+    "mins_to_1st_review": 7235.98
   },
   {
     "org": "okta",
@@ -3981,20 +3993,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-07-06T18:54:20Z",
     "merged_at": "2020-07-06T19:00:01Z",
+    "base_branch": "dev",
+    "head_branch": "update-openapi-referenced-version",
     "changed_files": 2,
     "commits": 1,
     "additions": 204,
     "deletions": 198,
     "reviews": 1,
-    "time_of_first_review": "2020-07-06T18:58:51Z",
+    "time_of_1st_review": "2020-07-06T18:58:51Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 0.09,
-    "hours_to_first_review": 0.08,
-    "minutes_to_first_review": 4.52
+    "hrs_open": 0.09,
+    "hrs_to_1st_review": 0.08,
+    "mins_to_1st_review": 4.52
   },
   {
     "org": "okta",
@@ -4004,20 +4016,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-07-06T19:09:57Z",
     "merged_at": "2020-07-07T14:41:06Z",
+    "base_branch": "dev",
+    "head_branch": "update-version",
     "changed_files": 2,
     "commits": 2,
     "additions": 3,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2020-07-07T14:32:07Z",
+    "time_of_1st_review": "2020-07-07T14:32:07Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 19.52,
-    "hours_to_first_review": 19.37,
-    "minutes_to_first_review": 1162.17
+    "hrs_open": 19.52,
+    "hrs_to_1st_review": 19.37,
+    "mins_to_1st_review": 1162.17
   },
   {
     "org": "okta",
@@ -4027,20 +4039,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-07-07T16:01:12Z",
     "merged_at": "2020-07-07T17:48:17Z",
+    "base_branch": "dev",
+    "head_branch": "unskip-tests",
     "changed_files": 1,
     "commits": 1,
     "additions": 24,
     "deletions": 24,
     "reviews": 1,
-    "time_of_first_review": "2020-07-07T17:39:40Z",
+    "time_of_1st_review": "2020-07-07T17:39:40Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 1.78,
-    "hours_to_first_review": 1.64,
-    "minutes_to_first_review": 98.47
+    "hrs_open": 1.78,
+    "hrs_to_1st_review": 1.64,
+    "mins_to_1st_review": 98.47
   },
   {
     "org": "okta",
@@ -4050,20 +4062,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-07-08T13:23:09Z",
     "merged_at": "2020-07-08T13:47:49Z",
+    "base_branch": "dev",
+    "head_branch": "unskip-tests-2",
     "changed_files": 2,
     "commits": 1,
     "additions": 18,
     "deletions": 18,
     "reviews": 1,
-    "time_of_first_review": "2020-07-08T13:47:31Z",
+    "time_of_1st_review": "2020-07-08T13:47:31Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 0.41,
-    "hours_to_first_review": 0.41,
-    "minutes_to_first_review": 24.37
+    "hrs_open": 0.41,
+    "hrs_to_1st_review": 0.41,
+    "mins_to_1st_review": 24.37
   },
   {
     "org": "okta",
@@ -4073,20 +4085,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-07-08T14:43:20Z",
     "merged_at": "2020-07-08T15:28:51Z",
+    "base_branch": "master",
+    "head_branch": "fix-unit-test",
     "changed_files": 1,
     "commits": 1,
     "additions": 4,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2020-07-08T14:44:04Z",
+    "time_of_1st_review": "2020-07-08T14:44:04Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 0.76,
-    "hours_to_first_review": 0.01,
-    "minutes_to_first_review": 0.73
+    "hrs_open": 0.76,
+    "hrs_to_1st_review": 0.01,
+    "mins_to_1st_review": 0.73
   },
   {
     "org": "okta",
@@ -4096,20 +4108,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-07-15T19:33:15Z",
     "merged_at": "2020-07-17T17:08:51Z",
+    "base_branch": "master",
+    "head_branch": "ruirizzi-password-hook-credentials",
     "changed_files": 4,
     "commits": 4,
     "additions": 103,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2020-07-17T16:52:11Z",
+    "time_of_1st_review": "2020-07-17T16:52:11Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 45.59,
-    "hours_to_first_review": 45.32,
-    "minutes_to_first_review": 2718.93
+    "hrs_open": 45.59,
+    "hrs_to_1st_review": 45.32,
+    "mins_to_1st_review": 2718.93
   },
   {
     "org": "okta",
@@ -4119,20 +4131,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-07-17T19:36:55Z",
     "merged_at": "2020-07-20T14:47:37Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-project-version-to-3.1.0",
     "changed_files": 4,
     "commits": 3,
     "additions": 17,
     "deletions": 9,
     "reviews": 1,
-    "time_of_first_review": "2020-07-20T14:37:39Z",
+    "time_of_1st_review": "2020-07-20T14:37:39Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 67.18,
-    "hours_to_first_review": 67.01,
-    "minutes_to_first_review": 4020.73
+    "hrs_open": 67.18,
+    "hrs_to_1st_review": 67.01,
+    "mins_to_1st_review": 4020.73
   },
   {
     "org": "okta",
@@ -4142,21 +4154,21 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-08-03T20:07:27Z",
     "merged_at": "2020-08-05T16:22:30Z",
+    "base_branch": "master",
+    "head_branch": "OKTA-316815-expose-trusted-origins-client",
     "changed_files": 3,
     "commits": 3,
     "additions": 307,
     "deletions": 0,
     "reviews": 11,
-    "time_of_first_review": "2020-08-05T14:33:01Z",
+    "time_of_1st_review": "2020-08-05T14:33:01Z",
     "reviewers": [
-      [
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 44.25,
-    "hours_to_first_review": 42.43,
-    "minutes_to_first_review": 2545.57
+    "hrs_open": 44.25,
+    "hrs_to_1st_review": 42.43,
+    "mins_to_1st_review": 2545.57
   },
   {
     "org": "okta",
@@ -4166,20 +4178,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-08-10T19:58:14Z",
     "merged_at": "2020-08-13T17:51:42Z",
+    "base_branch": "master",
+    "head_branch": "OKTA-317892-fix-flaky-test",
     "changed_files": 1,
     "commits": 4,
     "additions": 1,
     "deletions": 1,
     "reviews": 3,
-    "time_of_first_review": "2020-08-11T20:34:08Z",
+    "time_of_1st_review": "2020-08-11T20:34:08Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 69.89,
-    "hours_to_first_review": 24.6,
-    "minutes_to_first_review": 1475.9
+    "hrs_open": 69.89,
+    "hrs_to_1st_review": 24.6,
+    "mins_to_1st_review": 1475.9
   },
   {
     "org": "okta",
@@ -4189,20 +4201,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-08-17T16:22:47Z",
     "merged_at": "2020-08-17T20:40:41Z",
+    "base_branch": "master",
+    "head_branch": "lr-prepare-patch-3.1.1",
     "changed_files": 2,
     "commits": 2,
     "additions": 9,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2020-08-17T16:34:19Z",
+    "time_of_1st_review": "2020-08-17T16:34:19Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 4.3,
-    "hours_to_first_review": 0.19,
-    "minutes_to_first_review": 11.53
+    "hrs_open": 4.3,
+    "hrs_to_1st_review": 0.19,
+    "mins_to_1st_review": 11.53
   },
   {
     "org": "okta",
@@ -4212,20 +4224,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2020-08-20T16:02:27Z",
     "merged_at": "2020-08-20T16:19:59Z",
+    "base_branch": "master",
+    "head_branch": "fix-flaky-test",
     "changed_files": 1,
     "commits": 1,
     "additions": 9,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2020-08-20T16:19:04Z",
+    "time_of_1st_review": "2020-08-20T16:19:04Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 0.29,
-    "hours_to_first_review": 0.28,
-    "minutes_to_first_review": 16.62
+    "hrs_open": 0.29,
+    "hrs_to_1st_review": 0.28,
+    "mins_to_1st_review": 16.62
   },
   {
     "org": "okta",
@@ -4235,20 +4247,20 @@
     "author": "gabrielsroka",
     "created_at": "2020-09-07T21:59:16Z",
     "merged_at": "2020-09-08T21:05:26Z",
+    "base_branch": "master",
+    "head_branch": "patch-1",
     "changed_files": 1,
     "commits": 2,
     "additions": 5,
     "deletions": 5,
     "reviews": 2,
-    "time_of_first_review": "2020-09-08T17:13:40Z",
+    "time_of_1st_review": "2020-09-08T17:13:40Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 23.1,
-    "hours_to_first_review": 19.24,
-    "minutes_to_first_review": 1154.4
+    "hrs_open": 23.1,
+    "hrs_to_1st_review": 19.24,
+    "mins_to_1st_review": 1154.4
   },
   {
     "org": "okta",
@@ -4258,20 +4270,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-09-09T15:03:07Z",
     "merged_at": "2020-09-09T16:21:39Z",
+    "base_branch": "master",
+    "head_branch": "andriizhegurov-okta-OKTA-324648-.NET-Management-SDK-Exception-when-using-the-SDK-on-AWS-lambda",
     "changed_files": 1,
     "commits": 3,
     "additions": 30,
     "deletions": 12,
     "reviews": 1,
-    "time_of_first_review": "2020-09-09T15:10:01Z",
+    "time_of_1st_review": "2020-09-09T15:10:01Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 1.31,
-    "hours_to_first_review": 0.12,
-    "minutes_to_first_review": 6.9
+    "hrs_open": 1.31,
+    "hrs_to_1st_review": 0.12,
+    "mins_to_1st_review": 6.9
   },
   {
     "org": "okta",
@@ -4281,20 +4293,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-09-09T15:27:57Z",
     "merged_at": "2020-09-09T15:57:34Z",
+    "base_branch": "master",
+    "head_branch": "andriizhegurov-okta-OKTA-317191-Implement---Create-User-with-Imported-Hashed-Password",
     "changed_files": 4,
     "commits": 5,
     "additions": 121,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2020-09-09T15:38:56Z",
+    "time_of_1st_review": "2020-09-09T15:38:56Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 0.49,
-    "hours_to_first_review": 0.18,
-    "minutes_to_first_review": 10.98
+    "hrs_open": 0.49,
+    "hrs_to_1st_review": 0.18,
+    "mins_to_1st_review": 10.98
   },
   {
     "org": "okta",
@@ -4304,22 +4316,22 @@
     "author": "laura-rodriguez",
     "created_at": "2020-09-10T18:29:19Z",
     "merged_at": "2020-11-12T16:05:23Z",
+    "base_branch": "lr-release-4.0.0",
+    "head_branch": "lr-OKTA-325680-policies-for-authorization-servers",
     "changed_files": 24,
     "commits": 5,
     "additions": 1159,
     "deletions": 41,
     "reviews": 3,
-    "time_of_first_review": "2020-10-28T16:47:07Z",
+    "time_of_1st_review": "2020-10-28T16:47:07Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta",
-        "bryanapellanes-okta",
-        "andriizhegurov-okta"
-      ]
+      "arvindkrishnakumar-okta",
+      "bryanapellanes-okta",
+      "andriizhegurov-okta"
     ],
-    "hours_open": 1509.6,
-    "hours_to_first_review": 1150.3,
-    "minutes_to_first_review": 69017.8
+    "hrs_open": 1509.6,
+    "hrs_to_1st_review": 1150.3,
+    "mins_to_1st_review": 69017.8
   },
   {
     "org": "okta",
@@ -4329,20 +4341,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-09-16T15:43:23Z",
     "merged_at": "2020-09-16T16:33:40Z",
+    "base_branch": "master",
+    "head_branch": "andriizhegurov-okta-OKTA-325664-.NET-Management-SDK-Verify-that-AddFactorAsync-overloads-are-up-to-date",
     "changed_files": 4,
     "commits": 5,
     "additions": 44,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2020-09-16T15:49:33Z",
+    "time_of_1st_review": "2020-09-16T15:49:33Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 0.84,
-    "hours_to_first_review": 0.1,
-    "minutes_to_first_review": 6.17
+    "hrs_open": 0.84,
+    "hrs_to_1st_review": 0.1,
+    "mins_to_1st_review": 6.17
   },
   {
     "org": "okta",
@@ -4352,20 +4364,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-09-17T18:35:44Z",
     "merged_at": "2020-09-18T19:27:59Z",
+    "base_branch": "master",
+    "head_branch": "OKTA-326414-.NET-Management-SDK-Fix-code-samples-in-README",
     "changed_files": 1,
     "commits": 2,
     "additions": 17,
     "deletions": 17,
     "reviews": 1,
-    "time_of_first_review": "2020-09-18T18:37:56Z",
+    "time_of_1st_review": "2020-09-18T18:37:56Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 24.87,
-    "hours_to_first_review": 24.04,
-    "minutes_to_first_review": 1442.2
+    "hrs_open": 24.87,
+    "hrs_to_1st_review": 24.04,
+    "mins_to_1st_review": 1442.2
   },
   {
     "org": "okta",
@@ -4375,21 +4387,21 @@
     "author": "laura-rodriguez",
     "created_at": "2020-09-21T18:30:37Z",
     "merged_at": "2020-09-28T14:09:33Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-project-version-to-3.2.0",
     "changed_files": 2,
     "commits": 3,
     "additions": 16,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2020-09-24T20:41:30Z",
+    "time_of_1st_review": "2020-09-24T20:41:30Z",
     "reviewers": [
-      [
-        "andriizhegurov-okta",
-        "bryanapellanes-okta"
-      ]
+      "andriizhegurov-okta",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 163.65,
-    "hours_to_first_review": 74.18,
-    "minutes_to_first_review": 4450.88
+    "hrs_open": 163.65,
+    "hrs_to_1st_review": 74.18,
+    "mins_to_1st_review": 4450.88
   },
   {
     "org": "okta",
@@ -4399,20 +4411,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-09-24T15:10:31Z",
     "merged_at": "2020-09-24T19:44:26Z",
+    "base_branch": "master",
+    "head_branch": "andriizhegurov-okta-OKTA-325665-.NET-Management-SDK-Add-helper-methods-for-Policy",
     "changed_files": 5,
     "commits": 4,
     "additions": 476,
     "deletions": 234,
     "reviews": 1,
-    "time_of_first_review": "2020-09-24T16:33:50Z",
+    "time_of_1st_review": "2020-09-24T16:33:50Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 4.57,
-    "hours_to_first_review": 1.39,
-    "minutes_to_first_review": 83.32
+    "hrs_open": 4.57,
+    "hrs_to_1st_review": 1.39,
+    "mins_to_1st_review": 83.32
   },
   {
     "org": "okta",
@@ -4422,21 +4434,21 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-10-05T20:13:09Z",
     "merged_at": "2020-10-06T14:12:00Z",
+    "base_branch": "master",
+    "head_branch": "NET-Management-Sdk-Add-overload-to-add-HOTP-factor",
     "changed_files": 13,
     "commits": 1,
     "additions": 251,
     "deletions": 49,
     "reviews": 2,
-    "time_of_first_review": "2020-10-06T12:41:51Z",
+    "time_of_1st_review": "2020-10-06T12:41:51Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 17.98,
-    "hours_to_first_review": 16.48,
-    "minutes_to_first_review": 988.7
+    "hrs_open": 17.98,
+    "hrs_to_1st_review": 16.48,
+    "mins_to_1st_review": 988.7
   },
   {
     "org": "okta",
@@ -4446,20 +4458,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-10-12T08:03:15Z",
     "merged_at": "2020-10-15T16:23:13Z",
+    "base_branch": "master",
+    "head_branch": "OKTA-324681-.NET-Management-SDK-Revisit-doc-build-and-auto-publish",
     "changed_files": 4,
     "commits": 2,
     "additions": 126,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2020-10-14T14:48:27Z",
+    "time_of_1st_review": "2020-10-14T14:48:27Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 80.33,
-    "hours_to_first_review": 54.75,
-    "minutes_to_first_review": 3285.2
+    "hrs_open": 80.33,
+    "hrs_to_1st_review": 54.75,
+    "mins_to_1st_review": 3285.2
   },
   {
     "org": "okta",
@@ -4469,22 +4481,22 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-10-20T21:26:10Z",
     "merged_at": "2020-10-21T16:43:50Z",
+    "base_branch": "master",
+    "head_branch": "Update-Tavis-CI-configuration",
     "changed_files": 1,
     "commits": 6,
     "additions": 0,
     "deletions": 3,
     "reviews": 3,
-    "time_of_first_review": "2020-10-21T13:13:46Z",
+    "time_of_1st_review": "2020-10-21T13:13:46Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "bdemers",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "bdemers",
+      "laura-rodriguez"
     ],
-    "hours_open": 19.29,
-    "hours_to_first_review": 15.79,
-    "minutes_to_first_review": 947.6
+    "hrs_open": 19.29,
+    "hrs_to_1st_review": 15.79,
+    "mins_to_1st_review": 947.6
   },
   {
     "org": "okta",
@@ -4494,22 +4506,22 @@
     "author": "laura-rodriguez",
     "created_at": "2020-11-03T17:05:38Z",
     "merged_at": "2020-11-04T15:53:10Z",
+    "base_branch": "master",
+    "head_branch": "lr-OKTA-341985-regenerate-code-with-openapi-spec-2.1.2",
     "changed_files": 26,
     "commits": 3,
     "additions": 415,
     "deletions": 111,
     "reviews": 6,
-    "time_of_first_review": "2020-11-03T20:20:22Z",
+    "time_of_1st_review": "2020-11-03T20:20:22Z",
     "reviewers": [
-      [
-        "andriizhegurov-okta",
-        "laura-rodriguez",
-        "bryanapellanes-okta"
-      ]
+      "andriizhegurov-okta",
+      "laura-rodriguez",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 22.79,
-    "hours_to_first_review": 3.25,
-    "minutes_to_first_review": 194.73
+    "hrs_open": 22.79,
+    "hrs_to_1st_review": 3.25,
+    "mins_to_1st_review": 194.73
   },
   {
     "org": "okta",
@@ -4519,21 +4531,21 @@
     "author": "laura-rodriguez",
     "created_at": "2020-11-04T17:10:13Z",
     "merged_at": "2020-11-04T20:01:43Z",
+    "base_branch": "master",
+    "head_branch": "lr-prepare-release-3.2.1",
     "changed_files": 6,
     "commits": 1,
     "additions": 25,
     "deletions": 7,
     "reviews": 2,
-    "time_of_first_review": "2020-11-04T17:20:21Z",
+    "time_of_1st_review": "2020-11-04T17:20:21Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "andriizhegurov-okta"
-      ]
+      "bryanapellanes-okta",
+      "andriizhegurov-okta"
     ],
-    "hours_open": 2.86,
-    "hours_to_first_review": 0.17,
-    "minutes_to_first_review": 10.13
+    "hrs_open": 2.86,
+    "hrs_to_1st_review": 0.17,
+    "mins_to_1st_review": 10.13
   },
   {
     "org": "okta",
@@ -4543,21 +4555,21 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-11-16T11:24:54Z",
     "merged_at": "2020-11-16T16:35:08Z",
+    "base_branch": "master",
+    "head_branch": "Install-fails-via-NuGet-in-VS-2015-targeting-4.7",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 0,
     "reviews": 2,
-    "time_of_first_review": "2020-11-16T13:24:39Z",
+    "time_of_1st_review": "2020-11-16T13:24:39Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 5.17,
-    "hours_to_first_review": 2,
-    "minutes_to_first_review": 119.75
+    "hrs_open": 5.17,
+    "hrs_to_1st_review": 2,
+    "mins_to_1st_review": 119.75
   },
   {
     "org": "okta",
@@ -4567,20 +4579,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-11-18T10:48:37Z",
     "merged_at": "2020-11-19T16:04:32Z",
+    "base_branch": "master",
+    "head_branch": "az-Add-.net5-target-and-update-README-files",
     "changed_files": 5,
     "commits": 3,
     "additions": 12,
     "deletions": 5,
     "reviews": 1,
-    "time_of_first_review": "2020-11-19T15:06:04Z",
+    "time_of_1st_review": "2020-11-19T15:06:04Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 29.27,
-    "hours_to_first_review": 28.29,
-    "minutes_to_first_review": 1697.45
+    "hrs_open": 29.27,
+    "hrs_to_1st_review": 28.29,
+    "mins_to_1st_review": 1697.45
   },
   {
     "org": "okta",
@@ -4590,21 +4602,21 @@
     "author": "laura-rodriguez",
     "created_at": "2020-11-19T15:05:03Z",
     "merged_at": "2020-11-19T19:17:04Z",
+    "base_branch": "master",
+    "head_branch": "lr-release-4.0.0",
     "changed_files": 24,
     "commits": 2,
     "additions": 1159,
     "deletions": 41,
     "reviews": 2,
-    "time_of_first_review": "2020-11-19T15:13:10Z",
+    "time_of_1st_review": "2020-11-19T15:13:10Z",
     "reviewers": [
-      [
-        "andriizhegurov-okta",
-        "bryanapellanes-okta"
-      ]
+      "andriizhegurov-okta",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 4.2,
-    "hours_to_first_review": 0.14,
-    "minutes_to_first_review": 8.12
+    "hrs_open": 4.2,
+    "hrs_to_1st_review": 0.14,
+    "mins_to_1st_review": 8.12
   },
   {
     "org": "okta",
@@ -4614,20 +4626,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-11-23T11:00:05Z",
     "merged_at": "2020-11-23T17:12:39Z",
+    "base_branch": "master",
+    "head_branch": "az-OKTA-324986-New-IApplication.Profile-doesn't-save-when-empty",
     "changed_files": 2,
     "commits": 3,
     "additions": 44,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2020-11-23T14:51:55Z",
+    "time_of_1st_review": "2020-11-23T14:51:55Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 6.21,
-    "hours_to_first_review": 3.86,
-    "minutes_to_first_review": 231.83
+    "hrs_open": 6.21,
+    "hrs_to_1st_review": 3.86,
+    "mins_to_1st_review": 231.83
   },
   {
     "org": "okta",
@@ -4637,20 +4649,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-11-25T21:23:46Z",
     "merged_at": "2020-11-30T17:42:26Z",
+    "base_branch": "master",
+    "head_branch": "az-Add-an-RSA-configuration-example-for-OAuth-in-the-readme",
     "changed_files": 3,
     "commits": 2,
     "additions": 33,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2020-11-26T18:47:49Z",
+    "time_of_1st_review": "2020-11-26T18:47:49Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 116.31,
-    "hours_to_first_review": 21.4,
-    "minutes_to_first_review": 1284.05
+    "hrs_open": 116.31,
+    "hrs_to_1st_review": 21.4,
+    "mins_to_1st_review": 1284.05
   },
   {
     "org": "okta",
@@ -4660,20 +4672,20 @@
     "author": "laura-rodriguez",
     "created_at": "2020-11-30T15:26:37Z",
     "merged_at": "2020-12-09T20:15:36Z",
+    "base_branch": "master",
+    "head_branch": "lr-4.0.0-update-changelog",
     "changed_files": 0,
     "commits": 3,
     "additions": 0,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2020-11-30T15:40:52Z",
+    "time_of_1st_review": "2020-11-30T15:40:52Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 220.82,
-    "hours_to_first_review": 0.24,
-    "minutes_to_first_review": 14.25
+    "hrs_open": 220.82,
+    "hrs_to_1st_review": 0.24,
+    "mins_to_1st_review": 14.25
   },
   {
     "org": "okta",
@@ -4683,21 +4695,21 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-12-14T21:37:53Z",
     "merged_at": "2020-12-15T15:23:47Z",
+    "base_branch": "master",
+    "head_branch": "az-OKTA-348831-Consider-changes-in-configuration-provider-to-allow-comments-in-json-files",
     "changed_files": 1,
     "commits": 3,
     "additions": 6,
     "deletions": 3,
     "reviews": 2,
-    "time_of_first_review": "2020-12-15T13:17:42Z",
+    "time_of_1st_review": "2020-12-15T13:17:42Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 17.77,
-    "hours_to_first_review": 15.66,
-    "minutes_to_first_review": 939.82
+    "hrs_open": 17.77,
+    "hrs_to_1st_review": 15.66,
+    "mins_to_1st_review": 939.82
   },
   {
     "org": "okta",
@@ -4707,20 +4719,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2020-12-21T12:58:54Z",
     "merged_at": "2020-12-21T15:58:42Z",
+    "base_branch": "master",
+    "head_branch": "az---OKTA-337528-update-readme-with-warning-about-using-client.Users.FirstOrDefaultAsync-with-many-user",
     "changed_files": 1,
     "commits": 1,
     "additions": 8,
     "deletions": 8,
     "reviews": 1,
-    "time_of_first_review": "2020-12-21T13:07:46Z",
+    "time_of_1st_review": "2020-12-21T13:07:46Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 3,
-    "hours_to_first_review": 0.15,
-    "minutes_to_first_review": 8.87
+    "hrs_open": 3,
+    "hrs_to_1st_review": 0.15,
+    "mins_to_1st_review": 8.87
   },
   {
     "org": "okta",
@@ -4730,21 +4742,21 @@
     "author": "askouras",
     "created_at": "2021-01-05T22:09:19Z",
     "merged_at": "2021-01-06T19:41:20Z",
+    "base_branch": "askouras-update-readme",
+    "head_branch": "patch-1",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2021-01-06T13:18:09Z",
+    "time_of_1st_review": "2021-01-06T13:18:09Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 21.53,
-    "hours_to_first_review": 15.15,
-    "minutes_to_first_review": 908.83
+    "hrs_open": 21.53,
+    "hrs_to_1st_review": 15.15,
+    "mins_to_1st_review": 908.83
   },
   {
     "org": "okta",
@@ -4754,20 +4766,20 @@
     "author": "bryanapellanes-okta",
     "created_at": "2021-01-06T19:43:20Z",
     "merged_at": "2021-01-07T13:49:21Z",
+    "base_branch": "master",
+    "head_branch": "askouras-update-readme",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2021-01-07T13:48:34Z",
+    "time_of_1st_review": "2021-01-07T13:48:34Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 18.1,
-    "hours_to_first_review": 18.09,
-    "minutes_to_first_review": 1085.23
+    "hrs_open": 18.1,
+    "hrs_to_1st_review": 18.09,
+    "mins_to_1st_review": 1085.23
   },
   {
     "org": "okta",
@@ -4777,21 +4789,21 @@
     "author": "andriizhegurov-okta",
     "created_at": "2021-01-22T13:47:59Z",
     "merged_at": "2021-01-22T14:28:06Z",
+    "base_branch": "master",
+    "head_branch": "az-OKTA-324698-Add-manual-pagination-example-to-readme",
     "changed_files": 1,
     "commits": 2,
     "additions": 16,
     "deletions": 0,
     "reviews": 2,
-    "time_of_first_review": "2021-01-22T13:50:37Z",
+    "time_of_1st_review": "2021-01-22T13:50:37Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 0.67,
-    "hours_to_first_review": 0.04,
-    "minutes_to_first_review": 2.63
+    "hrs_open": 0.67,
+    "hrs_to_1st_review": 0.04,
+    "mins_to_1st_review": 2.63
   },
   {
     "org": "okta",
@@ -4801,20 +4813,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2021-01-29T14:41:14Z",
     "merged_at": "2021-01-29T17:39:59Z",
+    "base_branch": "master",
+    "head_branch": "az-OKTA-337785-Auto-generated-documentation-for-.Net-repos-Add-release/version-filter",
     "changed_files": 7,
     "commits": 3,
     "additions": 1100,
     "deletions": 6,
     "reviews": 2,
-    "time_of_first_review": "2021-01-29T16:09:57Z",
+    "time_of_1st_review": "2021-01-29T16:09:57Z",
     "reviewers": [
-      [
-        "laura-rodriguez"
-      ]
+      "laura-rodriguez"
     ],
-    "hours_open": 2.98,
-    "hours_to_first_review": 1.48,
-    "minutes_to_first_review": 88.72
+    "hrs_open": 2.98,
+    "hrs_to_1st_review": 1.48,
+    "mins_to_1st_review": 88.72
   },
   {
     "org": "okta",
@@ -4824,21 +4836,21 @@
     "author": "andriizhegurov-okta",
     "created_at": "2021-01-29T18:18:12Z",
     "merged_at": "2021-01-29T21:47:25Z",
+    "base_branch": "master",
+    "head_branch": "az-fix-for-url",
     "changed_files": 1,
     "commits": 3,
     "additions": 10,
     "deletions": 3,
     "reviews": 2,
-    "time_of_first_review": "2021-01-29T18:36:31Z",
+    "time_of_1st_review": "2021-01-29T18:36:31Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta",
-        "laura-rodriguez"
-      ]
+      "bryanapellanes-okta",
+      "laura-rodriguez"
     ],
-    "hours_open": 3.49,
-    "hours_to_first_review": 0.31,
-    "minutes_to_first_review": 18.32
+    "hrs_open": 3.49,
+    "hrs_to_1st_review": 0.31,
+    "mins_to_1st_review": 18.32
   },
   {
     "org": "okta",
@@ -4848,20 +4860,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2021-02-01T13:13:49Z",
     "merged_at": "2021-02-01T13:29:18Z",
+    "base_branch": "master",
+    "head_branch": "az-docs-fix-for-mobile-site",
     "changed_files": 3,
     "commits": 1,
     "additions": 4,
     "deletions": 5,
     "reviews": 1,
-    "time_of_first_review": "2021-02-01T13:16:14Z",
+    "time_of_1st_review": "2021-02-01T13:16:14Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 0.26,
-    "hours_to_first_review": 0.04,
-    "minutes_to_first_review": 2.42
+    "hrs_open": 0.26,
+    "hrs_to_1st_review": 0.04,
+    "mins_to_1st_review": 2.42
   },
   {
     "org": "okta",
@@ -4871,21 +4883,21 @@
     "author": "laura-rodriguez",
     "created_at": "2021-02-10T21:57:12Z",
     "merged_at": "2021-02-11T15:00:50Z",
+    "base_branch": "master",
+    "head_branch": "Christian-Oleson-bugfix/Random_Typos_found",
     "changed_files": 3,
     "commits": 1,
     "additions": 3,
     "deletions": 3,
     "reviews": 2,
-    "time_of_first_review": "2021-02-10T22:06:05Z",
+    "time_of_1st_review": "2021-02-10T22:06:05Z",
     "reviewers": [
-      [
-        "andriizhegurov-okta",
-        "bryanapellanes-okta"
-      ]
+      "andriizhegurov-okta",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 17.06,
-    "hours_to_first_review": 0.15,
-    "minutes_to_first_review": 8.88
+    "hrs_open": 17.06,
+    "hrs_to_1st_review": 0.15,
+    "mins_to_1st_review": 8.88
   },
   {
     "org": "okta",
@@ -4895,20 +4907,20 @@
     "author": "laura-rodriguez",
     "created_at": "2021-02-24T15:24:36Z",
     "merged_at": "2021-03-08T16:57:04Z",
+    "base_branch": "master",
+    "head_branch": "lr-add-missing-schema-endpoints",
     "changed_files": 53,
     "commits": 5,
     "additions": 1678,
     "deletions": 47,
     "reviews": 2,
-    "time_of_first_review": "2021-03-05T14:00:17Z",
+    "time_of_1st_review": "2021-03-05T14:00:17Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 289.54,
-    "hours_to_first_review": 214.59,
-    "minutes_to_first_review": 12875.68
+    "hrs_open": 289.54,
+    "hrs_to_1st_review": 214.59,
+    "mins_to_1st_review": 12875.68
   },
   {
     "org": "okta",
@@ -4918,20 +4930,20 @@
     "author": "laura-rodriguez",
     "created_at": "2021-03-24T19:09:39Z",
     "merged_at": "2021-03-24T20:41:33Z",
+    "base_branch": "master",
+    "head_branch": "lr-prepare-release-5.0.0",
     "changed_files": 2,
     "commits": 2,
     "additions": 45,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2021-03-24T20:34:35Z",
+    "time_of_1st_review": "2021-03-24T20:34:35Z",
     "reviewers": [
-      [
-        "andriizhegurov-okta"
-      ]
+      "andriizhegurov-okta"
     ],
-    "hours_open": 1.53,
-    "hours_to_first_review": 1.42,
-    "minutes_to_first_review": 84.93
+    "hrs_open": 1.53,
+    "hrs_to_1st_review": 1.42,
+    "mins_to_1st_review": 84.93
   },
   {
     "org": "okta",
@@ -4941,20 +4953,20 @@
     "author": "andriizhegurov-okta",
     "created_at": "2021-03-24T23:29:52Z",
     "merged_at": "2021-03-25T12:16:09Z",
+    "base_branch": "master",
+    "head_branch": "az-fix-for-Jenkins-build",
     "changed_files": 1,
     "commits": 1,
     "additions": 5,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2021-03-25T12:14:09Z",
+    "time_of_1st_review": "2021-03-25T12:14:09Z",
     "reviewers": [
-      [
-        "bryanapellanes-okta"
-      ]
+      "bryanapellanes-okta"
     ],
-    "hours_open": 12.77,
-    "hours_to_first_review": 12.74,
-    "minutes_to_first_review": 764.28
+    "hrs_open": 12.77,
+    "hrs_to_1st_review": 12.74,
+    "mins_to_1st_review": 764.28
   },
   {
     "org": "okta",
@@ -4964,20 +4976,20 @@
     "author": "laura-rodriguez",
     "created_at": "2021-03-25T15:29:50Z",
     "merged_at": "2021-03-25T16:16:28Z",
+    "base_branch": "master",
+    "head_branch": "lr-update-migrating-guide-5.0.0",
     "changed_files": 2,
     "commits": 3,
     "additions": 31,
     "deletions": 2,
     "reviews": 2,
-    "time_of_first_review": "2021-03-25T15:32:06Z",
+    "time_of_1st_review": "2021-03-25T15:32:06Z",
     "reviewers": [
-      [
-        "andriizhegurov-okta",
-        "bryanapellanes-okta"
-      ]
+      "andriizhegurov-okta",
+      "bryanapellanes-okta"
     ],
-    "hours_open": 0.78,
-    "hours_to_first_review": 0.04,
-    "minutes_to_first_review": 2.27
+    "hrs_open": 0.78,
+    "hrs_to_1st_review": 0.04,
+    "mins_to_1st_review": 2.27
   }
 ]

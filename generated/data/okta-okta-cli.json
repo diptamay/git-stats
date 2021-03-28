@@ -7,20 +7,20 @@
     "author": "mraible",
     "created_at": "2019-09-01T04:07:12Z",
     "merged_at": "2019-09-03T15:46:55Z",
+    "base_branch": "master",
+    "head_branch": "semantic-versioning",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2019-09-03T15:46:50Z",
+    "time_of_1st_review": "2019-09-03T15:46:50Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 59.66,
-    "hours_to_first_review": 59.66,
-    "minutes_to_first_review": 3579.63
+    "hrs_open": 59.66,
+    "hrs_to_1st_review": 59.66,
+    "mins_to_1st_review": 3579.63
   },
   {
     "org": "okta",
@@ -30,20 +30,20 @@
     "author": "mraible",
     "created_at": "2019-10-11T19:32:06Z",
     "merged_at": "2019-10-11T21:53:59Z",
+    "base_branch": "master",
+    "head_branch": "mraible-oidcuser",
     "changed_files": 1,
     "commits": 1,
     "additions": 4,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2019-10-11T21:53:19Z",
+    "time_of_1st_review": "2019-10-11T21:53:19Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 2.36,
-    "hours_to_first_review": 2.35,
-    "minutes_to_first_review": 141.22
+    "hrs_open": 2.36,
+    "hrs_to_1st_review": 2.35,
+    "mins_to_1st_review": 141.22
   },
   {
     "org": "okta",
@@ -53,20 +53,20 @@
     "author": "bdemers",
     "created_at": "2019-10-14T14:48:45Z",
     "merged_at": "2020-01-29T15:59:26Z",
+    "base_branch": "master",
+    "head_branch": "bump-jackson-1",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2020-01-10T22:59:25Z",
+    "time_of_1st_review": "2020-01-10T22:59:25Z",
     "reviewers": [
-      [
-        "mraible"
-      ]
+      "mraible"
     ],
-    "hours_open": 2569.18,
-    "hours_to_first_review": 2120.18,
-    "minutes_to_first_review": 127210.67
+    "hrs_open": 2569.18,
+    "hrs_to_1st_review": 2120.18,
+    "mins_to_1st_review": 127210.67
   },
   {
     "org": "okta",
@@ -76,16 +76,18 @@
     "author": "bdemers",
     "created_at": "2019-10-22T16:11:32Z",
     "merged_at": "2019-10-22T16:12:11Z",
+    "base_branch": "master",
+    "head_branch": "jackson-2-10",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.01,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.01,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -95,20 +97,20 @@
     "author": "bdemers",
     "created_at": "2020-01-23T23:50:53Z",
     "merged_at": "2020-01-29T15:20:04Z",
+    "base_branch": "master",
+    "head_branch": "add-dep-goal",
     "changed_files": 20,
     "commits": 2,
     "additions": 867,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2020-01-24T22:47:13Z",
+    "time_of_1st_review": "2020-01-24T22:47:13Z",
     "reviewers": [
-      [
-        "mraible"
-      ]
+      "mraible"
     ],
-    "hours_open": 135.49,
-    "hours_to_first_review": 22.94,
-    "minutes_to_first_review": 1376.33
+    "hrs_open": 135.49,
+    "hrs_to_1st_review": 22.94,
+    "mins_to_1st_review": 1376.33
   },
   {
     "org": "okta",
@@ -118,16 +120,18 @@
     "author": "bdemers",
     "created_at": "2020-01-29T15:25:27Z",
     "merged_at": "2020-01-29T15:37:32Z",
+    "base_branch": "master",
+    "head_branch": "no-pom-and-demo",
     "changed_files": 3,
     "commits": 2,
     "additions": 72,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.2,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.2,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -137,16 +141,18 @@
     "author": "bdemers",
     "created_at": "2020-01-29T15:54:46Z",
     "merged_at": "2020-01-29T15:59:37Z",
+    "base_branch": "master",
+    "head_branch": "remove-unused-deps",
     "changed_files": 1,
     "commits": 1,
     "additions": 4,
     "deletions": 0,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.08,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.08,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -156,16 +162,18 @@
     "author": "bdemers",
     "created_at": "2020-05-01T19:52:18Z",
     "merged_at": "2020-05-05T14:56:36Z",
+    "base_branch": "master",
+    "head_branch": "github-actions",
     "changed_files": 6,
     "commits": 1,
     "additions": 75,
     "deletions": 30,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 91.07,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 91.07,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -175,16 +183,18 @@
     "author": "bdemers",
     "created_at": "2020-06-02T18:58:45Z",
     "merged_at": "2020-06-09T15:56:17Z",
+    "base_branch": "cli",
+    "head_branch": "update-install-script",
     "changed_files": 1,
     "commits": 2,
     "additions": 75,
     "deletions": 47,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 164.96,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 164.96,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -194,16 +204,18 @@
     "author": "bdemers",
     "created_at": "2020-06-09T19:33:53Z",
     "merged_at": "2020-06-09T21:32:09Z",
+    "base_branch": "master",
+    "head_branch": "cli-final",
     "changed_files": 141,
     "commits": 3,
     "additions": 9159,
     "deletions": 1164,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 1.97,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 1.97,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -213,16 +225,18 @@
     "author": "bdemers",
     "created_at": "2020-06-10T20:01:44Z",
     "merged_at": "2020-06-10T20:23:32Z",
+    "base_branch": "master",
+    "head_branch": "stablize-timing-test",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 4,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.36,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.36,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -232,20 +246,20 @@
     "author": "bdemers",
     "created_at": "2020-06-23T14:37:12Z",
     "merged_at": "2020-07-23T13:11:57Z",
+    "base_branch": "master",
+    "head_branch": "win-install-readme",
     "changed_files": 1,
     "commits": 1,
     "additions": 9,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2020-06-23T18:31:16Z",
+    "time_of_1st_review": "2020-06-23T18:31:16Z",
     "reviewers": [
-      [
-        "mraible"
-      ]
+      "mraible"
     ],
-    "hours_open": 718.58,
-    "hours_to_first_review": 3.9,
-    "minutes_to_first_review": 234.07
+    "hrs_open": 718.58,
+    "hrs_to_1st_review": 3.9,
+    "mins_to_1st_review": 234.07
   },
   {
     "org": "okta",
@@ -255,16 +269,18 @@
     "author": "bdemers",
     "created_at": "2020-06-26T16:20:51Z",
     "merged_at": "2020-09-16T00:40:39Z",
+    "base_branch": "master",
+    "head_branch": "add-logs-cmd",
     "changed_files": 4,
     "commits": 2,
     "additions": 261,
     "deletions": 16,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 1952.33,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 1952.33,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -274,16 +290,18 @@
     "author": "dogeared",
     "created_at": "2020-08-06T17:34:29Z",
     "merged_at": "2020-08-06T20:16:30Z",
+    "base_branch": "master",
+    "head_branch": "update-reg-flow",
     "changed_files": 44,
     "commits": 15,
     "additions": 1299,
     "deletions": 345,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 2.7,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 2.7,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -293,16 +311,18 @@
     "author": "bdemers",
     "created_at": "2020-08-07T13:43:39Z",
     "merged_at": "2020-08-07T16:32:00Z",
+    "base_branch": "master",
+    "head_branch": "shell-script-install-040",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 2.81,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 2.81,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -312,16 +332,18 @@
     "author": "bdemers",
     "created_at": "2020-08-12T15:52:59Z",
     "merged_at": "2020-08-24T14:55:08Z",
+    "base_branch": "master",
+    "head_branch": "extract-maven-plugin",
     "changed_files": 47,
     "commits": 1,
     "additions": 9,
     "deletions": 2707,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 287.04,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 287.04,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -331,16 +353,18 @@
     "author": "bdemers",
     "created_at": "2020-08-24T18:48:15Z",
     "merged_at": "2020-09-15T23:26:07Z",
+    "base_branch": "master",
+    "head_branch": "okta-start-cmd",
     "changed_files": 37,
     "commits": 12,
     "additions": 1549,
     "deletions": 100,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 532.63,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 532.63,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -350,16 +374,18 @@
     "author": "bdemers",
     "created_at": "2020-08-24T21:37:23Z",
     "merged_at": "2020-09-11T20:57:23Z",
+    "base_branch": "master",
+    "head_branch": "better-prompts",
     "changed_files": 13,
     "commits": 2,
     "additions": 160,
     "deletions": 37,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 431.33,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 431.33,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -369,16 +395,18 @@
     "author": "bdemers",
     "created_at": "2020-08-27T22:44:44Z",
     "merged_at": "2020-09-11T20:57:38Z",
+    "base_branch": "master",
+    "head_branch": "graalvm-2020",
     "changed_files": 5,
     "commits": 3,
     "additions": 51,
     "deletions": 5,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 358.22,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 358.22,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -388,16 +416,18 @@
     "author": "bdemers",
     "created_at": "2020-09-18T20:43:21Z",
     "merged_at": "2020-09-21T17:45:38Z",
+    "base_branch": "master",
+    "head_branch": "trusted-origins",
     "changed_files": 11,
     "commits": 2,
     "additions": 1726,
     "deletions": 262,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 69.04,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 69.04,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -407,16 +437,18 @@
     "author": "bdemers",
     "created_at": "2020-09-21T17:52:27Z",
     "merged_at": "2020-09-28T15:49:27Z",
+    "base_branch": "master",
+    "head_branch": "post-logout",
     "changed_files": 22,
     "commits": 6,
     "additions": 460,
     "deletions": 76,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 165.95,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 165.95,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -426,16 +458,18 @@
     "author": "bdemers",
     "created_at": "2020-09-21T19:29:47Z",
     "merged_at": "2020-09-23T20:47:43Z",
+    "base_branch": "post-logout",
+    "head_branch": "sample-config-with-context",
     "changed_files": 7,
     "commits": 2,
     "additions": 167,
     "deletions": 31,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 49.3,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 49.3,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -445,16 +479,18 @@
     "author": "bdemers",
     "created_at": "2020-09-21T19:31:15Z",
     "merged_at": "2020-09-22T17:38:09Z",
+    "base_branch": "master",
+    "head_branch": "test-timeout",
     "changed_files": 1,
     "commits": 1,
     "additions": 10,
     "deletions": 2,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 22.12,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 22.12,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -464,16 +500,18 @@
     "author": "bdemers",
     "created_at": "2020-09-22T17:37:41Z",
     "merged_at": "2020-09-22T18:04:31Z",
+    "base_branch": "post-logout",
+    "head_branch": "post-logout-apps-create",
     "changed_files": 4,
     "commits": 1,
     "additions": 131,
     "deletions": 13,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.45,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.45,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -483,21 +521,21 @@
     "author": "bdemers",
     "created_at": "2020-09-30T15:52:04Z",
     "merged_at": "2021-01-28T21:49:04Z",
+    "base_branch": "master",
+    "head_branch": "apps-delete",
     "changed_files": 8,
     "commits": 2,
     "additions": 362,
     "deletions": 14,
     "reviews": 4,
-    "time_of_first_review": "2021-01-28T21:41:19Z",
+    "time_of_1st_review": "2021-01-28T21:41:19Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta",
-        "bdemers"
-      ]
+      "arvindkrishnakumar-okta",
+      "bdemers"
     ],
-    "hours_open": 2885.95,
-    "hours_to_first_review": 2885.82,
-    "minutes_to_first_review": 173149.25
+    "hrs_open": 2885.95,
+    "hrs_to_1st_review": 2885.82,
+    "mins_to_1st_review": 173149.25
   },
   {
     "org": "okta",
@@ -507,16 +545,18 @@
     "author": "bdemers",
     "created_at": "2020-10-01T16:06:14Z",
     "merged_at": "2020-10-01T19:29:48Z",
+    "base_branch": "master",
+    "head_branch": "base-command",
     "changed_files": 9,
     "commits": 1,
     "additions": 120,
     "deletions": 87,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 3.39,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 3.39,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -526,16 +566,18 @@
     "author": "bdemers",
     "created_at": "2020-10-02T16:50:17Z",
     "merged_at": "2020-10-02T21:40:05Z",
+    "base_branch": "master",
+    "head_branch": "merge-rest-client",
     "changed_files": 6,
     "commits": 1,
     "additions": 36,
     "deletions": 21,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 4.83,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 4.83,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -545,16 +587,18 @@
     "author": "bdemers",
     "created_at": "2020-10-05T19:45:18Z",
     "merged_at": "2020-10-05T20:30:05Z",
+    "base_branch": "master",
+    "head_branch": "apps-create-cors",
     "changed_files": 2,
     "commits": 1,
     "additions": 27,
     "deletions": 5,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.75,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.75,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -564,16 +608,18 @@
     "author": "bdemers",
     "created_at": "2020-10-22T21:08:14Z",
     "merged_at": "2020-11-11T18:18:18Z",
+    "base_branch": "master",
+    "head_branch": "empty-logout-uri",
     "changed_files": 2,
     "commits": 1,
     "additions": 77,
     "deletions": 6,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 477.17,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 477.17,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -583,20 +629,20 @@
     "author": "bdemers",
     "created_at": "2020-11-09T15:21:53Z",
     "merged_at": "2020-11-11T18:17:47Z",
+    "base_branch": "master",
+    "head_branch": "windows-its",
     "changed_files": 15,
     "commits": 10,
     "additions": 154,
     "deletions": 127,
     "reviews": 1,
-    "time_of_first_review": "2020-11-11T18:14:09Z",
+    "time_of_1st_review": "2020-11-11T18:14:09Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta"
-      ]
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 50.93,
-    "hours_to_first_review": 50.87,
-    "minutes_to_first_review": 3052.27
+    "hrs_open": 50.93,
+    "hrs_to_1st_review": 50.87,
+    "mins_to_1st_review": 3052.27
   },
   {
     "org": "okta",
@@ -606,20 +652,20 @@
     "author": "bdemers",
     "created_at": "2020-11-19T16:24:14Z",
     "merged_at": "2020-11-20T17:56:13Z",
+    "base_branch": "master",
+    "head_branch": "npe-props",
     "changed_files": 2,
     "commits": 1,
     "additions": 34,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2020-11-20T00:15:31Z",
+    "time_of_1st_review": "2020-11-20T00:15:31Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta"
-      ]
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 25.53,
-    "hours_to_first_review": 7.85,
-    "minutes_to_first_review": 471.28
+    "hrs_open": 25.53,
+    "hrs_to_1st_review": 7.85,
+    "mins_to_1st_review": 471.28
   },
   {
     "org": "okta",
@@ -629,21 +675,21 @@
     "author": "bdemers",
     "created_at": "2020-11-19T21:08:58Z",
     "merged_at": "2020-11-20T16:36:30Z",
+    "base_branch": "master",
+    "head_branch": "jhipster-fixes",
     "changed_files": 9,
     "commits": 2,
     "additions": 141,
     "deletions": 44,
     "reviews": 2,
-    "time_of_first_review": "2020-11-19T22:48:00Z",
+    "time_of_1st_review": "2020-11-19T22:48:00Z",
     "reviewers": [
-      [
-        "mraible",
-        "arvindkrishnakumar-okta"
-      ]
+      "mraible",
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 19.46,
-    "hours_to_first_review": 1.65,
-    "minutes_to_first_review": 99.03
+    "hrs_open": 19.46,
+    "hrs_to_1st_review": 1.65,
+    "mins_to_1st_review": 99.03
   },
   {
     "org": "okta",
@@ -653,20 +699,20 @@
     "author": "bdemers",
     "created_at": "2020-11-19T21:31:45Z",
     "merged_at": "2020-11-20T16:36:52Z",
+    "base_branch": "master",
+    "head_branch": "graalvm-20-3",
     "changed_files": 3,
     "commits": 2,
     "additions": 15,
     "deletions": 8,
     "reviews": 1,
-    "time_of_first_review": "2020-11-20T00:14:35Z",
+    "time_of_1st_review": "2020-11-20T00:14:35Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta"
-      ]
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 19.09,
-    "hours_to_first_review": 2.71,
-    "minutes_to_first_review": 162.83
+    "hrs_open": 19.09,
+    "hrs_to_1st_review": 2.71,
+    "mins_to_1st_review": 162.83
   },
   {
     "org": "okta",
@@ -676,16 +722,18 @@
     "author": "bdemers",
     "created_at": "2020-11-20T18:18:05Z",
     "merged_at": "2020-11-20T19:14:56Z",
+    "base_branch": "master",
+    "head_branch": "increase-ci-timeout",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 0,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.95,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.95,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -695,20 +743,20 @@
     "author": "bdemers",
     "created_at": "2020-12-22T19:03:30Z",
     "merged_at": "2021-01-14T16:32:35Z",
+    "base_branch": "master",
+    "head_branch": "samples-use-main",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2020-12-22T19:07:19Z",
+    "time_of_1st_review": "2020-12-22T19:07:19Z",
     "reviewers": [
-      [
-        "mraible"
-      ]
+      "mraible"
     ],
-    "hours_open": 549.48,
-    "hours_to_first_review": 0.06,
-    "minutes_to_first_review": 3.82
+    "hrs_open": 549.48,
+    "hrs_to_1st_review": 0.06,
+    "mins_to_1st_review": 3.82
   },
   {
     "org": "okta",
@@ -718,21 +766,21 @@
     "author": "bdemers",
     "created_at": "2021-01-27T19:35:27Z",
     "merged_at": "2021-01-28T21:49:24Z",
+    "base_branch": "master",
+    "head_branch": "issue-75",
     "changed_files": 3,
     "commits": 1,
     "additions": 98,
     "deletions": 29,
     "reviews": 2,
-    "time_of_first_review": "2021-01-27T20:34:46Z",
+    "time_of_1st_review": "2021-01-27T20:34:46Z",
     "reviewers": [
-      [
-        "mraible",
-        "arvindkrishnakumar-okta"
-      ]
+      "mraible",
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 26.23,
-    "hours_to_first_review": 0.99,
-    "minutes_to_first_review": 59.32
+    "hrs_open": 26.23,
+    "hrs_to_1st_review": 0.99,
+    "mins_to_1st_review": 59.32
   },
   {
     "org": "okta",
@@ -742,20 +790,20 @@
     "author": "bdemers",
     "created_at": "2021-02-03T22:51:32Z",
     "merged_at": "2021-02-05T22:13:11Z",
+    "base_branch": "master",
+    "head_branch": "trim-login-input",
     "changed_files": 3,
     "commits": 1,
     "additions": 28,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2021-02-05T16:03:13Z",
+    "time_of_1st_review": "2021-02-05T16:03:13Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta"
-      ]
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 47.36,
-    "hours_to_first_review": 41.19,
-    "minutes_to_first_review": 2471.68
+    "hrs_open": 47.36,
+    "hrs_to_1st_review": 41.19,
+    "mins_to_1st_review": 2471.68
   },
   {
     "org": "okta",
@@ -765,20 +813,20 @@
     "author": "bdemers",
     "created_at": "2021-02-05T22:15:24Z",
     "merged_at": "2021-02-08T22:13:56Z",
+    "base_branch": "master",
+    "head_branch": "feat/70-quarkus-support",
     "changed_files": 8,
     "commits": 5,
     "additions": 276,
     "deletions": 82,
     "reviews": 1,
-    "time_of_first_review": "2021-02-08T20:40:15Z",
+    "time_of_1st_review": "2021-02-08T20:40:15Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta"
-      ]
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 71.98,
-    "hours_to_first_review": 70.41,
-    "minutes_to_first_review": 4224.85
+    "hrs_open": 71.98,
+    "hrs_to_1st_review": 70.41,
+    "mins_to_1st_review": 4224.85
   },
   {
     "org": "okta",
@@ -788,20 +836,20 @@
     "author": "bdemers",
     "created_at": "2021-02-09T16:14:59Z",
     "merged_at": "2021-02-09T22:33:06Z",
+    "base_branch": "master",
+    "head_branch": "props-order",
     "changed_files": 3,
     "commits": 1,
     "additions": 47,
     "deletions": 5,
     "reviews": 1,
-    "time_of_first_review": "2021-02-09T22:31:17Z",
+    "time_of_1st_review": "2021-02-09T22:31:17Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta"
-      ]
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 6.3,
-    "hours_to_first_review": 6.27,
-    "minutes_to_first_review": 376.3
+    "hrs_open": 6.3,
+    "hrs_to_1st_review": 6.27,
+    "mins_to_1st_review": 376.3
   },
   {
     "org": "okta",
@@ -811,20 +859,20 @@
     "author": "arvindkrishnakumar-okta",
     "created_at": "2021-02-09T21:19:34Z",
     "merged_at": "2021-02-09T21:41:45Z",
+    "base_branch": "master",
+    "head_branch": "update_readme_with_install_native_image_command",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2021-02-09T21:20:03Z",
+    "time_of_1st_review": "2021-02-09T21:20:03Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 0.37,
-    "hours_to_first_review": 0.01,
-    "minutes_to_first_review": 0.48
+    "hrs_open": 0.37,
+    "hrs_to_1st_review": 0.01,
+    "mins_to_1st_review": 0.48
   },
   {
     "org": "okta",
@@ -834,22 +882,22 @@
     "author": "bdemers",
     "created_at": "2021-02-09T22:32:50Z",
     "merged_at": "2021-03-05T20:37:51Z",
+    "base_branch": "master",
+    "head_branch": "jhipster-detect",
     "changed_files": 16,
     "commits": 23,
     "additions": 585,
     "deletions": 68,
     "reviews": 4,
-    "time_of_first_review": "2021-02-09T22:33:57Z",
+    "time_of_1st_review": "2021-02-09T22:33:57Z",
     "reviewers": [
-      [
-        "bdemers",
-        "mraible",
-        "danielpetisme"
-      ]
+      "bdemers",
+      "mraible",
+      "danielpetisme"
     ],
-    "hours_open": 574.08,
-    "hours_to_first_review": 0.02,
-    "minutes_to_first_review": 1.12
+    "hrs_open": 574.08,
+    "hrs_to_1st_review": 0.02,
+    "mins_to_1st_review": 1.12
   },
   {
     "org": "okta",
@@ -859,21 +907,21 @@
     "author": "mraible",
     "created_at": "2021-02-10T01:45:29Z",
     "merged_at": "2021-02-11T15:37:39Z",
+    "base_branch": "jhipster-detect",
+    "head_branch": "jhipster-micronaut",
     "changed_files": 2,
     "commits": 2,
     "additions": 73,
     "deletions": 6,
     "reviews": 2,
-    "time_of_first_review": "2021-02-10T02:18:49Z",
+    "time_of_1st_review": "2021-02-10T02:18:49Z",
     "reviewers": [
-      [
-        "bdemers",
-        "mraible"
-      ]
+      "bdemers",
+      "mraible"
     ],
-    "hours_open": 37.87,
-    "hours_to_first_review": 0.56,
-    "minutes_to_first_review": 33.33
+    "hrs_open": 37.87,
+    "hrs_to_1st_review": 0.56,
+    "mins_to_1st_review": 33.33
   },
   {
     "org": "okta",
@@ -883,20 +931,20 @@
     "author": "mraible",
     "created_at": "2021-02-13T01:24:10Z",
     "merged_at": "2021-02-16T16:42:27Z",
+    "base_branch": "master",
+    "head_branch": "patch-1",
     "changed_files": 1,
     "commits": 1,
     "additions": 5,
     "deletions": 5,
     "reviews": 1,
-    "time_of_first_review": "2021-02-16T16:42:19Z",
+    "time_of_1st_review": "2021-02-16T16:42:19Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 87.3,
-    "hours_to_first_review": 87.3,
-    "minutes_to_first_review": 5238.15
+    "hrs_open": 87.3,
+    "hrs_to_1st_review": 87.3,
+    "mins_to_1st_review": 5238.15
   },
   {
     "org": "okta",
@@ -906,20 +954,20 @@
     "author": "mraible",
     "created_at": "2021-03-01T15:48:03Z",
     "merged_at": "2021-03-02T15:34:55Z",
+    "base_branch": "jhipster-detect",
+    "head_branch": "jhipster-quarkus-app-type-fix",
     "changed_files": 4,
     "commits": 12,
     "additions": 12,
     "deletions": 7,
     "reviews": 1,
-    "time_of_first_review": "2021-03-02T15:34:51Z",
+    "time_of_1st_review": "2021-03-02T15:34:51Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 23.78,
-    "hours_to_first_review": 23.78,
-    "minutes_to_first_review": 1426.8
+    "hrs_open": 23.78,
+    "hrs_to_1st_review": 23.78,
+    "mins_to_1st_review": 1426.8
   },
   {
     "org": "okta",
@@ -929,20 +977,20 @@
     "author": "mraible",
     "created_at": "2021-03-03T16:17:03Z",
     "merged_at": "2021-03-06T21:42:31Z",
+    "base_branch": "master",
+    "head_branch": "dependabot",
     "changed_files": 1,
     "commits": 4,
     "additions": 30,
     "deletions": 0,
     "reviews": 1,
-    "time_of_first_review": "2021-03-03T16:17:53Z",
+    "time_of_1st_review": "2021-03-03T16:17:53Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 77.42,
-    "hours_to_first_review": 0.01,
-    "minutes_to_first_review": 0.83
+    "hrs_open": 77.42,
+    "hrs_to_1st_review": 0.01,
+    "mins_to_1st_review": 0.83
   },
   {
     "org": "okta",
@@ -952,16 +1000,18 @@
     "author": "bdemers",
     "created_at": "2021-03-03T20:07:57Z",
     "merged_at": "2021-03-03T20:46:06Z",
+    "base_branch": "master",
+    "head_branch": "actions-full-hash",
     "changed_files": 1,
     "commits": 1,
     "additions": 3,
     "deletions": 3,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.64,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.64,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -971,16 +1021,18 @@
     "author": "bdemers",
     "created_at": "2021-03-05T19:27:32Z",
     "merged_at": "2021-03-05T20:00:59Z",
+    "base_branch": "master",
+    "head_branch": "window-ci-2016",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.56,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.56,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -990,16 +1042,18 @@
     "author": "bdemers",
     "created_at": "2021-03-05T21:01:39Z",
     "merged_at": "2021-03-05T23:21:47Z",
+    "base_branch": "master",
+    "head_branch": "update-svm",
     "changed_files": 3,
     "commits": 1,
     "additions": 7,
     "deletions": 7,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 2.34,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 2.34,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1009,16 +1063,18 @@
     "author": "dependabot",
     "created_at": "2021-03-06T21:42:50Z",
     "merged_at": "2021-03-26T20:53:08Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/github_actions/actions/upload-artifact-v2.2.2",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 479.17,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 479.17,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1028,16 +1084,18 @@
     "author": "dependabot",
     "created_at": "2021-03-06T21:42:58Z",
     "merged_at": "2021-03-26T22:31:29Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.apache.maven.plugins-maven-failsafe-plugin-3.0.0-M5",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 480.81,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 480.81,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1047,16 +1105,18 @@
     "author": "dependabot",
     "created_at": "2021-03-06T21:43:02Z",
     "merged_at": "2021-03-26T22:30:52Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.testng-testng-7.4.0",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 480.8,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 480.8,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1066,16 +1126,18 @@
     "author": "dependabot",
     "created_at": "2021-03-06T21:43:03Z",
     "merged_at": "2021-03-26T21:07:51Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.projectlombok-lombok-1.18.18",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 479.41,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 479.41,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1085,16 +1147,18 @@
     "author": "dependabot",
     "created_at": "2021-03-06T21:43:06Z",
     "merged_at": "2021-03-26T21:07:38Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.mockito-mockito-core-3.8.0",
     "changed_files": 2,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 479.41,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 479.41,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1104,16 +1168,18 @@
     "author": "dependabot",
     "created_at": "2021-03-06T21:43:06Z",
     "merged_at": "2021-03-26T20:54:58Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/com.github.tomakehurst-wiremock-standalone-2.27.2",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 479.2,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 479.2,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1123,20 +1189,20 @@
     "author": "mraible",
     "created_at": "2021-03-07T01:05:00Z",
     "merged_at": "2021-03-07T23:03:55Z",
+    "base_branch": "master",
+    "head_branch": "patch-2",
     "changed_files": 1,
     "commits": 1,
     "additions": 15,
     "deletions": 4,
     "reviews": 1,
-    "time_of_first_review": "2021-03-07T02:25:43Z",
+    "time_of_1st_review": "2021-03-07T02:25:43Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 21.98,
-    "hours_to_first_review": 1.35,
-    "minutes_to_first_review": 80.72
+    "hrs_open": 21.98,
+    "hrs_to_1st_review": 1.35,
+    "mins_to_1st_review": 80.72
   },
   {
     "org": "okta",
@@ -1146,20 +1212,20 @@
     "author": "mraible",
     "created_at": "2021-03-10T17:03:34Z",
     "merged_at": "2021-03-24T15:10:36Z",
+    "base_branch": "master",
+    "head_branch": "spa-command",
     "changed_files": 2,
     "commits": 2,
     "additions": 115,
     "deletions": 11,
     "reviews": 1,
-    "time_of_first_review": "2021-03-11T20:57:23Z",
+    "time_of_1st_review": "2021-03-11T20:57:23Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 334.12,
-    "hours_to_first_review": 27.9,
-    "minutes_to_first_review": 1673.82
+    "hrs_open": 334.12,
+    "hrs_to_1st_review": 27.9,
+    "mins_to_1st_review": 1673.82
   },
   {
     "org": "okta",
@@ -1169,16 +1235,18 @@
     "author": "dependabot",
     "created_at": "2021-03-17T07:25:03Z",
     "merged_at": "2021-03-26T22:31:12Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/pl.project13.maven-git-commit-id-plugin-4.0.4",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 231.1,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 231.1,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1188,16 +1256,18 @@
     "author": "dependabot",
     "created_at": "2021-03-17T07:45:24Z",
     "merged_at": "2021-03-26T20:55:27Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/github_actions/DeLaGuardo/setup-graalvm-4.0",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 229.17,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 229.17,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1207,16 +1277,18 @@
     "author": "dependabot",
     "created_at": "2021-03-19T07:28:30Z",
     "merged_at": "2021-03-26T21:08:40Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.springframework.boot-spring-boot-maven-plugin-2.4.4",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 181.67,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 181.67,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1226,20 +1298,20 @@
     "author": "MannyDiera",
     "created_at": "2021-03-20T17:33:46Z",
     "merged_at": "2021-03-23T16:58:59Z",
+    "base_branch": "master",
+    "head_branch": "flatpak-instructions",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 1,
-    "time_of_first_review": "2021-03-23T16:58:32Z",
+    "time_of_1st_review": "2021-03-23T16:58:32Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 71.42,
-    "hours_to_first_review": 71.41,
-    "minutes_to_first_review": 4284.77
+    "hrs_open": 71.42,
+    "hrs_to_1st_review": 71.41,
+    "mins_to_1st_review": 4284.77
   },
   {
     "org": "okta",
@@ -1249,16 +1321,18 @@
     "author": "dependabot",
     "created_at": "2021-03-22T09:04:06Z",
     "merged_at": "2021-03-26T21:13:09Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/com.github.spotbugs-spotbugs-maven-plugin-4.2.2",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 108.15,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 108.15,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1268,16 +1342,18 @@
     "author": "dependabot",
     "created_at": "2021-03-23T07:45:47Z",
     "merged_at": "2021-03-26T20:53:39Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.owasp-dependency-check-maven-6.1.3",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 85.13,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 85.13,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1287,21 +1363,21 @@
     "author": "bdemers",
     "created_at": "2021-03-26T14:31:21Z",
     "merged_at": "2021-03-26T21:16:21Z",
+    "base_branch": "master",
+    "head_branch": "web-prompt-tweak",
     "changed_files": 2,
     "commits": 2,
     "additions": 2,
     "deletions": 1,
     "reviews": 2,
-    "time_of_first_review": "2021-03-26T20:50:17Z",
+    "time_of_1st_review": "2021-03-26T20:50:17Z",
     "reviewers": [
-      [
-        "bdemers",
-        "arvindkrishnakumar-okta"
-      ]
+      "bdemers",
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 6.75,
-    "hours_to_first_review": 6.32,
-    "minutes_to_first_review": 378.93
+    "hrs_open": 6.75,
+    "hrs_to_1st_review": 6.32,
+    "mins_to_1st_review": 378.93
   },
   {
     "org": "okta",
@@ -1311,16 +1387,18 @@
     "author": "dependabot",
     "created_at": "2021-03-26T20:53:59Z",
     "merged_at": "2021-03-26T21:14:25Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.codehaus.mojo-build-helper-maven-plugin-3.2.0",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.34,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.34,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1330,16 +1408,18 @@
     "author": "dependabot",
     "created_at": "2021-03-26T20:55:06Z",
     "merged_at": "2021-03-26T21:13:47Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/com.fasterxml.jackson-jackson-bom-2.12.2",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.31,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.31,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1349,16 +1429,18 @@
     "author": "dependabot",
     "created_at": "2021-03-26T21:10:09Z",
     "merged_at": "2021-03-26T21:32:26Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/com.okta-okta-parent-19",
     "changed_files": 1,
     "commits": 1,
     "additions": 1,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.37,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.37,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1368,16 +1450,18 @@
     "author": "dependabot",
     "created_at": "2021-03-26T21:13:35Z",
     "merged_at": "2021-03-26T22:30:37Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/info.picocli-picocli-4.6.1",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 1.28,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 1.28,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   },
   {
     "org": "okta",
@@ -1387,20 +1471,20 @@
     "author": "dependabot",
     "created_at": "2021-03-26T21:32:46Z",
     "merged_at": "2021-03-26T21:52:40Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.powermock-powermock-module-testng-2.0.9",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 2,
     "reviews": 1,
-    "time_of_first_review": "2021-03-26T21:52:27Z",
+    "time_of_1st_review": "2021-03-26T21:52:27Z",
     "reviewers": [
-      [
-        "bdemers"
-      ]
+      "bdemers"
     ],
-    "hours_open": 0.33,
-    "hours_to_first_review": 0.33,
-    "minutes_to_first_review": 19.68
+    "hrs_open": 0.33,
+    "hrs_to_1st_review": 0.33,
+    "mins_to_1st_review": 19.68
   },
   {
     "org": "okta",
@@ -1410,20 +1494,20 @@
     "author": "bdemers",
     "created_at": "2021-03-26T21:44:46Z",
     "merged_at": "2021-03-26T22:02:11Z",
+    "base_branch": "master",
+    "head_branch": "slfj-version",
     "changed_files": 2,
     "commits": 1,
     "additions": 4,
     "deletions": 3,
     "reviews": 1,
-    "time_of_first_review": "2021-03-26T21:54:24Z",
+    "time_of_1st_review": "2021-03-26T21:54:24Z",
     "reviewers": [
-      [
-        "arvindkrishnakumar-okta"
-      ]
+      "arvindkrishnakumar-okta"
     ],
-    "hours_open": 0.29,
-    "hours_to_first_review": 0.16,
-    "minutes_to_first_review": 9.63
+    "hrs_open": 0.29,
+    "hrs_to_1st_review": 0.16,
+    "mins_to_1st_review": 9.63
   },
   {
     "org": "okta",
@@ -1433,15 +1517,17 @@
     "author": "dependabot",
     "created_at": "2021-03-26T22:02:37Z",
     "merged_at": "2021-03-26T22:22:52Z",
+    "base_branch": "master",
+    "head_branch": "dependabot/maven/org.yaml-snakeyaml-1.28",
     "changed_files": 1,
     "commits": 1,
     "additions": 2,
     "deletions": 1,
     "reviews": 0,
-    "time_of_first_review": "",
+    "time_of_1st_review": "",
     "reviewers": [],
-    "hours_open": 0.34,
-    "hours_to_first_review": 0,
-    "minutes_to_first_review": 0
+    "hrs_open": 0.34,
+    "hrs_to_1st_review": 0,
+    "mins_to_1st_review": 0
   }
 ]
