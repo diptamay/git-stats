@@ -1,5 +1,5 @@
 const {chain} = require('lodash')
-const {roundOff, printToConsole} = require('./utils')
+const {roundOff} = require('./utils')
 
 function median(values) {
   if (values.length === 0) return 0
@@ -27,16 +27,16 @@ function calculateRepoStats(org, repo, data) {
   const out = {
     org: org,
     repo: repo,
-    mean_hours_open: mean(data.map(d => d.hours_open)),
-    mean_hours_open_no_review: mean(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
-    mean_hours_open_in_review: mean(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
-    mean_hours_to_first_review: mean(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
-    mean_minutes_to_first_review: mean(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
-    median_hours_open: median(data.map(d => d.hours_open)),
-    median_hours_open_no_review: median(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
-    median_hours_open_in_review: median(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
-    median_hours_to_first_review: median(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
-    median_minutes_to_first_review: median(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
+    hours_open_avg: mean(data.map(d => d.hours_open)),
+    hours_open_no_review_avg: mean(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
+    hours_open_in_review_avg: mean(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
+    hours_to_first_review_avg: mean(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
+    minutes_to_first_review_avg: mean(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
+    hours_open_p50: median(data.map(d => d.hours_open)),
+    hours_open_no_review_p50: median(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
+    hours_open_in_review_p50: median(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
+    hours_to_first_review_p50: median(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
+    minutes_to_first_review_p50: median(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
   }
   return out
 }
@@ -47,32 +47,32 @@ function calculateOrgStats(data) {
     .map((values, key) => ({
       org: key,
       repo: "_all",
-      mean_hours_open: mean(values.map(d => d.mean_hours_open)),
-      mean_hours_open_no_review: mean(values.map(d => d.mean_hours_open_no_review)),
-      mean_hours_open_in_review: mean(values.map(d => d.mean_hours_open_in_review)),
-      mean_hours_to_first_review: mean(values.map(d => d.mean_hours_to_first_review)),
-      mean_minutes_to_first_review: mean(values.map(d => d.mean_minutes_to_first_review)),
-      median_hours_open: median(values.map(d => d.median_hours_open)),
-      median_hours_open_no_review: median(values.map(d => d.median_hours_open_no_review)),
-      median_hours_open_in_review: median(values.map(d => d.median_hours_open_in_review)),
-      median_hours_to_first_review: median(values.map(d => d.median_hours_to_first_review)),
-      median_minutes_to_first_review: median(values.map(d => d.median_minutes_to_first_review)),
+      hours_open_avg: mean(values.map(d => d.hours_open_avg)),
+      hours_open_no_review_avg: mean(values.map(d => d.hours_open_no_review_avg)),
+      hours_open_in_review_avg: mean(values.map(d => d.hours_open_in_review_avg)),
+      hours_to_first_review_avg: mean(values.map(d => d.hours_to_first_review_avg)),
+      minutes_to_first_review_avg: mean(values.map(d => d.minutes_to_first_review_avg)),
+      hours_open_p50: median(values.map(d => d.hours_open_p50)),
+      hours_open_no_review_p50: median(values.map(d => d.hours_open_no_review_p50)),
+      hours_open_in_review_p50: median(values.map(d => d.hours_open_in_review_p50)),
+      hours_to_first_review_p50: median(values.map(d => d.hours_to_first_review_p50)),
+      minutes_to_first_review_p50: median(values.map(d => d.minutes_to_first_review_p50)),
     }))
     .value()
 
   let overall = {
     org: "_all",
     repo: "_all",
-    mean_hours_open: mean(grouped.map(d => d.mean_hours_open)),
-    mean_hours_open_no_review: mean(grouped.map(d => d.mean_hours_open_no_review)),
-    mean_hours_open_in_review: mean(grouped.map(d => d.mean_hours_open_in_review)),
-    mean_hours_to_first_review: mean(grouped.map(d => d.mean_hours_to_first_review)),
-    mean_minutes_to_first_review: mean(grouped.map(d => d.mean_minutes_to_first_review)),
-    median_hours_open: median(grouped.map(d => d.median_hours_open)),
-    median_hours_open_no_review: median(grouped.map(d => d.median_hours_open_no_review)),
-    median_hours_open_in_review: median(grouped.map(d => d.median_hours_open_in_review)),
-    median_hours_to_first_review: median(grouped.map(d => d.median_hours_to_first_review)),
-    median_minutes_to_first_review: median(grouped.map(d => d.median_minutes_to_first_review)),
+    hours_open_avg: mean(grouped.map(d => d.hours_open_avg)),
+    hours_open_no_review_avg: mean(grouped.map(d => d.hours_open_no_review_avg)),
+    hours_open_in_review_avg: mean(grouped.map(d => d.hours_open_in_review_avg)),
+    hours_to_first_review_avg: mean(grouped.map(d => d.hours_to_first_review_avg)),
+    minutes_to_first_review_avg: mean(grouped.map(d => d.minutes_to_first_review_avg)),
+    hours_open_p50: median(grouped.map(d => d.hours_open_p50)),
+    hours_open_no_review_p50: median(grouped.map(d => d.hours_open_no_review_p50)),
+    hours_open_in_review_p50: median(grouped.map(d => d.hours_open_in_review_p50)),
+    hours_to_first_review_p50: median(grouped.map(d => d.hours_to_first_review_p50)),
+    minutes_to_first_review_p50: median(grouped.map(d => d.minutes_to_first_review_p50)),
   }
 
   let out = data.concat(grouped)

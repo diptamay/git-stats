@@ -8,3 +8,5 @@ do
   echo "Generating stats for ${org}/$i with token $1"
 	npm run app stats github "${org}" X "$i" $1
 done
+
+npm run app os

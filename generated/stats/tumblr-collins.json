@@ -1,14 +1,14 @@
 {
   "org": "tumblr",
   "repo": "collins",
-  "mean_hours_open": 422.25,
-  "mean_hours_open_no_review": 309.88,
-  "mean_hours_open_in_review": 958.31,
-  "mean_hours_to_first_review": 72.18,
-  "mean_minutes_to_first_review": 4330.66,
-  "median_hours_open": 45.77,
-  "median_hours_open_no_review": 29.86,
-  "median_hours_open_in_review": 153.84,
-  "median_hours_to_first_review": 12.29,
-  "median_minutes_to_first_review": 737.27
+  "hours_open_avg": 422.25,
+  "hours_open_no_review_avg": 309.88,
+  "hours_open_in_review_avg": 958.31,
+  "hours_to_first_review_avg": 72.18,
+  "minutes_to_first_review_avg": 4330.66,
+  "hours_open_p50": 45.77,
+  "hours_open_no_review_p50": 29.86,
+  "hours_open_in_review_p50": 153.84,
+  "hours_to_first_review_p50": 12.29,
+  "minutes_to_first_review_p50": 737.27
 }

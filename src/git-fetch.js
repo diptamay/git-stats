@@ -28,7 +28,7 @@ function normalize(org, repo, data) {
       repo: repo,
       url: d.url,
       number: d.number,
-      author: d.author.login,
+      author: d.author ? d.author.login : '',
       created_at: d.createdAt,
       merged_at: d.mergedAt,
       changed_files: d.changedFiles,
