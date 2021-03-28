@@ -1,7 +1,7 @@
 #!/bin/bash
 
-array1=( colossus collins )
-org='tumblr'
+array1=( okta-spring-boot okta-sdk-dotnet okta-sdk-python okta-sdk-java okta-auth-js okta-cli okta-sdk-nodejs )
+org='okta'
 for i in "${array1[@]}"
 do
   echo
@@ -10,3 +10,4 @@ do
 done
 
 npm run app os
+npm run app ds

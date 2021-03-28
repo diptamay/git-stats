@@ -1,22 +1,6 @@
 const {chain} = require('lodash')
 const {roundOff, getTimeDiffInDays} = require('./utils')
 
-function median(values) {
-  if (values.length === 0) return 0
-
-  values.sort(function (a, b) {
-    return a - b
-  })
-
-  const half = Math.floor(values.length / 2)
-  //console.log(`median len=${values.length} half=${half} vals=(${values.length % 2})`)
-  if (values.length % 2)
-    return values[half]
-
-  let out = (values[half - 1] + values[half]) / 2.0
-  return roundOff(out)
-}
-
 function percentile(values, p) {
   if (values.length === 0) return 0
 
@@ -48,27 +32,30 @@ function p90(values) {
   return percentile(values, 0.9)
 }
 
-function mean(values) {
-  if (values.length === 0) return 0;
-  const out = values.reduce((a, b) => a + b, 0) / values.length
-  return roundOff(out)
-}
-
 function isDateWithin4wks(d) {
   let days = getTimeDiffInDays(d, new Date())
   return (days <= 28)
+}
+
+function isDateWithin6mths(d) {
+  let days = getTimeDiffInDays(d, new Date())
+  return (days <= 183)
+}
+
+function mean(values) {
+  const out = sum(values) / values.length
+  return roundOff(out)
+}
+
+function sum(values) {
+  if (values.length === 0) return 0;
+  return values.reduce((a, b) => a + b, 0);
 }
 
 function calculateRepoStats(org, repo, data) {
   const out = {
     org: org,
     repo: repo,
-
-    hours_open_avg: mean(data.map(d => d.hours_open)),
-    hours_open_no_review_avg: mean(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
-    hours_open_in_review_avg: mean(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
-    hours_to_first_review_avg: mean(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
-    minutes_to_first_review_avg: mean(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
 
     hours_open_p50: p50(data.map(d => d.hours_open)),
     hours_open_no_review_p50: p50(data.filter(d => d.reviews === 0).map(d => d.hours_open)),
@@ -81,12 +68,6 @@ function calculateRepoStats(org, repo, data) {
     hours_open_in_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.hours_open)),
     hours_to_first_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.hours_to_first_review)),
     minutes_to_first_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.minutes_to_first_review)),
-
-    hours_open_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at)).map(d => d.hours_open)),
-    hours_open_no_review_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews === 0).map(d => d.hours_open)),
-    hours_open_in_review_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hours_open)),
-    hours_to_first_review_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hours_to_first_review)),
-    minutes_to_first_review_4wk_avg: mean(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.minutes_to_first_review)),
 
     hours_open_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at)).map(d => d.hours_open)),
     hours_open_no_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews === 0).map(d => d.hours_open)),
@@ -108,12 +89,6 @@ function generateStats(org, repo, values) {
     org: org,
     repo: repo,
 
-    hours_open_avg: mean(values.map(d => d.hours_open_avg)),
-    hours_open_no_review_avg: mean(values.map(d => d.hours_open_no_review_avg)),
-    hours_open_in_review_avg: mean(values.map(d => d.hours_open_in_review_avg)),
-    hours_to_first_review_avg: mean(values.map(d => d.hours_to_first_review_avg)),
-    minutes_to_first_review_avg: mean(values.map(d => d.minutes_to_first_review_avg)),
-
     hours_open_p50: p50(values.map(d => d.hours_open_p50)),
     hours_open_no_review_p50: p50(values.map(d => d.hours_open_no_review_p50)),
     hours_open_in_review_p50: p50(values.map(d => d.hours_open_in_review_p50)),
@@ -125,12 +100,6 @@ function generateStats(org, repo, values) {
     hours_open_in_review_p90: p90(values.map(d => d.hours_open_in_review_p90)),
     hours_to_first_review_p90: p90(values.map(d => d.hours_to_first_review_p90)),
     minutes_to_first_review_p90: p90(values.map(d => d.minutes_to_first_review_p90)),
-
-    hours_open_4wk_avg: mean(values.map(d => d.hours_open_4wk_avg)),
-    hours_open_no_review_4wk_avg: mean(values.map(d => d.hours_open_no_review_4wk_avg)),
-    hours_open_in_review_4wk_avg: mean(values.map(d => d.hours_open_in_review_4wk_avg)),
-    hours_to_first_review_4wk_avg: mean(values.map(d => d.hours_to_first_review_4wk_avg)),
-    minutes_to_first_review_4wk_avg: mean(values.map(d => d.minutes_to_first_review_4wk_avg)),
 
     hours_open_4wk_p50: p50(values.map(d => d.hours_open_4wk_p50)),
     hours_open_no_review_4wk_p50: p50(values.map(d => d.hours_open_no_review_4wk_p50)),
@@ -162,4 +131,67 @@ function calculateOrgStats(data) {
   return out
 }
 
-module.exports = {calculateRepoStats, calculateOrgStats}
+function calculateDevStats(org, repo, data) {
+  let grouped = chain(data)
+    .groupBy(x => x.author)
+    .map((values, key) => (
+      {
+        author: key,
+        org: org,
+        repo: repo,
+
+        total_prs: values.length,
+        total_changed_files: sum(values.map(d => d.changed_files)),
+        total_commits: sum(values.map(d => d.commits)),
+        total_additions: sum(values.map(d => d.additions)),
+        total_deletions: sum(values.map(d => d.deletions)),
+        avg_reviews_on_prs: mean(values.map(d => d.reviews)),
+        hours_open_p50: p50(values.map(d => d.hours_open)),
+        hours_open_p90: p90(values.map(d => d.hours_open)),
+
+        total_6mth_prs: values.filter(d => isDateWithin6mths(d.merged_at)).length,
+        total_6mth_changed_files: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.changed_files)),
+        total_6mth_commits: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.commits)),
+        total_6mth_additions: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.additions)),
+        total_6mth_deletions: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.deletions)),
+        avg_6mth_reviews_on_prs: mean(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.reviews)),
+        hours_open_6mth_p50: p50(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.hours_open)),
+        hours_open_6mth_p90: p90(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.hours_open)),
+      }
+    ))
+    .value()
+
+  return grouped
+}
+
+function aggregateDevStats(data) {
+  let grouped = chain(data.flat())
+    .groupBy(x => x.author)
+    .map((values, key) => (
+      {
+        author: key,
+
+        total_prs: sum(values.map(d => d.total_prs)),
+        total_changed_files: sum(values.map(d => d.total_changed_files)),
+        total_commits: sum(values.map(d => d.total_commits)),
+        total_additions: sum(values.map(d => d.total_additions)),
+        total_deletions: sum(values.map(d => d.total_deletions)),
+        avg_reviews_on_prs: mean(values.map(d => d.avg_reviews_on_prs)),
+        hours_open_p50: p50(values.map(d => d.hours_open_p50)),
+        hours_open_p90: p90(values.map(d => d.hours_open_p90)),
+
+        total_6mth_prs: sum(values.map(d => d.total_6mth_prs)),
+        total_6mth_changed_files: sum(values.map(d => d.total_6mth_changed_files)),
+        total_6mth_commits: sum(values.map(d => d.total_6mth_commits)),
+        total_6mth_additions: sum(values.map(d => d.total_6mth_additions)),
+        total_6mth_deletions: sum(values.map(d => d.total_6mth_deletions)),
+        avg_6mth_reviews_on_prs: mean(values.map(d => d.avg_6mth_reviews_on_prs)),
+        hours_open_6mth_p50: p50(values.map(d => d.hours_open_6mth_p50)),
+        hours_open_6mth_p90: p90(values.map(d => d.hours_open_6mth_p90)),
+      }
+    ))
+    .value()
+  return grouped
+}
+
+module.exports = {calculateRepoStats, calculateOrgStats, calculateDevStats, aggregateDevStats}
