@@ -93,53 +93,6 @@ function calculateRepoStats(org, repo, data) {
   return out
 }
 
-function generateStats(org, repo, values) {
-  return {
-    org: org,
-    repo: repo,
-
-    hrs_open_p50: p50(values.map(d => d.hrs_open_p50)),
-    hrs_open_no_review_p50: p50(values.map(d => d.hrs_open_no_review_p50)),
-    hrs_open_in_review_p50: p50(values.map(d => d.hrs_open_in_review_p50)),
-    hrs_to_1st_review_p50: p50(values.map(d => d.hrs_to_1st_review_p50)),
-    mins_to_1st_review_p50: p50(values.map(d => d.mins_to_1st_review_p50)),
-
-    hrs_open_p90: p90(values.map(d => d.hrs_open_p90)),
-    hrs_open_no_review_p90: p90(values.map(d => d.hrs_open_no_review_p90)),
-    hrs_open_in_review_p90: p90(values.map(d => d.hrs_open_in_review_p90)),
-    hrs_to_1st_review_p90: p90(values.map(d => d.hrs_to_1st_review_p90)),
-    mins_to_1st_review_p90: p90(values.map(d => d.mins_to_1st_review_p90)),
-
-    hrs_open_4wk_p50: p50(values.map(d => d.hrs_open_4wk_p50)),
-    hrs_open_no_review_4wk_p50: p50(values.map(d => d.hrs_open_no_review_4wk_p50)),
-    hrs_open_in_review_4wk_p50: p50(values.map(d => d.hrs_open_in_review_4wk_p50)),
-    hrs_to_1st_review_4wk_p50: p50(values.map(d => d.hrs_to_1st_review_4wk_p50)),
-    mins_to_1st_review_4wk_p50: p50(values.map(d => d.mins_to_1st_review_4wk_p50)),
-
-    hrs_open_4wk_p90: p90(values.map(d => d.hrs_open_p90)),
-    hrs_open_no_review_4wk_p90: p90(values.map(d => d.hrs_open_no_review_4wk_p90)),
-    hrs_open_in_review_4wk_p90: p90(values.map(d => d.hrs_open_in_review_4wk_p90)),
-    hrs_to_1st_review_4wk_p90: p90(values.map(d => d.hrs_to_1st_review_4wk_p90)),
-    mins_to_1st_review_4wk_p90: p90(values.map(d => d.mins_to_1st_review_4wk_p90)),
-  }
-}
-
-// function calculateOrgStats(data) {
-//   let grouped = chain(data)
-//     .groupBy(x => x.org)
-//     .map((values, key) => (
-//       generateStats(key, "_all", values)
-//     ))
-//     .value()
-//
-//   let overall = generateStats("_all", "_all", grouped)
-//
-//   let out = data.concat(grouped)
-//   out.push(overall)
-//
-//   return out
-// }
-
 function calculateOrgStats(data) {
 
   const generateStats = (values, suffix, percentile) => {
