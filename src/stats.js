@@ -124,59 +124,71 @@ function generateStats(org, repo, values) {
   }
 }
 
-function calculateOrgStats(data) {
-  let grouped = chain(data)
-    .groupBy(x => x.org)
-    .map((values, key) => (
-      generateStats(key, "_all", values)
-    ))
-    .value()
-
-  let overall = generateStats("_all", "_all", grouped)
-
-  let out = data.concat(grouped)
-  out.push(overall)
-
-  return out
-}
-
 // function calculateOrgStats(data) {
-//
-//   const generateStats = (values, suffix, percentile) => {
-//     let obj = {}
-//     let metrics = ["hrs_open", "hrs_open_no_review", "hrs_open_in_review", "hrs_to_1st_review", "mins_to_1st_review"]
-//     metrics.map(m => obj[m + suffix] = percentile(values.map(d => d[m + suffix])))
-//     return obj
-//   }
-//
 //   let grouped = chain(data)
 //     .groupBy(x => x.org)
-//     .map((values, key) => {
-//       let out = {
-//         org: key,
-//         repo: "_all",
-//       }
-//       out = Object.assign(out, generateStats(data, "_p50", p50))
-//       out = Object.assign(out, generateStats(data, "_p90", p90))
-//       out = Object.assign(out, generateStats(data, "_4wk_p50", p50))
-//       out = Object.assign(out, generateStats(data, "_4wk_p90", p90))
-//       return out
-//     }).value()
+//     .map((values, key) => (
+//       generateStats(key, "_all", values)
+//     ))
+//     .value()
 //
-//   let overall = {
-//     org: "_all",
-//     repo: "_all",
-//   }
-//   overall = Object.assign(overall, generateStats(grouped, "_p50", p50))
-//   overall = Object.assign(overall, generateStats(grouped, "_p90", p90))
-//   overall = Object.assign(overall, generateStats(grouped, "_4wk_p50", p50))
-//   overall = Object.assign(overall, generateStats(grouped, "_4wk_p90", p90))
+//   let overall = generateStats("_all", "_all", grouped)
 //
 //   let out = data.concat(grouped)
 //   out.push(overall)
 //
 //   return out
 // }
+
+function calculateOrgStats(data) {
+
+  const generateStats = (values, suffix, percentile) => {
+    let obj = {}
+    let metrics = ["hrs_open", "hrs_open_no_review", "hrs_open_in_review", "hrs_to_1st_review", "mins_to_1st_review"]
+    metrics.map(m => obj[m + suffix] = percentile(values.map(d => d[m + suffix])))
+    return obj
+  }
+
+  let grouped = chain(data)
+    .groupBy(x => x.org)
+    .map((values, key) => {
+      let out = {
+        org: key,
+        repo: "_all",
+      }
+
+      out = Object.assign(out, generateStats(data, "_p50", p50))
+      out = Object.assign(out, generateStats(data, "_p90", p90))
+      out = Object.assign(out, generateStats(data, "_4wk_p50", p50))
+      out = Object.assign(out, generateStats(data, "_4wk_p90", p90))
+
+      out = Object.assign(out, generateStats(data, "_main_p50", p50))
+      out = Object.assign(out, generateStats(data, "_main_p90", p90))
+      out = Object.assign(out, generateStats(data, "_main_4wk_p50", p50))
+      out = Object.assign(out, generateStats(data, "_main_4wk_p90", p90))
+
+      return out
+    }).value()
+
+  let overall = {
+    org: "_all",
+    repo: "_all",
+  }
+  overall = Object.assign(overall, generateStats(grouped, "_p50", p50))
+  overall = Object.assign(overall, generateStats(grouped, "_p90", p90))
+  overall = Object.assign(overall, generateStats(grouped, "_4wk_p50", p50))
+  overall = Object.assign(overall, generateStats(grouped, "_4wk_p90", p90))
+
+  overall = Object.assign(overall, generateStats(grouped, "_main_p50", p50))
+  overall = Object.assign(overall, generateStats(grouped, "_main_p90", p90))
+  overall = Object.assign(overall, generateStats(grouped, "_main_4wk_p50", p50))
+  overall = Object.assign(overall, generateStats(grouped, "_main_4wk_p90", p90))
+
+  let out = data.concat(grouped)
+  out.push(overall)
+
+  return out
+}
 
 function calculateDevStats(org, repo, data) {
   const devStats = (values, suffix, check) => {
