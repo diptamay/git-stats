@@ -1,7 +1,7 @@
 #!/bin/bash
 
-array1=( okta-cli okta-sdk-dotnet okta-sdk-python okta-sdk-java okta-sdk-nodejs )
-# array1=( okta-cli )
+#array1=( okta-cli okta-sdk-dotnet okta-sdk-python okta-sdk-java okta-sdk-nodejs )
+array1=( okta-cli )
 org='okta'
 for i in "${array1[@]}"
 do
