@@ -58,34 +58,30 @@ function sum(values) {
 }
 
 function calculateRepoStats(org, repo, data) {
-  const out = {
+
+  const repoStats = (data, suffix, percentile, check) => {
+    let obj = {}
+    obj["hrs_open" + suffix] = percentile(data.filter(d => check(d)).map(d => d.hrs_open))
+    obj["hrs_open_no_review" + suffix] = percentile(data.filter(d => check(d) && d.reviews === 0).map(d => d.hrs_open))
+    obj["hrs_open_in_review" + suffix] = percentile(data.filter(d => check(d) && d.reviews > 0).map(d => d.hrs_open))
+    obj["hrs_to_1st_review" + suffix] = percentile(data.filter(d => check(d) && d.reviews > 0).map(d => d.hrs_to_1st_review))
+    obj["mins_to_1st_review" + suffix] = percentile(data.filter(d => check(d) && d.reviews > 0).map(d => d.mins_to_1st_review))
+    return obj
+  }
+
+  let out = {
     org: org,
     repo: repo,
-
-    hrs_open_p50: p50(data.map(d => d.hrs_open)),
-    hrs_open_no_review_p50: p50(data.filter(d => d.reviews === 0).map(d => d.hrs_open)),
-    hrs_open_in_review_p50: p50(data.filter(d => d.reviews > 0).map(d => d.hrs_open)),
-    hrs_to_1st_review_p50: p50(data.filter(d => d.reviews > 0).map(d => d.hrs_to_1st_review)),
-    mins_to_1st_review_p50: p50(data.filter(d => d.reviews > 0).map(d => d.mins_to_1st_review)),
-
-    hrs_open_p90: p90(data.map(d => d.hrs_open)),
-    hrs_open_no_review_p90: p90(data.filter(d => d.reviews === 0).map(d => d.hrs_open)),
-    hrs_open_in_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.hrs_open)),
-    hrs_to_1st_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.hrs_to_1st_review)),
-    mins_to_1st_review_p90: p90(data.filter(d => d.reviews > 0).map(d => d.mins_to_1st_review)),
-
-    hrs_open_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at)).map(d => d.hrs_open)),
-    hrs_open_no_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews === 0).map(d => d.hrs_open)),
-    hrs_open_in_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hrs_open)),
-    hrs_to_1st_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hrs_to_1st_review)),
-    mins_to_1st_review_4wk_p50: p50(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.mins_to_1st_review)),
-
-    hrs_open_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at)).map(d => d.hrs_open)),
-    hrs_open_no_review_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews === 0).map(d => d.hrs_open)),
-    hrs_open_in_review_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hrs_open)),
-    hrs_to_1st_review_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.hrs_to_1st_review)),
-    mins_to_1st_review_4wk_p90: p90(data.filter(d => isDateWithin4wks(d.merged_at) && d.reviews > 0).map(d => d.mins_to_1st_review)),
   }
+
+  let check = (d) => true
+  out = Object.assign(out, repoStats(data, "_p50", p50, check))
+  out = Object.assign(out, repoStats(data, "_p90", p90, check))
+
+  check = (d) => (isDateWithin4wks(d.merged_at))
+  out = Object.assign(out, repoStats(data, "_4wk_p50", p50, check))
+  out = Object.assign(out, repoStats(data, "_4wk_p90", p90, check))
+
   return out
 }
 
@@ -137,42 +133,39 @@ function calculateOrgStats(data) {
 }
 
 function calculateDevStats(org, repo, data) {
+  const devStats = (values, suffix, check) => {
+    let obj = {}
+    obj["prs" + suffix] = values.filter(d => check(d)).length
+    obj["changed_files" + suffix] = sum(values.filter(d => check(d)).map(d => d.changed_files))
+    obj["commits" + suffix] = sum(values.filter(d => check(d)).map(d => d.commits))
+    obj["additions" + suffix] = sum(values.filter(d => check(d)).map(d => d.additions))
+    obj["deletions" + suffix] = sum(values.filter(d => check(d)).map(d => d.deletions))
+    obj["avg_reviews_on_prs" + suffix] = mean(values.filter(d => check(d)).map(d => d.reviews))
+    obj["hrs_open_p50" + suffix] = p50(values.filter(d => check(d)).map(d => d.hrs_open))
+    obj["hrs_open_p90" + suffix] = p90(values.filter(d => check(d)).map(d => d.hrs_open))
+    return obj
+  }
+
   let grouped = chain(data)
     .groupBy(x => x.author)
-    .map((values, key) => (
-      {
+    .map((values, key) => {
+      let out = {
         author: key,
         org: org,
         repo: repo,
-
-        total_6mth_prs: values.filter(d => isDateWithin6mths(d.merged_at)).length,
-        total_6mth_changed_files: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.changed_files)),
-        total_6mth_commits: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.commits)),
-        total_6mth_additions: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.additions)),
-        total_6mth_deletions: sum(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.deletions)),
-        avg_6mth_reviews_on_prs: mean(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.reviews)),
-        hrs_open_6mth_p50: p50(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.hrs_open)),
-        hrs_open_6mth_p90: p90(values.filter(d => isDateWithin6mths(d.merged_at)).map(d => d.hrs_open)),
-
-        total_1yr_prs: values.filter(d => isDateWithin1yr(d.merged_at)).length,
-        total_1yr_changed_files: sum(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.changed_files)),
-        total_1yr_commits: sum(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.commits)),
-        total_1yr_additions: sum(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.additions)),
-        total_1yr_deletions: sum(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.deletions)),
-        avg_1yr_reviews_on_prs: mean(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.reviews)),
-        hrs_open_1yr_p50: p50(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.hrs_open)),
-        hrs_open_1yr_p90: p90(values.filter(d => isDateWithin1yr(d.merged_at)).map(d => d.hrs_open)),
-
-        total_prs: values.length,
-        total_changed_files: sum(values.map(d => d.changed_files)),
-        total_commits: sum(values.map(d => d.commits)),
-        total_additions: sum(values.map(d => d.additions)),
-        total_deletions: sum(values.map(d => d.deletions)),
-        avg_reviews_on_prs: mean(values.map(d => d.reviews)),
-        hrs_open_p50: p50(values.map(d => d.hrs_open)),
-        hrs_open_p90: p90(values.map(d => d.hrs_open)),
       }
-    ))
+
+      let check = (d) => (isDateWithin6mths(d.merged_at))
+      out = Object.assign(out, devStats(values, "_6mth", check))
+
+      check = (d) => (isDateWithin1yr(d.merged_at))
+      out = Object.assign(out, devStats(values, "_1yr", check))
+
+      check = (d) => true
+      out = Object.assign(out, devStats(values, "_overall", check))
+
+      return out
+    })
     .value()
 
   return grouped
@@ -180,42 +173,33 @@ function calculateDevStats(org, repo, data) {
 
 function aggregateDevStats(data) {
   let input = data.flat()
+
+  const devStats = (values, suffix) => {
+    let obj = {}
+    obj["prs" + suffix] = sum(values.map(d => d["prs" + suffix]))
+    obj["changed_files" + suffix] = sum(values.map(d => d["changed_files" + suffix]))
+    obj["commits" + suffix] = sum(values.map(d => d["commits" + suffix]))
+    obj["additions" + suffix] = sum(values.map(d => d["additions" + suffix]))
+    obj["deletions" + suffix] = sum(values.map(d => d["deletions" + suffix]))
+    obj["avg_reviews_on_prs" + suffix] = mean(values.map(d => d["avg_reviews_on_prs" + suffix]))
+    obj["hrs_open_p50" + suffix] = p50(values.map(d => d["hrs_open_p50" + suffix]))
+    obj["hrs_open_p90" + suffix] = p90(values.map(d => d["hrs_open_p90" + suffix]))
+    return obj
+  }
+
   let grouped = chain(input)
     .groupBy(x => x.author)
-    .map((values, key) => (
-      {
+    .map((values, key) => {
+      let overall = {
         author: key,
         org: "_all",
         repo: "_all",
-
-        total_6mth_prs: sum(values.map(d => d.total_6mth_prs)),
-        total_6mth_changed_files: sum(values.map(d => d.total_6mth_changed_files)),
-        total_6mth_commits: sum(values.map(d => d.total_6mth_commits)),
-        total_6mth_additions: sum(values.map(d => d.total_6mth_additions)),
-        total_6mth_deletions: sum(values.map(d => d.total_6mth_deletions)),
-        avg_6mth_reviews_on_prs: mean(values.map(d => d.avg_6mth_reviews_on_prs)),
-        hrs_open_6mth_p50: p50(values.map(d => d.hrs_open_6mth_p50)),
-        hrs_open_6mth_p90: p90(values.map(d => d.hrs_open_6mth_p90)),
-
-        total_1yr_prs: sum(values.map(d => d.total_1yr_prs)),
-        total_1yr_changed_files: sum(values.map(d => d.total_1yr_changed_files)),
-        total_1yr_commits: sum(values.map(d => d.total_1yr_commits)),
-        total_1yr_additions: sum(values.map(d => d.total_1yr_additions)),
-        total_1yr_deletions: sum(values.map(d => d.total_1yr_deletions)),
-        avg_1yr_reviews_on_prs: mean(values.map(d => d.avg_1yr_reviews_on_prs)),
-        hrs_open_1yr_p50: p50(values.map(d => d.hrs_open_1yr_p50)),
-        hrs_open_1yr_p90: p90(values.map(d => d.hrs_open_1yr_p90)),
-
-        total_prs: sum(values.map(d => d.total_prs)),
-        total_changed_files: sum(values.map(d => d.total_changed_files)),
-        total_commits: sum(values.map(d => d.total_commits)),
-        total_additions: sum(values.map(d => d.total_additions)),
-        total_deletions: sum(values.map(d => d.total_deletions)),
-        avg_reviews_on_prs: mean(values.map(d => d.avg_reviews_on_prs)),
-        hrs_open_p50: p50(values.map(d => d.hrs_open_p50)),
-        hrs_open_p90: p90(values.map(d => d.hrs_open_p90)),
       }
-    ))
+      overall = Object.assign(overall, devStats(values, "_6mth"))
+      overall = Object.assign(overall, devStats(values, "_1yr"))
+      overall = Object.assign(overall, devStats(values, "_overall"))
+      return overall
+    })
     .value()
   let out = chain(input.concat(grouped)).sortBy(x => x.author).value()
   return out
