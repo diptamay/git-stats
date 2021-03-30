@@ -110,15 +110,15 @@ function calculateOrgStats(data) {
         repo: "_all",
       }
 
-      out = Object.assign(out, generateStats(data, "_p50", p50))
-      out = Object.assign(out, generateStats(data, "_p90", p90))
-      out = Object.assign(out, generateStats(data, "_4wk_p50", p50))
-      out = Object.assign(out, generateStats(data, "_4wk_p90", p90))
+      out = Object.assign(out, generateStats(values, "_p50", p50))
+      out = Object.assign(out, generateStats(values, "_p90", p90))
+      out = Object.assign(out, generateStats(values, "_4wk_p50", p50))
+      out = Object.assign(out, generateStats(values, "_4wk_p90", p90))
 
-      out = Object.assign(out, generateStats(data, "_main_p50", p50))
-      out = Object.assign(out, generateStats(data, "_main_p90", p90))
-      out = Object.assign(out, generateStats(data, "_main_4wk_p50", p50))
-      out = Object.assign(out, generateStats(data, "_main_4wk_p90", p90))
+      out = Object.assign(out, generateStats(values, "_main_p50", p50))
+      out = Object.assign(out, generateStats(values, "_main_p90", p90))
+      out = Object.assign(out, generateStats(values, "_main_4wk_p50", p50))
+      out = Object.assign(out, generateStats(values, "_main_4wk_p90", p90))
 
       return out
     }).value()
@@ -127,15 +127,15 @@ function calculateOrgStats(data) {
     org: "_all",
     repo: "_all",
   }
-  overall = Object.assign(overall, generateStats(grouped, "_p50", p50))
-  overall = Object.assign(overall, generateStats(grouped, "_p90", p90))
-  overall = Object.assign(overall, generateStats(grouped, "_4wk_p50", p50))
-  overall = Object.assign(overall, generateStats(grouped, "_4wk_p90", p90))
+  overall = Object.assign(overall, generateStats(data, "_p50", p50))
+  overall = Object.assign(overall, generateStats(data, "_p90", p90))
+  overall = Object.assign(overall, generateStats(data, "_4wk_p50", p50))
+  overall = Object.assign(overall, generateStats(data, "_4wk_p90", p90))
 
-  overall = Object.assign(overall, generateStats(grouped, "_main_p50", p50))
-  overall = Object.assign(overall, generateStats(grouped, "_main_p90", p90))
-  overall = Object.assign(overall, generateStats(grouped, "_main_4wk_p50", p50))
-  overall = Object.assign(overall, generateStats(grouped, "_main_4wk_p90", p90))
+  overall = Object.assign(overall, generateStats(data, "_main_p50", p50))
+  overall = Object.assign(overall, generateStats(data, "_main_p90", p90))
+  overall = Object.assign(overall, generateStats(data, "_main_4wk_p50", p50))
+  overall = Object.assign(overall, generateStats(data, "_main_4wk_p90", p90))
 
   let out = data.concat(grouped)
   out.push(overall)
