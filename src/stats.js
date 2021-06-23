@@ -1,5 +1,5 @@
-const {chain} = require('lodash')
-const {roundOff, getTimeDiffInDays} = require('./utils')
+const { chain } = require('lodash')
+const { roundOff, getTimeDiffInDays } = require('./utils')
 
 function percentile(values, p) {
   if (values.length === 0) return 0
@@ -216,4 +216,4 @@ function aggregateDevStats(data) {
   return out
 }
 
-module.exports = {calculateRepoStats, calculateOrgStats, calculateDevStats, aggregateDevStats}
+module.exports = { calculateRepoStats, calculateOrgStats, calculateDevStats, aggregateDevStats }

@@ -100,4 +100,4 @@ function persistDevStats(root, out) {
   persistCSVFile(path.join(`${GENERATED_DIR}`, "dev-stats.csv"), out)
 }
 
-module.exports = {persistAsCSV, persistAsJSON, readJSONFiles, persistOrgStats, persistDevStats}
+module.exports = { persistAsCSV, persistAsJSON, readJSONFiles, persistOrgStats, persistDevStats }

@@ -20,4 +20,4 @@ function getTimeDiffInDays(start, end) {
   return moment(end).diff(moment(start)) / (1000 * 60 * 60 * 24)
 }
 
-module.exports = {printToConsole, roundOff, getTimeDiffInHours, getTimeDiffInMinutes, getTimeDiffInDays}
+module.exports = { printToConsole, roundOff, getTimeDiffInHours, getTimeDiffInMinutes, getTimeDiffInDays }
